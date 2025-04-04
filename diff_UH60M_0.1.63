@@ -1,0 +1,51 @@
+fmod/uh60m.snd
+liveries/DSparks/acf_config.ini
+liveries/DSparks/objects/body.png
+liveries/DSparks/objects/body_normal.png
+liveries/DSparks/uh60m_icon11.png
+liveries/DSparks/uh60m_icon11_thumb.png
+missions/CHECKLIST.MSN
+objects/C130.obj
+objects/UH60_body.dds
+objects/UH60_body_normal.png
+objects/UH60_glass.dds
+objects/avionics_bay_door.obj
+objects/body.png
+objects/body_normal.png
+objects/cockpit.obj
+objects/doors.obj
+objects/doors_inside.obj
+objects/engines.obj
+objects/external_glass.obj
+objects/flircam.obj
+objects/fuselage.obj
+objects/gears.obj
+objects/glass.png
+objects/guns.obj
+objects/interior.png
+objects/interior_normal.png
+objects/internal_glass.obj
+objects/refuel_probe.obj
+objects/rope_mount.obj
+objects/tex1.png
+plugins/UH60M/data/modules/Custom Module/CDU1.lua
+plugins/UH60M/data/modules/Custom Module/CDU2.lua
+plugins/UH60M/data/modules/Custom Module/MFD.lua
+plugins/UH60M/data/modules/Custom Module/airfuel.lua
+plugins/UH60M/data/modules/Custom Module/configs.lua
+plugins/UH60M/data/modules/Custom Module/controls.lua
+plugins/UH60M/data/modules/Custom Module/engines.lua
+plugins/UH60M/data/modules/Custom Module/events.lua
+plugins/UH60M/data/modules/Custom Module/failures.lua
+plugins/UH60M/data/modules/Custom Module/formation.lua
+plugins/UH60M/data/modules/Custom Module/icam.lua
+plugins/UH60M/data/modules/Custom Module/mission.lua
+plugins/UH60M/data/modules/Custom Module/nav.lua
+plugins/UH60M/data/modules/Custom Module/ops.lua
+plugins/UH60M/data/modules/Custom Module/perf.lua
+plugins/UH60M/data/modules/Custom Module/sys.lua
+plugins/UH60M/data/modules/Custom Module/upd.lua
+plugins/UH60M/data/modules/Custom Module/vibration.lua
+plugins/UH60M/data/modules/configuration/wprefs.ini
+plugins/UH60M/data/modules/main.lua
+uh60m.acf
