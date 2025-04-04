@@ -308,13 +308,25 @@ END_SOUND_ATTACHMENT
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/switch
 	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/ice_inlet_heat_on > 0.5
+	EVENT_START_COND ABS_DELTA=sim/cockpit/switches/anti_ice_inlet_heat_per_engine[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit/switches/anti_ice_inlet_heat_per_engine[1] > 0.5
 END_SOUND_ATTACHMENT
 #----------------------------------
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/switch
 	VEH_XYZ 0.0055 0.2514 -3.2077
 	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/ice_pitot_heat_on_pilot > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/ice_pitot_heat_on_copilot > 0.5
 END_SOUND_ATTACHMENT
 #----------------------------------
 BEGIN_SOUND_ATTACHMENT
@@ -614,13 +626,25 @@ BEGIN_SOUND_ATTACHMENT
 END_SOUND_ATTACHMENT
 #----------------------------------
 BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /cockpit/throttle_unlock
+	EVENT_NAME /cockpit/throttle_lock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/engn/fuel_lvr0 == 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_lock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/engn/fuel_lvr1 == 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_lock
 	VEH_XYZ 0.0055 0.2514 -3.2077
 	EVENT_START_COND uh60m/engn/fuel_lvr0 == 0
 END_SOUND_ATTACHMENT
 #----------------------------------
 BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /cockpit/throttle_unlock
+	EVENT_NAME /cockpit/throttle_lock
 	VEH_XYZ 0.0055 0.2514 -3.2077
 	EVENT_START_COND uh60m/engn/fuel_lvr1 == 0
 END_SOUND_ATTACHMENT
