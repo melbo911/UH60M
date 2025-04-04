@@ -1,0 +1,762 @@
+A
+1000
+ACF_SOUNDS
+
+###################################################################################
+
+DISABLE_LEGACY_ALERT_SOUNDS
+
+# Sound spaces 
+###################################################################################
+BEGIN_SOUND_SPACE
+	SOUND_INDEX 0
+	BLEND_DEPTH 0.1
+	AABB -1.30 -1.30 -3.90    1.30 0.50 1.30               # min x,y,z  max x,y,z 
+END_SOUND_SPACE
+
+# Snapshots 
+###################################################################################
+
+BEGIN_SOUND_ATTACHMENT
+   SNAPSHOT_NAME /mute
+   EVENT_START_COND sim/time/total_flight_time_sec > 0
+   EVENT_END_COND sim/time/total_flight_time_sec > 3
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   SNAPSHOT_NAME /mute
+   EVENT_START_COND sim/time/paused > 0
+   EVENT_END_COND sim/time/paused < 1
+END_SOUND_ATTACHMENT
+
+# -------------------- Cockpit ---------------------
+BEGIN_SOUND_ATTACHMENT
+   SNAPSHOT_NAME /in_cockpit
+   EVENT_START_COND sim/operation/sound/inside_any == 1
+   EVENT_END_COND sim/operation/sound/inside_any < 1
+END_SOUND_ATTACHMENT
+
+
+# Engine 
+###################################################################
+
+#-------------------- engines starting ---------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/engine_start
+	VEH_PART engine 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/flightmodel2/engines/starter_is_running[0] > 0
+	EVENT_END_COND sim/flightmodel2/engines/starter_is_running[0] == 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/engine_start
+	VEH_PART engine 0
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/flightmodel2/engines/starter_is_running[1] > 0
+	EVENT_END_COND sim/flightmodel2/engines/starter_is_running[1] == 0
+END_SOUND_ATTACHMENT
+
+#-------------------- engines running ------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/engine_running
+	VEH_PART engine 0
+	PARAM_DREF_IDX 0
+   EVENT_ALLOWED_FOR_AI
+	EVENT_START_COND sim/flightmodel2/engines/engine_is_burning_fuel[0] > 0
+	EVENT_END_COND sim/flightmodel2/engines/engine_is_burning_fuel[0] == 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/engine_running
+	VEH_PART engine 0
+	PARAM_DREF_IDX 1
+   EVENT_ALLOWED_FOR_AI
+	EVENT_START_COND sim/flightmodel2/engines/engine_is_burning_fuel[1] > 0
+	EVENT_END_COND sim/flightmodel2/engines/engine_is_burning_fuel[1] == 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/engine_running_inside
+	VEH_PART engine 0
+	PARAM_DREF_IDX 0
+   EVENT_ALLOWED_FOR_AI
+	EVENT_START_COND sim/flightmodel2/engines/engine_rotation_speed_rad_sec[0] > 0.01
+	EVENT_END_COND sim/flightmodel2/engines/engine_rotation_speed_rad_sec[0] <= 0.01
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/engine_running_inside
+	VEH_PART engine 0
+	PARAM_DREF_IDX 1
+   EVENT_ALLOWED_FOR_AI
+	EVENT_START_COND sim/flightmodel2/engines/engine_rotation_speed_rad_sec[1] > 0.01
+	EVENT_END_COND sim/flightmodel2/engines/engine_rotation_speed_rad_sec[1] <= 0.01
+END_SOUND_ATTACHMENT
+
+
+#-------------------- engines shutdown ------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/engine_down
+	#VEH_PART engine 0
+   #PARAM_DREF_IDX 0
+	EVENT_START_COND uh60m/fmod/eng0dn > 0
+	EVENT_END_COND uh60m/fmod/eng0dn == 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/engine_down
+	#VEH_PART engine 0
+   #PARAM_DREF_IDX 1
+	EVENT_START_COND uh60m/fmod/eng1dn > 0
+	EVENT_END_COND uh60m/fmod/eng1dn == 0
+END_SOUND_ATTACHMENT
+#-------------------- Rotor ---------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/rotor_running
+    VEH_XYZ -0.0175 1.8579 -0.5994
+	#VEH_PART engine 0
+	PARAM_DREF_IDX 0
+   EVENT_ALLOWED_FOR_AI
+	EVENT_START_COND sim/cockpit2/engine/indicators/prop_speed_rpm[0] > 40.0
+	EVENT_END_COND sim/cockpit2/engine/indicators/prop_speed_rpm[0] < 40.0
+END_SOUND_ATTACHMENT
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /engines/rotor_running_outside
+#   #VEH_XYZ -0.0175 1.8579 -0.5994
+#	VEH_PART engine 0
+#	PARAM_DREF_IDX 0
+#  EVENT_ALLOWED_FOR_AI
+#	EVENT_START_COND sim/cockpit2/engine/indicators/prop_speed_rpm[0] > 40.0
+#	EVENT_END_COND sim/cockpit2/engine/indicators/prop_speed_rpm[0] < 40.0
+#END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/rotor_slap
+    VEH_XYZ -0.0175 1.8579 -0.5994
+	#VEH_PART engine 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/engine/indicators/prop_speed_rpm[0] > 240.0
+	EVENT_END_COND sim/cockpit2/engine/indicators/prop_speed_rpm[0] < 240.0
+END_SOUND_ATTACHMENT
+
+# COCKPIT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /engines/apu_on
+	VEH_PART engine 0
+	EVENT_START_COND sim/cockpit/engine/APU_running > 0.01
+	EVENT_END_COND sim/cockpit/engine/APU_running == 0
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/battery_on
+	PARAM_DREF_IDX 0
+	VEH_PART cockpit
+	EVENT_START_COND sim/cockpit2/electrical/battery_on[0] > 0
+	EVENT_END_COND sim/cockpit2/electrical/battery_on[0] == 0
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/battery_on
+	PARAM_DREF_IDX 0
+	VEH_PART cockpit
+	EVENT_START_COND sim/cockpit2/electrical/battery_on[1] > 0
+	EVENT_END_COND sim/cockpit2/electrical/battery_on[1] == 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/cockpit_talk
+	PARAM_DREF_IDX 0
+	VEH_PART cockpit
+	EVENT_START_COND sim/cockpit2/electrical/battery_on[0] > 0
+	EVENT_END_COND sim/cockpit2/electrical/battery_on[0] == 0
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	#VEH_PART cockpit
+   VEH_XYZ 0.0055 0.2514 -3.2077
+   #VEH_XYZ 0.000 0.000 0.000
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/APU_generator_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+   VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/APU_starter_switch > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+   VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/inverter_on[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+   VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit/engine/fuel_pump_on[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+   VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit/engine/fuel_pump_on[1] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+   VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/generator_on[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+   VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/generator_on[1] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/battery_on[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/electrical/battery_on[1] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/navigation_lights_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/beacon_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/strobe_lights_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/switch
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/avionics_power_on > 0.5
+#END_SOUND_ATTACHMENT
+#----------------------------------
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/switch
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/electric_hydraulic_pump_on > 0.5
+#END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/engine/actuators/primer_on[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/landing_lights_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/taxi_light_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/wiper_speed > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/switch
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/artificial_stability_on > 0.5
+#END_SOUND_ATTACHMENT
+#----------------------------------
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/switch
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/autopilot/flight_director_mode > 0.5
+#END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/ice_window_heat_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/ice_prop_heat_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit/switches/anti_ice_auto_ignite > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/ice_inlet_heat_on > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/ice_pitot_heat_on_pilot > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/instrument_brightness_ratio[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/panel_brightness_ratio[3] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/generic_lights_switch[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/generic_lights_switch[1] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=sim/flightmodel/controls/parkbrake > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/switch
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/controls/tailwheel_lock_ratio > 0.5
+#END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/fmod/switch > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/fmod/switch2 > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/switch2
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=uh60m/sas_boost > 0.5
+#END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/hover_hold > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/level_hold > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/hstab_test > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/switch2
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=uh60m/sys/hstab_auto > 0.5
+#END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/warning_ack > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/hstab > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/sas1 > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/sas2 > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/sas_boost > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/tailwheel > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/iff_emerg > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/arm_all > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/deploy_chaff > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/ralt_test > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/hydr_bkup > 0.3
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/air_src > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/lamp_test > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/fire_test > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/egi1 > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/egi2 > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/dummy[0] > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/CB/0
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/fmod/cb == 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/CB/1
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/fmod/cb == 1
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/CB/2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/fmod/cb == 2
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/alarm1
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND DELTA=sim/cockpit2/annunciators/autopilot_disconnect > 0.5
+   #EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/alarm2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/sys/sw/fire_eng1 > 0.5
+	EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/alarm2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/sys/sw/fire_eng2 > 0.5
+	EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/alarm2
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/sys/sw/fire_apu > 0.5
+	EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/warning
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/sys/caution == 1
+	EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/caution
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/sys/collective == 1
+	EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/warning
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND sim/cockpit/warnings/master_caution_on == 1
+#	EVENT_AUTO_END_FROM_START_COND
+#END_SOUND_ATTACHMENT
+#----------------------------------
+
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /switch
+#	VEH_PART cockpit
+#       VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=XXXX > 0.5
+#END_SOUND_ATTACHMENT
+#----------------------------------
+
+#
+# throttle detent sounds
+#
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_lock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+#  EVENT_START_COND ABS_DELTA=uh60m/fmod/detent0 > 0.5
+	EVENT_START_COND uh60m/fmod/detent0 == 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_unlock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/fmod/detent0 == 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_lock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND uh60m/detent1 == 0
+#	EVENT_START_COND ABS_DELTA=uh60m/fmod/detent1 > 0.5
+	EVENT_START_COND uh60m/fmod/detent1 == 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_unlock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/fmod/detent1 == 1
+END_SOUND_ATTACHMENT
+
+# FUEL LEVERS
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_lock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/engn/fuel_lvr0 == 1
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_lock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/engn/fuel_lvr1 == 1
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_unlock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/engn/fuel_lvr0 == 0
+END_SOUND_ATTACHMENT
+#----------------------------------
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/throttle_unlock
+	VEH_XYZ 0.0055 0.2514 -3.2077
+	EVENT_START_COND uh60m/engn/fuel_lvr1 == 0
+END_SOUND_ATTACHMENT
+#----------------------------------
+
+#
+# DOORS
+#
+# cockpit doors
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cockpit_open
+   VEH_XYZ 1.028 0.1219 -3.2520
+   EVENT_START_COND uh60m/door/ratio[0] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cockpit_close
+   VEH_XYZ 1.028 0.1219 -3.2520
+   EVENT_START_COND uh60m/door/ratio[0] < 1
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cockpit_open
+   VEH_XYZ -1.028 0.1219 -3.2520
+   EVENT_START_COND uh60m/door/ratio[1] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cockpit_close
+   VEH_XYZ -1.028 0.1219 -3.2520
+   EVENT_START_COND uh60m/door/ratio[1] < 1
+END_SOUND_ATTACHMENT
+
+# cargo doors
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cargo_open
+   VEH_XYZ -1.1235 -0.1587 -0.5392
+   EVENT_START_COND uh60m/door/ratio[2] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cargo_close
+   VEH_XYZ -1.1235 -0.1587 -0.5392
+   EVENT_START_COND uh60m/door/ratio[2] < 1
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cargo_open
+   VEH_XYZ 1.1235 -0.1587 -0.5392
+   EVENT_START_COND uh60m/door/ratio[3] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cargo_close
+   VEH_XYZ 1.1235 -0.1587 -0.5392
+   EVENT_START_COND uh60m/door/ratio[3] < 1
+END_SOUND_ATTACHMENT
+
+# gunner windows
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/gunner_open
+   VEH_XYZ 1.1215 -0.0958 -2.1980 
+   EVENT_START_COND uh60m/door/ratio[4] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/gunner_close
+   VEH_XYZ 1.1215 -0.0958 -2.1980 
+   EVENT_START_COND uh60m/door/ratio[4] < 1
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/gunner_open
+   VEH_XYZ -1.1215 -0.0958 -2.1980 
+   EVENT_START_COND uh60m/door/ratio[5] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/gunner_close
+   VEH_XYZ -1.1215 -0.0958 -2.1980 
+   EVENT_START_COND uh60m/door/ratio[5] < 1
+END_SOUND_ATTACHMENT
+
+# avionics bay 
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cockpit_open
+   EVENT_START_COND uh60m/door/ratio[6] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cockpit_close
+   EVENT_START_COND uh60m/door/ratio[6] < 1
+END_SOUND_ATTACHMENT
+
+# hydraulics bay
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cargo_open
+   EVENT_START_COND uh60m/door/ratio[7] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cargo_close
+   EVENT_START_COND uh60m/door/ratio[7] < 1
+END_SOUND_ATTACHMENT
+
+# engine cowlings
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cockpit_open
+   EVENT_START_COND uh60m/door/ratio[8] > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/cockpit_close
+   EVENT_START_COND uh60m/door/ratio[8] < 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/gunner_open
+   VEH_XYZ -1.1215 -0.0958 -2.1980 
+   EVENT_START_COND uh60m/ops/cargo_hook > 0
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /doors/gunner_close
+   VEH_XYZ -1.1215 -0.0958 -2.1980 
+   EVENT_START_COND uh60m/ops/cargo_hook < 1
+END_SOUND_ATTACHMENT
+
+#
+# weapons
+#
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /weapons/M134
+   EVENT_START_COND sim/weapons/firing[4] > 0
+   VEH_XYZ -2.1215 -0.0958 -2.1980 
+   EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+   EVENT_NAME /weapons/M134
+   EVENT_START_COND sim/weapons/firing[5] > 0
+   VEH_XYZ 2.1215 -0.0958 -2.1980 
+   EVENT_AUTO_END_FROM_START_COND
+END_SOUND_ATTACHMENT
+
+
+# VEH_XYZ <x> <y> <z>
+# This sets the location of your event to the location X,Y,Z in meters, 
+# relative to the default CG of the aircraft; +X is right, +Y is up, +Z is aft.
+
+# AABB <minx> <miny> <minz> <maxx> <maxy> <maxz>
+# This adds an axis-aligned bounding box (in aircraft coordinates, that is +X = right, +Y = up, +Z = aft) 
+# in meters around the CG of the aircraft.

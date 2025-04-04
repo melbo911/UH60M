@@ -1,0 +1,41 @@
+{6ec6006d-c669-46d7-8684-d8928b1cab91} event:/cockpit/CB/0
+{55f529d2-c832-4c16-816c-01c3365d5419} event:/cockpit/CB/1
+{2a0bf0a4-873b-4564-b98a-fdf0629d32ca} event:/cockpit/CB/2
+{6eb87bd0-1fe9-427b-a566-ad2582149a34} event:/cockpit/battery_on
+{bb27b2ba-9915-4869-a802-1960b7f7ec80} event:/cockpit/cockpit_talk
+{c9a7a3f1-4925-4976-8d03-a793f27898ed} event:/cockpit/switch
+{ebc62310-93cc-437b-ac40-43e8209b199d} event:/cockpit/switch2
+{0f5965a7-7859-4a2e-9dec-49d3776009f5} event:/cockpit/throttle_lock
+{eca07ac3-81ab-40e6-a43d-05a65814e074} event:/cockpit/throttle_unlock
+{06c954fe-a324-446a-adfd-8bbfc4bbab55} event:/cockpit/warning
+{52bf4a14-568e-4c74-b34b-f2be0dd9c8ec} event:/cockpit/caution
+{23985772-305b-4624-84ac-899cad707c2a} event:/cockpit/alarm1
+{fdd2a7d6-9fed-43ec-8f48-995f5fbe8984} event:/cockpit/alarm2
+{c92abf6f-14a8-4b1d-b36b-caa4655d9e25} event:/doors/cargo_close
+{7d185635-59f1-4b07-be33-bcf88c8f3c26} event:/doors/cargo_open
+{eb3d1bc5-6cac-40cb-b58d-23f2c09653ff} event:/doors/cockpit_close
+{d99d11af-4b61-4689-b0ab-0a203f8ac05c} event:/doors/cockpit_open
+{f38bd008-c374-49a8-b07a-07635c3ef3ea} event:/doors/gunner_close
+{9c3ee3c6-fb8c-402b-afa6-1b759b60c1be} event:/doors/gunner_open
+{4a1273f4-8cf2-46b9-9a5a-ecee6369ee8f} event:/engines/apu_on
+{897bf1a3-d276-4f2e-9567-e2f69b9071df} event:/engines/engine_down
+{25c531d8-ea0e-4ae5-b4db-46203d6cc3de} event:/engines/engine_running
+{6919fe4b-0066-4a89-b7b5-e1d3dfb4d003} event:/engines/engine_running_inside
+{172cfd49-83ab-4873-a62f-116543ca571f} event:/engines/engine_start
+{7c0f8577-412f-438d-ba0e-9981e82cec75} event:/engines/rotor_running
+{eae55115-c2e4-45b1-9836-c55618bb1af6} event:/engines/rotor_running_outside
+{205b19f1-6484-42ed-9278-321a5e75c554} event:/engines/rotor_slap
+{b4c4b4f8-22a8-4edb-b866-ca2e43dea486} event:/weapons/M134
+{9f08114d-36ec-44cc-b8bf-b2babda09f9e} bus:/
+{7f7c05a4-e05a-4d44-94fe-d4691147a9b7} bus:/Master
+{e3492bec-f854-4fbb-b2bc-23586269032e} bus:/Master/Copilot
+{a5a85a81-afd5-4425-9dc2-6e50f7776e6a} bus:/Master/Exterior Processed
+{06db5351-0b2f-4648-b97a-a33b40a00e11} bus:/Master/Exterior Processed/Aircraft
+{b6c156f1-9861-405c-a622-92b2ab8010a7} bus:/Master/Exterior Processed/Environment
+{8dbbc9d7-a954-4ed0-b1f1-f8111b03cbd1} bus:/Master/Exterior Unprocessed
+{751f5066-4651-4afb-a410-4cb9db0894c9} bus:/Master/Interior
+{d8526059-b27c-4eae-9b14-a1ee1cb3dfa1} bus:/Master/Radios
+{77575f3b-b9cd-4bff-9056-637cff744a14} bus:/Master/UI
+{daf80f07-5ced-4ad9-af52-d4017c8e2934} snapshot:/mute
+{c14fc121-9b91-4059-b2e5-d2801dc993c0} snapshot:/in_cockpit
+{802dfa3d-152f-4fb4-9a0b-b517400735a6} bank:/Master Bank

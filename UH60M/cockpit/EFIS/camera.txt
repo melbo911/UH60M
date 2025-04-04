@@ -1,0 +1,6 @@
+A
+750 version
+dx	dy		Size (W x H Pixels?)
+320 240
+
+

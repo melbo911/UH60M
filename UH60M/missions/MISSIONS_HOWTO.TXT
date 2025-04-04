@@ -1,0 +1,148 @@
+
+the CDU can read FMS (XP flight plan) , FPN (flight plan) and MSN (mission) files.
+
+the files are plain text files which can be create/modified with NOTEPAD.EXE or a similar editor.
+
+when saving a flightplan, it will always have the FPN extention.
+
+FPN and MSN files are treated the same. it's just for organizing files better.
+
+
+a mission can be build from the following list of commands.
+
+ command types:
+
+    0 mission-id
+    1 mission-codename
+    2 mission-description
+    10 com define preset
+    11 com1 preset or freq
+    12 com2 preset or freq
+    20 nav define preset
+    21 nav1 preset or freq
+    22 nav2 preset or freq
+    23 adf1 preset or freq
+    24 adf2 preset or freq
+    30 location define preset
+    31 lat/lon location from preset or direct
+    32 navaid location
+    33 discontinuity
+    40 message
+    50 exec command, below altlo or above althi
+    51 fix command: dropDude
+    60 set dataref,idx,value,altlo,althi
+    61 get dataref,idx,vallo,valhi
+    81 reset mission
+    88 restart/repeat
+    99 NOP
+
+
+examples:
+
+	10,1,TAC-OPS,123.220
+
+
+    this defines preset number 1 with frequency 123.220 for a COM unit 
+	and adds the tag "TAC-OPS" to it. 
+
+	---------------------------------------------------------------------
+
+    12,1
+
+	this recalls preset 1 on unit COM2
+
+	---------------------------------------------------------------------
+
+    --- from ETSILOWI.FPN ---
+
+	0,flightplan
+	1,ETSI-LOWI
+	32,Ingolstadt,ETSI,0,0,0,0
+	32,waypoint,ANKER,0,0,3000,0
+	32,Munich,EDDM,0,0,4000,200
+	32,waypoint,LATLO,0,0,5900,400
+	32,waypoint,VAROB,0,0,6500,0
+	32,waypoint,KUMOM,0,0,6000,0
+	32,waypoint,WI001,0,0,5500,0
+	32,waypoint,WI610,0,0,4800,0
+	32,waypoint,WI611,0,0,4500,0
+	32,waypoint,90LOC,0,0,4000,0
+	21,ILS-LOWI,111.10
+	50,sim/autopilot/approach,0,0
+	50,sim/autopilot/hsi_select_nav_1,0,0
+	32,Innsbruck,LOWI,0,0,0,0
+
+	this is an exmple of a flightplan for a flight from Manching to Innsbruck
+
+	different altitude settings will be used during the flight
+
+	at the end an ILS-landing will be performed
+
+	---------------------------------------------------------------------
+
+    --- from HRST.MSN  ---
+
+	0,123456
+	1,HRST Mission
+	40,Mission HRST started                            <--- text message
+	40,hover at 17ft to drop 4 seals
+	50,uh60/doors/cargo_left_open,30,0                 <--- run command cargo-open if ralt < 30 meter
+	50,uh60/doors/cargo_right_open,30,0
+	40,doors open
+	50,uh60/ops/rope_out,22,0                          <--- move ropes out if ralt < 22 meter
+	40,ropes deployed
+	50,uh60/ops/drop_dude,18,0                         <--- drop seal if ralt < 18 meter
+	40,dropping seals
+	50,uh60/ops/drop_dude,18,0
+	99                                                 <--- wait ......
+	99
+	50,uh60/ops/drop_dude,18,0                         <--- more seals....
+	40,dropping more seals
+	50,uh60/ops/drop_dude,18,0
+	99
+	99
+	99
+	99
+	99
+	99
+	40,removing ropes
+	50,uh60/ops/rope_in,0,0                           <---  remove ropes
+	50,uh60/doors/cargo_left_close,0,25               <---  close door if ralt > 25 meter
+	50,uh60/doors/cargo_right_close,0,25
+	40,Mission HRST completed
+	81                                                <--- reset, so a RUN will start the mission again
+
+
+	---------------------------------------------------------------------
+
+
+	the file PRESETS.FPN in the mission folder will be automatically loaded if the SASL plugin
+	is loaded. This allows to define presets of frequently used frequencies, channels  and locations.
+
+
+	
+	--- from PRESTS.FPN ---
+
+	10,1,TAC-OPS,123.220
+	10,2,KNIGHT-2,121.873
+	10,3,HTM,129.950
+	10,4,EDDM-ATIS,123.125
+	10,5,LOWS-ATIS,133.330
+	10,6,LOWI-ATIS,126.025
+	10,7,CTEST1,123.456
+	10,9,Bantan9,124.60
+	10,15,Kilo6,123.60
+	20,2,THE-BALL,108.10
+	20,3,TACAN-MAH,99X
+	20,4,VOR-MAH,115.20
+	20,5,VOR-MUN,112.30
+	20,6,ILS-ETSI,108.10
+	20,7,ILS-LOWI,111.10
+	20,8,ADF-MNW,338
+	20,9,ADF-MSW,400
+	30,11,Mega8,48.1854,11.8631
+	30,12,Konus,48.1789,11.9277
+
+
+
+

@@ -1,0 +1,47 @@
+0,123456
+1,Sundance
+40,Mission Sundance started
+50,uh60m/ops/rope_in,0,0
+40,define COM presets
+10,15,Kilo6,123.60
+10,9,Bantan9,124.60
+10,5,MUC-ATIS,123.125
+10,6,HTM,129.950
+40,set COM channels
+11,15
+12,9
+40,set GPS preset 11 to Mega8
+30,11,Mega8,48.1854,11.8631
+40,set GPS preset 12 to Konus
+30,12,Konus,48.1789,11.9277
+99
+40,configure AP 
+40,transition to Mega8
+31,11,0,0,0,0
+40,hover at 17ft to drop 4 seals
+40,open doors at 30ft
+50,uh60m/doors/cargo_left_open,30,0
+50,uh60m/doors/cargo_right_open,30,0
+40,doors open
+40,deploy ropes at 20ft
+50,uh60m/ops/rope_out,20,0
+40,dropping seals at 17ft
+#50,uh60m/ops/drop_dude,17,0
+#50,uh60m/ops/drop_dude,17,0
+51,17,0
+51,17,0
+99
+51,17,0
+51,17,0
+40,dropping ropes at 20ft
+50,uh60m/ops/rope_in,0,20
+40,closing doors at 25ft
+50,uh60m/doors/cargo_left_close,0,25
+50,uh60m/doors/cargo_right_close,0,25
+40,setting COM2 to preset 5 ( MUC-ATIS )
+#12,5
+40,transition to Konus
+31,12,0,0,0,0
+40,land to finish mission
+50,uh60m/doors/door_right_open,1,0
+40,Mission Sundance completed

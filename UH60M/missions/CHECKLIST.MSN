@@ -1,0 +1,89 @@
+1,CHECKLIST
+2,UH60M CHECKLIST
+# 61 dref , index, <=lo , >=hi
+40,BATTERIES - ON
+61,sim/cockpit2/electrical/battery_on,1,0,1
+61,sim/cockpit2/electrical/battery_on,2,0,1
+40,MFDs - ON
+61,uh60m/mfd/on,1,0,1
+#
+40,FUEL PUMP - APU BOOST
+61,sim/cockpit2/engine/actuators/primer_on,1,0,1
+#
+40,APU CONT - ON
+61,sim/cockpit/engine/APU_running,0,0,1
+#
+40,APU GEN - ON
+61,sim/cockpit2/electrical/APU_generator_on,0,0,1
+#
+40,STBY INST - ON
+61,uh60m/sys/stby_inst,0,0,1
+#
+40,EGI1 and EGI2 - ON
+61,sim/cockpit2/radios/actuators/gps_power,0,0,1
+61,sim/cockpit2/radios/actuators/gps2_power,0,0,1
+#
+40,CHECK LAMPS ON MASTER WARNING PANEL
+99
+#
+40,LAMPS TEST - ON
+61,uh60m/sys/sw/lamp_test,0,0,1
+#
+40,SAS1 - ON
+61,sim/cockpit2/switches/artificial_stability_on,0,0,1
+#
+40,ANTI COLLISION LIGHTS - ON
+61,sim/cockpit2/switches/navigation_lights_on,0,0,1
+#
+40,ENG FUEL SYS - XFD
+61,uh60m/engn/fuel_lvr0,0,0,.9
+61,uh60m/engn/fuel_lvr1,0,0,.9
+#
+40,HYDR BACKUP PUMP - ON
+61,sim/cockpit2/hydraulics/indicators/hydraulic_pressure_1,0,0,200
+61,sim/cockpit2/hydraulics/indicators/hydraulic_pressure_2,0,0,200
+#
+40,HYDR BACKUP PUMP - OFF
+61,sim/cockpit2/switches/electric_hydraulic_pump_on,0,0.1,0
+#
+40,FUEL BOOST PUMPS - ON
+61,sim/cockpit2/engine/actuators/fuel_pump_on,1,0,1
+61,sim/cockpit2/engine/actuators/fuel_pump_on,2,0,1
+#
+40,IGNITION KEY - ON
+61,uh60m/sys/key_engaged,0,0,1
+#
+40,PARKBRAKE - ON
+61,sim/flightmodel/controls/parkbrake,0,0,1
+#
+40,AIR SOURCE - APU
+61,sim/cockpit2/pressurization/actuators/bleed_air_mode,0,0,4
+#
+40,TAILWHEEL - LOCK
+61,sim/cockpit2/controls/tailwheel_lock_ratio,0,0,0.5
+#
+40,STABILATOR - AUTO
+61,uh60m/sys/hstab_auto,0,0,1
+#
+40,PITOT HEATER 1 and 2 - ON
+61,sim/cockpit/switches/pitot_heat_on,0,0,1
+61,sim/cockpit/switches/pitot_heat_on2,0,0,1
+#
+40,THROTTLE - IDLE
+61,uh60m/engn/thr_lvr0,0,0.3,0
+61,uh60m/engn/thr_lvr1,0,0.3,0
+#
+40,GEN #1 and GEN #2 - ON
+61,sim/cockpit/electrical/generator_on,1,0,1
+61,sim/cockpit/electrical/generator_on,2,0,1
+#
+40,START ENGINES - N1 > 10%
+61,sim/cockpit2/engine/indicators/N1_percent,1,0,10
+61,sim/cockpit2/engine/indicators/N1_percent,2,0,10
+#
+40,ROTOR RPM - NR > 10% 
+61,sim/cockpit2/hydraulics/indicators/hydraulic_pressure_1,0,0,300
+#
+40,HYDR BACKUP PUMP - AUTO
+61,uh60m/sys/sw/hydr_bkup,0,0.5,0.5
+
