@@ -44,7 +44,7 @@ plugins/UH60M/data/modules/Custom Module/nav.lua
 plugins/UH60M/data/modules/Custom Module/ops.lua
 plugins/UH60M/data/modules/Custom Module/perf.lua
 plugins/UH60M/data/modules/Custom Module/sys.lua
-plugins/UH60M/data/modules/Custom Module/upd.lua
+plugins/UH60M/data/modules/Custom Module/patch.lua
 plugins/UH60M/data/modules/Custom Module/vibration.lua
 plugins/UH60M/data/modules/configuration/wprefs.ini
 plugins/UH60M/data/modules/main.lua

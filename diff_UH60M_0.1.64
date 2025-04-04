@@ -39,7 +39,7 @@ plugins/UH60M/data/modules/Custom Module/menu.lua
 plugins/UH60M/data/modules/Custom Module/mission.lua
 plugins/UH60M/data/modules/Custom Module/nav.lua
 plugins/UH60M/data/modules/Custom Module/sys.lua
-plugins/UH60M/data/modules/Custom Module/upd.lua
+plugins/UH60M/data/modules/Custom Module/patch.lua
 plugins/UH60M/data/modules/configuration/wprefs.ini
 plugins/UH60M/data/modules/main.lua
 plugins/UH60M/data/modules/state.txt
