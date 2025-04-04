@@ -1,0 +1,59 @@
+[UH60M INFO]: Initializing...
+[UH60M INFO]: [DISPLAY] Monitor 0: 0, 0, 1440, 900
+[UH60M INFO]: Path to module: /Users/jablo/xp/Aircraft/Helis/DIST/plugins/UH60M/data/modules/main.lua
+[UH60M INFO]: Loading module...
+[UH60M INFO]: [LUA]: loading	module
+[UH60M INFO]: [LUA]: "module"	UH60M 0.1.65
+[UH60M INFO]: [LUA]: "module"	acf notes:UH60MX	
+[UH60M INFO]: [LUA]: "module"	conf is Mike-X	
+[UH60M INFO]: [LUA]: "module"	no AviTab found	
+[UH60M INFO]: [LUA]: loading	configs
+[UH60M INFO]: [LUA]: loading	sys
+[UH60M INFO]: [LUA]: loading	limits
+[UH60M INFO]: [LUA]: loading	nav
+[UH60M INFO]: [LUA]: loading	engines
+[UH60M INFO]: [LUA]: loading	controls
+[UH60M INFO]: [LUA]: loading	failures
+[UH60M INFO]: [LUA]: loading	rotors
+[UH60M INFO]: [LUA]: loading	anims
+[UH60M INFO]: [LUA]: loading	icam
+[UH60M INFO]: [LUA]: loading	vibration
+[UH60M INFO]: [LUA]: loading	events
+[UH60M INFO]: [LUA]: loading	ops
+[UH60M INFO]: [LUA]: loading	formation
+[UH60M INFO]: [LUA]: loading	mission
+[UH60M INFO]: [LUA]: loading	CDU1
+[UH60M INFO]: [LUA]: loading	CDU2
+[UH60M INFO]: [LUA]: loading	message
+[UH60M INFO]: [LUA]: loading	interactive
+[UH60M INFO]: [LUA]: loading	menu
+[UH60M INFO]: [LUA]: loading	airfuel
+[UH60M INFO]: [LUA]: loading	upd
+[UH60M INFO]: [LUA]: loading	MFD
+[UH60M INFO]: [LUA]: loading	FDCP
+[UH60M INFO]: Scripts loading time: 1.1225
+[UH60M INFO]: Module loaded
+[UH60M INFO]: Initializing modules...
+[UH60M INFO]: [LUA]: "module"	% onModuleInit
+[UH60M INFO]: [LUA]: "upd"	% onModuleInit
+[UH60M INFO]: [LUA]: "upd"	looking for 0.1.65 updates
+[UH60M INFO]: Modules initialization done
+[UH60M INFO]: [LUA]: "upd"	UPD: update found for 0.1.65
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	fmod/uh60m.snd
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	liveries/DSparks/acf_config.ini
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	objects/C130.obj
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	objects/avionics_bay_door.obj
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	objects/cockpit.obj
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	objects/fuselage.obj
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/Custom Module/CDU1.lua
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/Custom Module/CDU2.lua
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/Custom Module/MFD.lua
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/Custom Module/airfuel.lua
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/Custom Module/configs.lua
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/Custom Module/icam.lua
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/Custom Module/upd.lua
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/configuration/wprefs.ini
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	plugins/UH60M/data/modules/main.lua
+[UH60M INFO]: [LUA]: "upd"	UPD: updating 	uh60m.acf
+[UH60M INFO]: Disabling...
+[UH60M INFO]: SASL plugin stopped...
