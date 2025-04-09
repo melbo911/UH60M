@@ -9,7 +9,7 @@ plugins/UH60M/data/modules/Custom Module/MFD.lua:117836
 plugins/UH60M/data/modules/Custom Module/airfuel.lua:7361
 plugins/UH60M/data/modules/Custom Module/configs.lua:7161
 plugins/UH60M/data/modules/Custom Module/icam.lua:9947
-plugins/UH60M/data/modules/Custom Module/patch.lua:2782
+plugins/UH60M/data/modules/Custom Module/patch.lua:2765
 plugins/UH60M/data/modules/configuration/wprefs.ini:274
 plugins/UH60M/data/modules/main.lua:59796
 uh60m.acf:666366
