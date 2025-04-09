@@ -21,6 +21,8 @@ package.cpath = package.cpath .. ';' .. prPath .. '/3rd-modules/?.' .. __PackExt
 package.cpath = package.cpath .. ';' .. prPath .. '/Custom Module/?.' .. __PackExt
 _SLOADED = {}
 
+private.loglevel = 0
+        
 -------------------------------------------------------------------------------
 -- Components
 -------------------------------------------------------------------------------
@@ -92,7 +94,10 @@ function private.createComponent(name, parent)
         logError = function(...) sasl.logError('"'..name..'"', ...) end,
         logDebug = function(...) sasl.logDebug('"'..name..'"', ...) end,
         logWarning = function(...) sasl.logWarning('"'..name..'"', ...) end,
-        print = function(...) sasl.print('"'..name..'"', ...) end
+        print = function(...) sasl.print('"'..name..'"', ...) end,
+        syslog = function(ll,...) if ll <= sasl.loglevel then sasl.print('"'..name..'"', ...) end end,
+
+
     }
     data._C = data
     if parent then
