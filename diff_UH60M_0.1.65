@@ -4,7 +4,6 @@ objects/C130.obj:3987746
 objects/avionics_bay_door.obj:282455
 objects/cockpit.obj:8549377
 objects/fuselage.obj:5256045
-objects/interior_normal.png:36243875
 plugins/UH60M/data/modules/Custom Module/CDU1.lua:77249
 plugins/UH60M/data/modules/Custom Module/CDU2.lua:77249
 plugins/UH60M/data/modules/Custom Module/MFD.lua:118315
@@ -14,4 +13,6 @@ plugins/UH60M/data/modules/Custom Module/icam.lua:9947
 plugins/UH60M/data/modules/Custom Module/patch.lua:1917
 plugins/UH60M/data/modules/configuration/wprefs.ini:274
 plugins/UH60M/data/modules/main.lua:59400
+plugins/UH60M/data/modules/state.txt:79
 uh60m.acf:645560
+uh60m_prefs.txt:383

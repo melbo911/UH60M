@@ -1,58 +1,56 @@
-docs/UH60M-OpsManual.pdf
-fmod/uh60m.snd
-liveries/DSparks/acf_config.ini
-liveries/DSparks/objects/body.png
-liveries/DSparks/objects/body_normal.png
-liveries/DSparks/uh60m_icon11.png
-liveries/DSparks/uh60m_icon11_thumb.png
-missions/CHECKLIST.MSN
-objects/C130.obj
-objects/UH60_body.dds
-objects/UH60_body_normal.png
-objects/UH60_glass.dds
-objects/avionics_bay_door.obj
-objects/body.png
-objects/body_normal.png
-objects/cockpit.obj
-objects/crew.obj
-objects/doors.obj
-objects/doors_inside.obj
-objects/engines.obj
-objects/external_glass.obj
-objects/flircam.obj
-objects/fuselage.obj
-objects/gears.obj
-objects/glass.png
-objects/guns.obj
-objects/interior.png
-objects/interior_normal.png
-objects/internal_glass.obj
-objects/pilots.obj
-objects/refuel_probe.obj
-objects/rope_mount.obj
-objects/tex1.png
-plugins/UH60M/data/modules/Custom Module/CDU1.lua
-plugins/UH60M/data/modules/Custom Module/CDU2.lua
-plugins/UH60M/data/modules/Custom Module/MFD.lua
-plugins/UH60M/data/modules/Custom Module/airfuel.lua
-plugins/UH60M/data/modules/Custom Module/anims.lua
-plugins/UH60M/data/modules/Custom Module/configs.lua
-plugins/UH60M/data/modules/Custom Module/controls.lua
-plugins/UH60M/data/modules/Custom Module/engines.lua
-plugins/UH60M/data/modules/Custom Module/events.lua
-plugins/UH60M/data/modules/Custom Module/failures.lua
-plugins/UH60M/data/modules/Custom Module/formation.lua
-plugins/UH60M/data/modules/Custom Module/icam.lua
-plugins/UH60M/data/modules/Custom Module/menu.lua
-plugins/UH60M/data/modules/Custom Module/mission.lua
-plugins/UH60M/data/modules/Custom Module/nav.lua
-plugins/UH60M/data/modules/Custom Module/ops.lua
-plugins/UH60M/data/modules/Custom Module/perf.lua
-plugins/UH60M/data/modules/Custom Module/sys.lua
-plugins/UH60M/data/modules/Custom Module/patch.lua
-plugins/UH60M/data/modules/Custom Module/vibration.lua
-plugins/UH60M/data/modules/configuration/wprefs.ini
-plugins/UH60M/data/modules/main.lua
-uh60m.acf
-uh60m_icon11.png
-uh60m_icon11_thumb.png
+docs/UH60M-OpsManual.pdf:4290477
+fmod/uh60m.snd:25031
+liveries/DSparks/acf_config.ini:261
+liveries/DSparks/objects/body.png:3335384
+liveries/DSparks/objects/body_normal.png:3735585
+liveries/DSparks/uh60m_icon11.png:514109
+liveries/DSparks/uh60m_icon11_thumb.png:38504
+missions/CHECKLIST.MSN:2329
+objects/C130.obj:3987746
+objects/avionics_bay_door.obj:282455
+objects/body.png:7879072
+objects/body_normal.png:3791029
+objects/cockpit.obj:8549377
+objects/doors.obj:604998
+objects/doors_inside.obj:69926
+objects/engines.obj:825039
+objects/external_glass.obj:69423
+objects/flircam.obj:690089
+objects/fuselage.obj:5256045
+objects/gears.obj:1682088
+objects/glass.png:406998
+objects/guns.obj:1858610
+objects/interior.png:15250795
+objects/interior_normal.png:36243875
+objects/internal_glass.obj:83892
+objects/pilots.obj:8058147
+objects/refuel_probe.obj:915238
+objects/rope_mount.obj:6010095
+objects/tex1.png:263394
+plugins/UH60M/data/modules/Custom Module/CDU1.lua:77249
+plugins/UH60M/data/modules/Custom Module/CDU2.lua:77249
+plugins/UH60M/data/modules/Custom Module/MFD.lua:118315
+plugins/UH60M/data/modules/Custom Module/airfuel.lua:7339
+plugins/UH60M/data/modules/Custom Module/anims.lua:15366
+plugins/UH60M/data/modules/Custom Module/configs.lua:8743
+plugins/UH60M/data/modules/Custom Module/controls.lua:14205
+plugins/UH60M/data/modules/Custom Module/engines.lua:6331
+plugins/UH60M/data/modules/Custom Module/events.lua:12001
+plugins/UH60M/data/modules/Custom Module/failures.lua:2059
+plugins/UH60M/data/modules/Custom Module/formation.lua:2175
+plugins/UH60M/data/modules/Custom Module/icam.lua:9947
+plugins/UH60M/data/modules/Custom Module/menu.lua:7079
+plugins/UH60M/data/modules/Custom Module/mission.lua:24349
+plugins/UH60M/data/modules/Custom Module/nav.lua:8705
+plugins/UH60M/data/modules/Custom Module/ops.lua:15523
+plugins/UH60M/data/modules/Custom Module/patch.lua:1917
+plugins/UH60M/data/modules/Custom Module/perf.lua:2030
+plugins/UH60M/data/modules/Custom Module/sys.lua:20485
+plugins/UH60M/data/modules/Custom Module/vibration.lua:1806
+plugins/UH60M/data/modules/configuration/wprefs.ini:274
+plugins/UH60M/data/modules/main.lua:59400
+plugins/UH60M/data/modules/state.txt:79
+uh60m.acf:645560
+uh60m_icon11.png:2773135
+uh60m_icon11_thumb.png:34092
+uh60m_prefs.txt:383

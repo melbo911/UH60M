@@ -6,5 +6,6 @@ fi
 
 IFS="
 "
-stat -f "%N:%z" $(awk -F: '{print "UH60M/"$1}' $1)
+cd UH60M
+stat -f "%N:%z" $(awk -F: '{print $1}' ../$1)
 
