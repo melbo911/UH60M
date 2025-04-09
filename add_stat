@@ -1,0 +1,10 @@
+
+if [ -z "$1" ];then
+   echo "usage: $0 inputfile"
+   exit
+fi
+
+IFS="
+"
+stat -f "%N:%z" $(awk -F: '{print "UH60M/"$1}' $1)
+
