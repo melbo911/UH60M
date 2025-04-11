@@ -1,13 +1,5 @@
 cams/default.cam:1283
 fmod/uh60m.snd:25031
-liveries/DSparks/opt_config.ini:94
-liveries/MedEvac/objects/body.png:7868466
-liveries/MedEvac/uh60m_icon11.png:677310
-liveries/MedEvac/uh60m_icon11_thumb.png:34541
-liveries/layers/objects/body.png:3535227
-liveries/layers/objects/body_normal.png:3735585
-liveries/layers/uh60m_icon11.png:688871
-liveries/layers/uh60m_icon11_thumb.png:43470
 objects/C130.obj:3986804
 objects/avionics_bay_door.obj:283115
 objects/cockpit.obj:8549377
