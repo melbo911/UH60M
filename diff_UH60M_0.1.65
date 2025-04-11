@@ -9,7 +9,7 @@ plugins/UH60M/data/init/initMain.lua:38664
 plugins/UH60M/data/modules/Custom Module/CDU1.lua:77249
 plugins/UH60M/data/modules/Custom Module/CDU2.lua:77249
 plugins/UH60M/data/modules/Custom Module/FDCP.lua:17307
-plugins/UH60M/data/modules/Custom Module/MFD.lua:117900
+plugins/UH60M/data/modules/Custom Module/MFD.lua:117898
 plugins/UH60M/data/modules/Custom Module/airfuel.lua:7361
 plugins/UH60M/data/modules/Custom Module/anims.lua:15425
 plugins/UH60M/data/modules/Custom Module/configs.lua:7205
