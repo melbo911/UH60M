@@ -9,7 +9,7 @@ plugins/UH60M/data/init/initMain.lua:38664
 plugins/UH60M/data/modules/Custom Module/CDU1.lua:77249
 plugins/UH60M/data/modules/Custom Module/CDU2.lua:77249
 plugins/UH60M/data/modules/Custom Module/FDCP.lua:17307
-plugins/UH60M/data/modules/Custom Module/MFD.lua:117959
+plugins/UH60M/data/modules/Custom Module/MFD.lua:117900
 plugins/UH60M/data/modules/Custom Module/airfuel.lua:7361
 plugins/UH60M/data/modules/Custom Module/anims.lua:15425
 plugins/UH60M/data/modules/Custom Module/configs.lua:7205
@@ -22,7 +22,7 @@ plugins/UH60M/data/modules/Custom Module/mission.lua:24349
 plugins/UH60M/data/modules/Custom Module/patch.lua:2756
 plugins/UH60M/data/modules/Custom Module/sys.lua:20819
 plugins/UH60M/data/modules/configuration/wprefs.ini:275
-plugins/UH60M/data/modules/main.lua:59981
+plugins/UH60M/data/modules/main.lua:60105
 uh60m.acf:666366
 uh60m_icon11.png:605722
 uh60m_icon11_thumb.png:43636
