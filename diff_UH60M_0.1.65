@@ -1,17 +1,23 @@
 cams/default.cam:1283
+docs/UH60M-OpsManual.pdf:4822997
 fmod/uh60m.snd:25031
 objects/C130.obj:3986804
 objects/avionics_bay_door.obj:283115
-objects/cockpit.obj:8549377
+objects/ball.obj:16637
+objects/cockpit.obj:8434537
 objects/fuselage.obj:5256045
 objects/gears.obj:1704756
+plugins/UH60M/64/libcrypto-3-x64.dll:6872064
+plugins/UH60M/64/libssl-3-x64.dll:1347072
+plugins/UH60M/License:3350
+plugins/UH60M/changelog.txt:43104
 plugins/UH60M/data/init/initMain.lua:38664
 plugins/UH60M/data/modules/Custom Module/CDU1.lua:77249
 plugins/UH60M/data/modules/Custom Module/CDU2.lua:77249
 plugins/UH60M/data/modules/Custom Module/FDCP.lua:17307
 plugins/UH60M/data/modules/Custom Module/MFD.lua:117898
 plugins/UH60M/data/modules/Custom Module/airfuel.lua:7361
-plugins/UH60M/data/modules/Custom Module/anims.lua:15425
+plugins/UH60M/data/modules/Custom Module/anims.lua:15421
 plugins/UH60M/data/modules/Custom Module/configs.lua:7380
 plugins/UH60M/data/modules/Custom Module/controls.lua:14607
 plugins/UH60M/data/modules/Custom Module/engines.lua:6498
@@ -20,9 +26,10 @@ plugins/UH60M/data/modules/Custom Module/icam.lua:9947
 plugins/UH60M/data/modules/Custom Module/menu.lua:7079
 plugins/UH60M/data/modules/Custom Module/mission.lua:24349
 plugins/UH60M/data/modules/Custom Module/patch.lua:2756
-plugins/UH60M/data/modules/Custom Module/sys.lua:20819
-plugins/UH60M/data/modules/configuration/wprefs.ini:275
-plugins/UH60M/data/modules/main.lua:60105
+plugins/UH60M/data/modules/Custom Module/sys.lua:20778
+plugins/UH60M/data/modules/Custom Module/vibration.lua:1826
+plugins/UH60M/data/modules/main.lua:60362
+plugins/UH60M/version.txt:176
 uh60m.acf:666366
 uh60m_icon11.png:605722
 uh60m_icon11_thumb.png:43636
