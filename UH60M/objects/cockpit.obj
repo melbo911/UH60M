@@ -1,8 +1,9 @@
-I
+A
 800
 OBJ
 
-GLOBAL_specular  0.5
+GLOBAL_specular 0.5
+
 TEXTURE cockpit.png
 TEXTURE_LIT cockpit_LIT.png
 TEXTURE_NORMAL cockpit_normal.png
@@ -114683,7 +114684,7 @@ TRIS 250710 24
 ANIM_end
 ANIM_begin
 ANIM_trans 0.000000 0.000000 0.000000 0.000000 -0.001550 -0.002083 0.000000 1.000000 uh60m/sys/sw/dummy[52]
-ATTR_manip_command button uh60m/mfd/rev_acd 
+ATTR_manip_command button uh60m/mfd/rev_adc 
 TRIS 250734 24
 ANIM_end
 ANIM_begin
@@ -114710,7 +114711,7 @@ TRIS 250830 24
 ANIM_end
 ANIM_begin
 ANIM_trans 0.000000 0.000000 0.000000 0.000000 -0.001550 -0.002083 0.000000 1.000000 uh60m/sys/sw/dummy[52]
-ATTR_manip_command button uh60m/mfd/rev_acd 
+ATTR_manip_command button uh60m/mfd/rev_adc 
 TRIS 250854 24
 ANIM_end
 ANIM_begin
