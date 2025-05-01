@@ -7,7 +7,7 @@ objects/ball.obj:16637
 objects/body.png:7890483
 objects/body_normal.png:4613368
 objects/cockpit.obj:8434537
-objects/fuselage.obj:5334925
+objects/fuselage.obj:5262339
 objects/gears.obj:1704756
 objects/interior.obj:7385899
 plugins/UH60M/64/libcrypto-3-x64.dll:6872064
@@ -17,7 +17,7 @@ plugins/UH60M/changelog.txt:43104
 plugins/UH60M/data/init/initMain.lua:38664
 plugins/UH60M/data/modules/Custom Module/CDU1.lua:77249
 plugins/UH60M/data/modules/Custom Module/CDU2.lua:77249
-plugins/UH60M/data/modules/Custom Module/FDCP.lua:17307
+plugins/UH60M/data/modules/Custom Module/FDCP.lua:17298
 plugins/UH60M/data/modules/Custom Module/MFD.lua:117818
 plugins/UH60M/data/modules/Custom Module/airfuel.lua:7361
 plugins/UH60M/data/modules/Custom Module/anims.lua:15421
@@ -29,7 +29,7 @@ plugins/UH60M/data/modules/Custom Module/icam.lua:9947
 plugins/UH60M/data/modules/Custom Module/menu.lua:7738
 plugins/UH60M/data/modules/Custom Module/mission.lua:24349
 plugins/UH60M/data/modules/Custom Module/patch.lua:2756
-plugins/UH60M/data/modules/Custom Module/sys.lua:20778
+plugins/UH60M/data/modules/Custom Module/sys.lua:20860
 plugins/UH60M/data/modules/Custom Module/vibration.lua:1826
 plugins/UH60M/data/modules/main.lua:60408
 plugins/UH60M/version.txt:176
