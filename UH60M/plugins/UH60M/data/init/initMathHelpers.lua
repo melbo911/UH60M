@@ -14,7 +14,7 @@ function newInterpolator(...)
     if #arg == 1 then
         input = { arg[1][1] }
         value = arg[1][2]
-        return sasl.newCPPInterpolator(input, value)
+        return sasl.newCPPInterpolator(input, value), arg
     end
 
     local N = #arg - 1
@@ -37,7 +37,7 @@ function newInterpolator(...)
         return nil
     end
 
-    return sasl.newCPPInterpolator(input, value), value
+    return sasl.newCPPInterpolator(input, value), arg
 end
 
 -------------------------------------------------------------------------------
