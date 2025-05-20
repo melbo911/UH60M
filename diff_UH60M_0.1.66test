@@ -39,6 +39,7 @@ plugins/UH60M/data/modules/Custom Module/engines.lua:6412
 plugins/UH60M/data/modules/Custom Module/events.lua:11999
 plugins/UH60M/data/modules/Custom Module/mission.lua:24370
 plugins/UH60M/data/modules/Custom Module/nav.lua:8773
+plugins/UH60M/data/modules/Custom Module/patch.lua:2765
 plugins/UH60M/data/modules/Custom Module/sys.lua:21416
 plugins/UH60M/data/modules/main.lua:60719
 plugins/UH60M/version.txt:176
