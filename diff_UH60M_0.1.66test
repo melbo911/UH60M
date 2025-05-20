@@ -1,4 +1,4 @@
-docs/UH60M-OpsManual.pdf:4863818
+docs/UH60M-OpsManual.pdf:4864023
 objects/avionics_bay.obj:90927
 objects/avionics_bay_door.obj:341902
 objects/cockpit.obj:8549674
@@ -42,5 +42,5 @@ plugins/UH60M/data/modules/Custom Module/nav.lua:8773
 plugins/UH60M/data/modules/Custom Module/sys.lua:21416
 plugins/UH60M/data/modules/main.lua:60719
 plugins/UH60M/version.txt:176
-uh60m_icon11.png:2773135
-uh60m_icon11_thumb.png:34092
+uh60m.acf:666366
+upgraded:36
