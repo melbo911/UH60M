@@ -12,12 +12,12 @@ P _cgpt/1/_name fuel tank #1
 P _cgpt/1/_w_max 3967.500000000
 P _cgpt/1/_w_now 4364.250000000
 P _cgpt/1/_w_test 0.0
-P _cgpt/1/_z_ref 16.700000763
+P _cgpt/1/_z_ref 21.700000763
 P _cgpt/2/_name fuel tank #2
 P _cgpt/2/_w_max 3967.500000000
 P _cgpt/2/_w_now 4364.250000000
 P _cgpt/2/_w_test 0.0
-P _cgpt/2/_z_ref 16.700000763
+P _cgpt/2/_z_ref 21.700000763
 P _cgpt/3/_name fuel tank #3
 P _cgpt/3/_w_max 0.0
 P _cgpt/3/_w_now 1.0
@@ -106,7 +106,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR -90.0
 P _gear/0/_scon 17706.101562500
-P _gear/0/_stat_def 0.562904119
+P _gear/0/_stat_def 0.562904298
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -140,7 +140,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 17706.101562500
-P _gear/1/_stat_def 0.562904119
+P _gear/1/_stat_def 0.562904298
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -174,7 +174,7 @@ P _gear/2/_lonE 0.0
 P _gear/2/_lonN 0.0
 P _gear/2/_lonR 90.0
 P _gear/2/_scon 4344.552246094
-P _gear/2/_stat_def 0.820997238
+P _gear/2/_stat_def 0.820997357
 P _gear/2/_steerdeg_hispeed 13.0
 P _gear/2/_steerdeg_lospeed 31.0
 P _gear/2/_strut_comp 0.0
@@ -12276,7 +12276,7 @@ P _part/85/_part_specs_invis 1
 P _part/85/_part_tex 0
 P _part/85/_part_the 0.0
 P _part/85/_part_x -4.679999828
-P _part/85/_part_y -1.827095747
+P _part/85/_part_y -1.827095509
 P _part/85/_part_z 11.500000000
 P _part/85/_patt_con 0
 P _part/85/_patt_prt 0
@@ -13746,7 +13746,7 @@ P _part/86/_part_specs_invis 1
 P _part/86/_part_tex 0
 P _part/86/_part_the 0.0
 P _part/86/_part_x 4.679999828
-P _part/86/_part_y -1.827095747
+P _part/86/_part_y -1.827095509
 P _part/86/_part_z 11.500000000
 P _part/86/_patt_con 0
 P _part/86/_patt_prt 0
@@ -20226,10 +20226,10 @@ P acf/_tank_role/8 0
 P acf/_tank_role/count 9
 P acf/_tank_xyz/0,0 -4.0
 P acf/_tank_xyz/0,1 0.0
-P acf/_tank_xyz/0,2 16.700000763
+P acf/_tank_xyz/0,2 21.700000763
 P acf/_tank_xyz/1,0 4.0
 P acf/_tank_xyz/1,1 0.0
-P acf/_tank_xyz/1,2 16.700000763
+P acf/_tank_xyz/1,2 21.700000763
 P acf/_tank_xyz/2,0 0.0
 P acf/_tank_xyz/2,1 0.0
 P acf/_tank_xyz/2,2 0.0
@@ -20255,10 +20255,10 @@ P acf/_tank_xyz/i_count 9
 P acf/_tank_xyz/j_count 3
 P acf/_tank_xyz_full/0,0 -4.0
 P acf/_tank_xyz_full/0,1 0.0
-P acf/_tank_xyz_full/0,2 16.700000763
+P acf/_tank_xyz_full/0,2 21.700000763
 P acf/_tank_xyz_full/1,0 4.0
 P acf/_tank_xyz_full/1,1 0.0
-P acf/_tank_xyz_full/1,2 16.700000763
+P acf/_tank_xyz_full/1,2 21.700000763
 P acf/_tank_xyz_full/2,0 0.0
 P acf/_tank_xyz_full/2,1 0.0
 P acf/_tank_xyz_full/2,2 0.0
@@ -20319,7 +20319,7 @@ P acf/_vect_power_for 1.0
 P acf/_vect_rate 15.0
 P acf/_vectarmY 0.0
 P acf/_vectarmZ 0.0
-P acf/_version 0.1.67 XP11
+P acf/_version 0.2.1 XP11
 P acf/_vvi_but_adjusts_pitch 0
 P acf/_warn_airliner 0
 P acf/_warn_alt_app_100 0
