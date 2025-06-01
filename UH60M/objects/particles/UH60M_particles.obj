@@ -8,7 +8,8 @@ PARTICLE_SYSTEM UH60M_particles.pss
 
 POINT_COUNTS 0 0 0 0
 
-EMITTER 	UH60M_downwash		0 0 0  0 0 0
+EMITTER 	Rotor Wash		0 0 0  0 0 0
+#EMITTER 	UH60M_downwash		0 0 0  0 0 0
 EMITTER		UH60M_engine1		0 0 0  0 0 0
 EMITTER		UH60M_engine2		0 0 0  0 0 0
 EMITTER		UH60M_apu    		0 0 0  0 0 0
