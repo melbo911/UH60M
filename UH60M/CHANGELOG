@@ -1,3 +1,11 @@
+0.5.1
+
+Fixed HSTAB manual switch
+
+cockpit.obj cleanup for better performance
+
+
+------------------------------------------------------------------------------
 0.5.0
 
 SASL 3.21.2
