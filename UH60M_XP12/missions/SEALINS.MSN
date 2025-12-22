@@ -1,0 +1,37 @@
+0,123456
+1,Seal Insertion
+40,Mission Seal Insertion started
+40,Closing Doors
+50,uh60m/doors/cargo_left_close,0,30
+50,uh60m/doors/cargo_right_close,0,30
+40,Loading 10 Seals
+60,uh60m/conf/pax,0,10
+40,Wait until aircraft is in air
+61,sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot,0,0,40
+40,Open doors at 30ft
+50,uh60m/doors/cargo_left_open,30,0
+50,uh60m/doors/cargo_right_open,30,0
+40,Doors open
+61,sim/cockpit2/tcas/targets/position/weight_on_wheels,1,0,1
+40,Dropping seals on ground
+51,0,0
+51,0,0
+99
+51,0,0
+51,0,0
+99
+51,0,0
+51,0,0
+99
+51,0,0
+51,0,0
+99
+51,0,0
+51,0,0
+99
+51,0,0
+51,0,0
+40,Closing doors at 30ft
+50,uh60m/doors/cargo_left_close,0,30
+50,uh60m/doors/cargo_right_close,0,30
+88
