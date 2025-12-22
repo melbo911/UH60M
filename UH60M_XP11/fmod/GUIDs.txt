@@ -1,0 +1,67 @@
+{6ec6006d-c669-46d7-8684-d8928b1cab91} event:/cockpit/CB/0
+{55f529d2-c832-4c16-816c-01c3365d5419} event:/cockpit/CB/1
+{2a0bf0a4-873b-4564-b98a-fdf0629d32ca} event:/cockpit/CB/2
+{23985772-305b-4624-84ac-899cad707c2a} event:/cockpit/alarm1
+{fdd2a7d6-9fed-43ec-8f48-995f5fbe8984} event:/cockpit/alarm2
+{6eb87bd0-1fe9-427b-a566-ad2582149a34} event:/cockpit/battery_on
+{52bf4a14-568e-4c74-b34b-f2be0dd9c8ec} event:/cockpit/caution
+{bb27b2ba-9915-4869-a802-1960b7f7ec80} event:/cockpit/cockpit_talk
+{c9a7a3f1-4925-4976-8d03-a793f27898ed} event:/cockpit/switch
+{ebc62310-93cc-437b-ac40-43e8209b199d} event:/cockpit/switch2
+{0f5965a7-7859-4a2e-9dec-49d3776009f5} event:/cockpit/throttle_lock
+{eca07ac3-81ab-40e6-a43d-05a65814e074} event:/cockpit/throttle_unlock
+{06c954fe-a324-446a-adfd-8bbfc4bbab55} event:/cockpit/warning
+{c92abf6f-14a8-4b1d-b36b-caa4655d9e25} event:/doors/cargo_close
+{7d185635-59f1-4b07-be33-bcf88c8f3c26} event:/doors/cargo_open
+{eb3d1bc5-6cac-40cb-b58d-23f2c09653ff} event:/doors/cockpit_close
+{d99d11af-4b61-4689-b0ab-0a203f8ac05c} event:/doors/cockpit_open
+{f38bd008-c374-49a8-b07a-07635c3ef3ea} event:/doors/gunner_close
+{9c3ee3c6-fb8c-402b-afa6-1b759b60c1be} event:/doors/gunner_open
+{4a1273f4-8cf2-46b9-9a5a-ecee6369ee8f} event:/engines/apu_on
+{897bf1a3-d276-4f2e-9567-e2f69b9071df} event:/engines/engine_down
+{25c531d8-ea0e-4ae5-b4db-46203d6cc3de} event:/engines/engine_running
+{6919fe4b-0066-4a89-b7b5-e1d3dfb4d003} event:/engines/engine_running_inside
+{172cfd49-83ab-4873-a62f-116543ca571f} event:/engines/engine_start
+{eae55115-c2e4-45b1-9836-c55618bb1af6} event:/engines/rotor_running
+{7c0f8577-412f-438d-ba0e-9981e82cec75} event:/engines/rotor_running_inside
+{205b19f1-6484-42ed-9278-321a5e75c554} event:/engines/rotor_slap
+{5e63362e-439f-4e76-b27d-33a36203e49e} event:/others/GPU
+{3aed4799-949a-4ed1-bf1b-17b27d80aa5c} event:/others/TRUCK
+{7cfac388-28f0-49db-bb5c-d50cc74152a8} event:/sling/back
+{fd350a75-8eea-4973-9ac5-9f541afac7d7} event:/sling/down
+{79c6de4e-a701-4ac6-84dc-665b8da087d1} event:/sling/eight
+{da5737a2-0426-4352-9cbf-07b932d3062b} event:/sling/five
+{d5baef0c-10db-41a9-91ad-d74753f215e0} event:/sling/forward
+{32df6260-0644-4abb-b1df-dd0ba9d976ab} event:/sling/four
+{823e8c75-5d8a-499b-85fb-a9e266dd4268} event:/sling/hooked
+{59ff9e6a-533e-4c37-8106-9e5b894f98ab} event:/sling/left
+{de440035-570d-486b-883c-e383d6546b3b} event:/sling/level_off
+{642336c0-3d1c-49e5-92dc-a6cc72508046} event:/sling/nine
+{1e1dbeac-ea33-4e97-96ef-3f4f39735bad} event:/sling/one
+{a8eb7021-182b-42fc-89d9-1fce529b9390} event:/sling/released
+{2b28994d-1f3b-4340-a9af-70871adf4e6b} event:/sling/right
+{9e0b7f88-2163-4575-a709-1914d8df698e} event:/sling/seven
+{e23d1ca2-51ae-4d26-b70c-d0ddf2473241} event:/sling/six
+{0d5abcee-43c1-496d-8af6-352b89bf0962} event:/sling/ten
+{1e000d02-3ff7-43e7-9406-c92fc1e0ddf3} event:/sling/three
+{1e49dc70-bc15-4481-b4a2-7e1fcef2bb8f} event:/sling/two
+{9c6d8775-86fd-4caa-829b-270a3b18b9bd} event:/sling/up
+{48395216-7023-44a4-a803-6cdb0191abec} event:/weapons/CHAFF
+{356936d6-cbe5-4e65-81cc-b5db3c80bcfe} event:/weapons/FLARE
+{b4c4b4f8-22a8-4edb-b866-ca2e43dea486} event:/weapons/M134
+{923b0b92-e7a0-4e6e-909d-02b6f9a6f8a0} event:/weapons/MISSILE_EXPLO
+{7e5a3ff1-9c92-489e-84db-f9349cdffd70} event:/weapons/MISSILE_LAUNCH
+{9f08114d-36ec-44cc-b8bf-b2babda09f9e} bus:/
+{7f7c05a4-e05a-4d44-94fe-d4691147a9b7} bus:/Master
+{e3492bec-f854-4fbb-b2bc-23586269032e} bus:/Master/Copilot
+{a5a85a81-afd5-4425-9dc2-6e50f7776e6a} bus:/Master/Exterior Processed
+{06db5351-0b2f-4648-b97a-a33b40a00e11} bus:/Master/Exterior Processed/Aircraft
+{b6c156f1-9861-405c-a622-92b2ab8010a7} bus:/Master/Exterior Processed/Environment
+{8dbbc9d7-a954-4ed0-b1f1-f8111b03cbd1} bus:/Master/Exterior Unprocessed
+{751f5066-4651-4afb-a410-4cb9db0894c9} bus:/Master/Interior
+{d8526059-b27c-4eae-9b14-a1ee1cb3dfa1} bus:/Master/Radios
+{77575f3b-b9cd-4bff-9056-637cff744a14} bus:/Master/UI
+{daf80f07-5ced-4ad9-af52-d4017c8e2934} snapshot:/mute
+{fb458467-9c05-49aa-8ff3-e0b11cc5131f} snapshot:/headset
+{c14fc121-9b91-4059-b2e5-d2801dc993c0} snapshot:/in_cockpit
+{802dfa3d-152f-4fb4-9a0b-b517400735a6} bank:/Master Bank
