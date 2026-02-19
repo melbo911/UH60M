@@ -48,9 +48,10 @@
 40,HYDRAULIC BACKUP PUMP - OFF
 61,sim/cockpit2/switches/electric_hydraulic_pump_on,0,0.1,0
 #
-40,FUEL BOOST PUMPS - ON
-61,sim/cockpit2/engine/actuators/fuel_pump_on,1,0,1
-61,sim/cockpit2/engine/actuators/fuel_pump_on,2,0,1
+40,FUEL BOOST PUMPS - AS REQUIRED
+99
+#61,sim/cockpit2/engine/actuators/fuel_pump_on,1,0,1
+#61,sim/cockpit2/engine/actuators/fuel_pump_on,2,0,1
 #
 40,IGNITION KEY - ON
 61,uh60m/sys/key_engaged,0,0,1
@@ -79,7 +80,7 @@
 61,sim/cockpit/electrical/generator_on,1,0,1
 61,sim/cockpit/electrical/generator_on,2,0,1
 #
-40,START ENGINES - N1 > 10%
+40,START ENGINES - NG > 10%
 61,sim/cockpit2/engine/indicators/N1_percent,1,0,10
 61,sim/cockpit2/engine/indicators/N1_percent,2,0,10
 #

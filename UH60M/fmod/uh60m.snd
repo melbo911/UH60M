@@ -67,16 +67,16 @@ BEGIN_SOUND_ATTACHMENT
 	VEH_PART engine 0
 	PARAM_DREF_IDX 0
 #	EVENT_ALLOWED_FOR_AI
-	EVENT_START_COND sim/flightmodel2/engines/engine_is_burning_fuel[0] > 0
-	EVENT_END_COND sim/flightmodel2/engines/engine_is_burning_fuel[0] == 0
+	EVENT_START_COND sim/flightmodel/engine/ENGN_running[0] > 0
+	EVENT_END_COND sim/flightmodel/engine/ENGN_running[0] == 0
 END_SOUND_ATTACHMENT
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /engines/engine_running
 	VEH_PART engine 0
 	PARAM_DREF_IDX 1
 #	EVENT_ALLOWED_FOR_AI
-	EVENT_START_COND sim/flightmodel2/engines/engine_is_burning_fuel[1] > 0
-	EVENT_END_COND sim/flightmodel2/engines/engine_is_burning_fuel[1] == 0
+	EVENT_START_COND sim/flightmodel/engine/ENGN_running[1] > 0
+	EVENT_END_COND sim/flightmodel/engine/ENGN_running[1] == 0
 END_SOUND_ATTACHMENT
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /engines/engine_running_inside
@@ -238,19 +238,33 @@ END_SOUND_ATTACHMENT
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/switch
 	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/navigation_lights_on > 0.5
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/navigation_lights_on > 0.5
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/nav_lights > 0.5
 END_SOUND_ATTACHMENT
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /cockpit/switch
+	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/navigation_lights_on > 0.5
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/nav_flash > 0.5
+END_SOUND_ATTACHMENT
+#----------------------------------
+#BEGIN_SOUND_ATTACHMENT
+#	EVENT_NAME /cockpit/switch
+#	VEH_XYZ 0.0055 0.2514 -3.2077
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/beacon_on > 0.5
+#END_SOUND_ATTACHMENT
 #----------------------------------
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/switch
 	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/beacon_on > 0.5
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/strobe_lights_on > 0.5
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/ac_up_down > 0.5
 END_SOUND_ATTACHMENT
-#----------------------------------
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/switch
 	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/strobe_lights_on > 0.5
+#	EVENT_START_COND ABS_DELTA=sim/cockpit2/switches/strobe_lights_on > 0.5
+	EVENT_START_COND ABS_DELTA=uh60m/sys/sw/ac_day_night > 0.5
 END_SOUND_ATTACHMENT
 #----------------------------------
 #BEGIN_SOUND_ATTACHMENT
@@ -322,13 +336,13 @@ END_SOUND_ATTACHMENT
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/switch
 	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=sim/cockpit/switches/anti_ice_inlet_heat_per_engine[0] > 0.5
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/cowling_thermal_anti_ice_per_engine[0] > 0.5
 END_SOUND_ATTACHMENT
 #----------------------------------
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/switch
 	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=sim/cockpit/switches/anti_ice_inlet_heat_per_engine[1] > 0.5
+	EVENT_START_COND ABS_DELTA=sim/cockpit2/ice/cowling_thermal_anti_ice_per_engine[1] > 0.5
 END_SOUND_ATTACHMENT
 #----------------------------------
 BEGIN_SOUND_ATTACHMENT
@@ -657,7 +671,9 @@ END_SOUND_ATTACHMENT
 BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/alarm1
 	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND DELTA=sim/cockpit2/annunciators/autopilot_disconnect > 0.5
+	EVENT_START_COND ABS_DELTA=uh60m/fmod/ap > 0.5
+	#EVENT_START_COND DELTA=sim/cockpit2/annunciators/autopilot_disconnect > 0.5
+	#EVENT_START_COND DELTA=sim/cockpit2/autopilot/flight_director_mode > -0.5
    #EVENT_AUTO_END_FROM_START_COND
 END_SOUND_ATTACHMENT
 
@@ -776,106 +792,6 @@ BEGIN_SOUND_ATTACHMENT
 	EVENT_NAME /cockpit/throttle_lock
 	VEH_XYZ 0.0055 0.2514 -3.2077
 	EVENT_START_COND uh60m/engn/fuel_lvr1 == 0
-END_SOUND_ATTACHMENT
-#----------------------------------
-
-#
-# sling ops guidance
-# 
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/one
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[0] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/two
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[1] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/three
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[2] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/four
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[3] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/five
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[4] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/six
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[5] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/seven
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[6] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/eight
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[7] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/nine
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[8] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/ten
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[9] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/up
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[10] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/down
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[11] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/left
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[12] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/right
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[13] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/forward
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[14] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/back
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[15] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/level_off
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[16] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/hooked
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[17] > 0.5
-END_SOUND_ATTACHMENT
-BEGIN_SOUND_ATTACHMENT
-	EVENT_NAME /sling/released
-	VEH_XYZ 0.0055 0.2514 -3.2077
-	EVENT_START_COND ABS_DELTA=uh60m/fmod/sling[18] > 0.5
 END_SOUND_ATTACHMENT
 #----------------------------------
 

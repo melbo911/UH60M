@@ -1487,12 +1487,12 @@ P shell/_bot_s1 0.0
 P shell/_bot_s2 0.0
 P shell/_bot_t1 0.0
 P shell/_bot_t2 0.0
-P shell/_bul_area 0.079000004
+P shell/_bul_area 0.169000004
 P shell/_cgY 0.0
 P shell/_cgZ 0.0
 P shell/_class_type wpn_class_bullet
-P shell/_death_effect Bullet Explosion
-P shell/_death_pss_path Resources/effects/bullet_explosion.pss
+P shell/_death_effect M134_HIT
+P shell/_death_pss_path UH60M_explosion.pss
 P shell/_fuel_warhead_mass_max 0.029999999
 P shell/_geo_xyz/0,0,0 0.0
 P shell/_geo_xyz/0,0,1 0.0
@@ -2956,7 +2956,7 @@ P shell/_mis_crat_per_degpersec_bore 0.0
 P shell/_mis_drag_chute_S 0.0
 P shell/_mis_duration_max/0 0.0
 P shell/_mis_duration_max/1 0.0
-P shell/_mis_duration_max/2 0.0
+P shell/_mis_duration_max/2 120.0
 P shell/_mis_duration_max/count 3
 P shell/_mis_fin_conrat/0 0.0
 P shell/_mis_fin_conrat/1 0.0
@@ -3028,6 +3028,6 @@ P shell/_top_s1 0.0
 P shell/_top_s2 0.0
 P shell/_top_t1 0.0
 P shell/_top_t2 0.0
-P shell/_total_shell_mass_max 0.059999999
+P shell/_total_shell_mass_max 0.259999999
 P shell/_warhead_type wpn_warhead_none
 END
