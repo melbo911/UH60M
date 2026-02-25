@@ -1,3 +1,13 @@
+0.6.2
+------------------------------------------------------------------------------
+
+added functionality of SeaHawk AUX tank ( conf/exterior = 1 )
+
+added animated torpedo in MH-60R (SeaHawk), follows ground target. with FMOD sound
+
+improved HoverHold ( HVR POS )
+
+------------------------------------------------------------------------------
 0.6.1
 
 fixed issue in range after plugin restart in hover display
@@ -8,6 +18,8 @@ fixed fmod sounds for strobe and beacon switches
 
 fixed (finally) file name for font MODENINE.ttf
 
+fixed bug in cargo-door left window 3D-model
+
 fixed tank assignment during restart
 
 improved rotor brake ( thx @Janov for the hint )
@@ -16,7 +28,7 @@ changed FUEL BOOST PUMPS to "not always required" ( thx @Janov )
 
 reworked run-up throttle code
 
-reworked FPS ( flight path stability ) code
+reworked FPS ( flight path stability ) code and functionality
 
 added BLADE DE-ICE function via pedestal module  ( thx @Janov )
 
@@ -26,7 +38,7 @@ added cockpit vibration ( enable via PREFS menu )
 
 added rheo for formation lights ( thx @Janov )
 
-added functionality of 3 JayHawk tanks ( conf/exterior > 0 )
+added functionality of 3 JayHawk AUX tanks ( conf/exterior = 2 )
 
 ------------------------------------------------------------------------------
 0.6.0

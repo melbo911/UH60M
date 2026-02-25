@@ -1,9 +1,8 @@
-A
+I
 800
 OBJ
 
 GLOBAL_specular 1.0
-
 TEXTURE body.png
 TEXTURE_LIT body_LIT.png
 TEXTURE_NORMAL body_normal.png
@@ -38688,7 +38687,7 @@ ANIM_end
 ANIM_begin
 ANIM_hide 0.000000 0.900000 uh60m/conf/hoist
 TRIS 71814 11208
-ANIM_hide 0.900000 1.000000 sim/aircraft/overflow/acf_jett_is_slung
+ANIM_hide 0.500000 1.000000 uh60m/ops/winch_ena
 TRIS 83022 9474
 ANIM_end
 ANIM_begin
