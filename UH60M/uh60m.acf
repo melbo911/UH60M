@@ -13777,10 +13777,10 @@ P acf/_anchor_xyz_acf/1 0.000000000
 P acf/_anchor_xyz_acf/2 0.000000000
 P acf/_anchor_xyz_acf/count 3
 P acf/_ang_offset/0,0 0.000000000
-P acf/_ang_offset/0,1 -4.000000000
+P acf/_ang_offset/0,1 -11.000000000
 P acf/_ang_offset/0,2 0.000000000
 P acf/_ang_offset/1,0 0.000000000
-P acf/_ang_offset/1,1 -4.000000000
+P acf/_ang_offset/1,1 -11.000000000
 P acf/_ang_offset/1,2 0.000000000
 P acf/_ang_offset/i_count 2
 P acf/_ang_offset/j_count 3
@@ -16420,11 +16420,11 @@ P acf/_paraf_vvi 0.000000000
 P acf/_park_non_vect_props_00_below_02 0
 P acf/_park_non_vect_props_90_below_05 0
 P acf/_pe_xyz/0 2.289999962
-P acf/_pe_xyz/1 2.657480240
+P acf/_pe_xyz/1 2.960000038
 P acf/_pe_xyz/2 6.699999809
 P acf/_pe_xyz/count 3
 P acf/_pe_xyz_copilot/0 -2.289999962
-P acf/_pe_xyz_copilot/1 2.657480240
+P acf/_pe_xyz_copilot/1 2.960000038
 P acf/_pe_xyz_copilot/2 6.699999809
 P acf/_pe_xyz_copilot/count 3
 P acf/_phase_hdng_tvect_in_at_00 0
@@ -16951,7 +16951,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.6.2a XP12
+P acf/_version 0.6.2c XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0
