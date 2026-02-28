@@ -1,13 +1,16 @@
-0.6.2
 ------------------------------------------------------------------------------
+0.6.2
 
 added functionality of SeaHawk AUX tank ( conf/exterior = 1 )
 
 added animated torpedo in MH-60R (SeaHawk), follows ground target. with FMOD sound
 
+added update / patch system. new updates will be announced with a popup and in MFD
+
+added DIM function to NAV lights
+
 improved HoverHold ( HVR POS )
 
-added update / patch system. new updates will be announced with a popup and in MFD and can be installed via pulldown menu
 
 ------------------------------------------------------------------------------
 0.6.1
