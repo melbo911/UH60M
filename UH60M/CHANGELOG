@@ -7,6 +7,8 @@ added animated torpedo in MH-60R (SeaHawk), follows ground target. with FMOD sou
 
 improved HoverHold ( HVR POS )
 
+added update / patch system. new updates will be announced with a popup and in MFD and can be installed via pulldown menu
+
 ------------------------------------------------------------------------------
 0.6.1
 
