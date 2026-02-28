@@ -42099,7 +42099,7 @@ ATTR_manip_toggle button 1.000000 0.000000 sim/cockpit2/switches/generic_lights_
 TRIS 3390 36
 ATTR_manip_toggle button 1.000000 0.000000 uh60m/sys/sw/nav_flash NAV lights
 TRIS 3426 36
-ATTR_manip_command_switch_left_right left_right uh60m/sys/nav_dim uh60m/sys/nav_brt NAV lights
+ATTR_manip_command_switch_left_right left_right uh60m/sys/nav_lts_brt uh60m/sys/nav_lts_dim NAV lights
 TRIS 3462 36
 ATTR_manip_command_switch_left_right left_right uh60m/sys/ac_night uh60m/sys/ac_day AC lights
 TRIS 3498 36
