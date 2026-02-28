@@ -1,6 +1,9 @@
 CHANGELOG
 docs/UH60M-OpsManual.pdf
+objects/cockpit.obj
+objects/cockpit2.obj
 objects/fuselage.obj
+objects/lights_out_xp12.obj
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
