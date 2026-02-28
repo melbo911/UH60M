@@ -1,9 +1,4 @@
-CHANGELOG:15884
-docs/UH60M-OpsManual.pdf:7072066
 objects/cockpit.obj:3126879
-objects/cockpit2.obj:8309278
-objects/fuselage.obj:2877523
-objects/lights_out_xp12.obj:8412
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
 plugins/UH60M/64/lin.xpl:16640896
@@ -54,14 +49,13 @@ plugins/UH60M/data/modules/Custom Module/slingops.secured:8720
 plugins/UH60M/data/modules/Custom Module/sys.secured:39248
 plugins/UH60M/data/modules/Custom Module/vibration.secured:1808
 plugins/UH60M/data/modules/Custom Module/winch.secured:4864
-plugins/UH60M/data/modules/configuration/configuration.ini:1966
 plugins/UH60M/data/modules/main.secured:92944
-plugins/UH60M/liblinux/libc++.so:28
-plugins/UH60M/liblinux/libc++.so.1:787328
 plugins/UH60M/liblinux/libc++.so.1.0:787328
-plugins/UH60M/liblinux/libc++abi.so:194968
-plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++.so.1:787328
+plugins/UH60M/liblinux/libc++.so:28
 plugins/UH60M/liblinux/libc++abi.so.1.0:194968
+plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++abi.so:194968
 plugins/UH60M/liblinux/readme.txt:43
 plugins/UH60M/version.txt:182
 uh60m.acf:583493
