@@ -1,4 +1,3 @@
-CHANGELOG:15880
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
 plugins/UH60M/64/lin.xpl:16640896
@@ -57,11 +56,11 @@ plugins/UH60M/data/modules/Custom Module/sys.secured:39360
 plugins/UH60M/data/modules/Custom Module/vibration.secured:1824
 plugins/UH60M/data/modules/Custom Module/winch.secured:4896
 plugins/UH60M/data/modules/main.secured:92992
-plugins/UH60M/liblinux/libc++.so:28
-plugins/UH60M/liblinux/libc++.so.1:787328
 plugins/UH60M/liblinux/libc++.so.1.0:787328
-plugins/UH60M/liblinux/libc++abi.so:194968
-plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++.so.1:787328
+plugins/UH60M/liblinux/libc++.so:28
 plugins/UH60M/liblinux/libc++abi.so.1.0:194968
+plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++abi.so:194968
 plugins/UH60M/version.txt:182
 uh60m.acf:724114
