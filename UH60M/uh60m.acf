@@ -16951,7 +16951,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.6.4 XP12
+P acf/_version 0.6.5 XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0
