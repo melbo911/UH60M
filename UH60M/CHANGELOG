@@ -1,19 +1,9 @@
 ------------------------------------------------------------------------------
-0.6.2
+0.7
 
-added functionality of SeaHawk AUX tank ( conf/exterior = 1 )
+fixed mismatch in documentation and mission commands
 
-added animated torpedo in MH-60R (SeaHawk), follows ground target. with FMOD sound
-
-added update / patch system. new updates will be announced with a popup and in MFD
-
-added DIM function to NAV lights
-
-improved HoverHold ( HVR POS )
-
-
-------------------------------------------------------------------------------
-0.6.1
+fixed issue with flight plan sequencing next way point  
 
 fixed issue in range after plugin restart in hover display
 
@@ -44,6 +34,18 @@ added cockpit vibration ( enable via PREFS menu )
 added rheo for formation lights ( thx @Janov )
 
 added functionality of 3 JayHawk AUX tanks ( conf/exterior = 2 )
+
+added functionality of SeaHawk AUX tank ( conf/exterior = 1 )
+
+added animated torpedo in MH-60R (SeaHawk), follows ground target. with FMOD sound
+
+added DIM function to NAV lights
+
+provided update / patch system. new updates will be announced with a popup and in MFD
+
+improved HoverHold ( HVR POS )
+
+released now paintkit
 
 ------------------------------------------------------------------------------
 0.6.0

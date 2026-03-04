@@ -42173,9 +42173,9 @@ ATTR_manip_toggle button 1.000000 0.000000 sim/cockpit2/ice/ice_pitot_heat_on_pi
 TRIS 4110 36
 ATTR_manip_toggle button 1.000000 0.000000 sim/cockpit2/ice/ice_pitot_heat_on_copilot PITOT LEFT
 TRIS 4146 36
-ATTR_manip_toggle button 1.000000 0.000000 sim/cockpit2/ice/cowling_thermal_anti_ice_per_engine[1] inlet heat right
+ATTR_manip_toggle button 1.000000 0.000000 sim/cockpit2/ice/ice_inlet_heat_on_per_engine[1] inlet heat right
 TRIS 4182 36
-ATTR_manip_toggle button 1.000000 0.000000 sim/cockpit2/ice/cowling_thermal_anti_ice_per_engine[0] inlet heat left
+ATTR_manip_toggle button 1.000000 0.000000 sim/cockpit2/ice/ice_inlet_heat_on_per_engine[0] inlet heat left
 TRIS 4218 36
 ANIM_end
 ATTR_manip_command butto uh60m/sys/cb/cb15 

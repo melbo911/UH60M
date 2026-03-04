@@ -5,6 +5,8 @@ docs/UH60M-FMS.pdf
 docs/UH60M-OpsManual.pdf
 fmod/GUIDs.txt
 fmod/Master Bank.bank
+missions/EDDF-EDDM.fpn
+missions/MISSIONS_HOWTO.TXT
 objects/cockpit.obj
 objects/cockpit2.obj
 objects/lights_out_xp11.obj

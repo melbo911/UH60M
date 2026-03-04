@@ -36,7 +36,7 @@ A mission can be build from the following list of commands.
 
     ------------------------------------------------------------------------------
 
-    11,(preset|freq)                   com1 preset or freq
+    11,(preset|freq)                   set com1 to preset or freq
 
            11,15
 
@@ -44,7 +44,7 @@ A mission can be build from the following list of commands.
 
     ------------------------------------------------------------------------------
 
-    12,(preset|freq)                   com2 preset or freq
+    12,(preset|freq)                   set com2 to preset or freq
 
            12,15
 
@@ -56,19 +56,31 @@ A mission can be build from the following list of commands.
 
     ------------------------------------------------------------------------------
 
-    21,(preset|freq)                   set NAV1 preset or freq
+    21,(preset|freq)                   set NAV1 to preset or freq
 
            21,8
 
-           21,ILS-LOWI,111.10
-
-    ------------------------------------------------------------------------------
-		
-    22 nav2 preset or freq
+           21,111.10
 
     ------------------------------------------------------------------------------
 
-    23,(preset|freq)                   set ADF1 preset or freq
+    22,(preset|freq)                   set NAV2 to preset or freq
+
+           22,8
+
+           22,111.10
+
+    ------------------------------------------------------------------------------
+
+    23,(preset|freq)                   set ADF1 to preset or freq
+
+           23,5
+
+           23,123.45
+
+    ------------------------------------------------------------------------------
+
+    24,(preset|freq)                   set ADF2 to preset or freq
 
            24,5
 
@@ -76,17 +88,15 @@ A mission can be build from the following list of commands.
 
     ------------------------------------------------------------------------------
 
-    24,(preset|freq)                   set ADF2 preset or freq
+    30,preset,text,lat,lon,[flyo]      define location/position preset
+                                       flyo :  fly_over = 1 , fly_by = 0
+
+           30,11,Konus,48.1789,11.9277,1
 
     ------------------------------------------------------------------------------
 
-    30,preset,text,lat,lon             define location/position preset
-
-           30,11,Konus,48.1789,11.9277
-
-    ------------------------------------------------------------------------------
-
-    31,text,lat,lon,alt,vs             lat/lon location from preset or direct
+    31,text,lat,lon,alt,vs,[flyo]      lat/lon location from preset or direct
+                                       flyo :  fly_over = 1 , fly_by = 0
 
            31,WPT1,48.3452,11.7496,0,0    ( no alt or vs specified )
 
@@ -94,9 +104,10 @@ A mission can be build from the following list of commands.
 
     ------------------------------------------------------------------------------
 
-    32,text,id,lat,lon,alt,vs          navaid location
+    32,text,id,lat,lon,alt,vs,[flyo]   navaid location
+                                       flyo :  fly_over = 1 , fly_by = 0
 
-           32,Munich,EDDM,0,0,0,0      lat/lon and alt/vs are optional
+           32,Munich,EDDM,0,0,0,0      lat/lon and alt/vs and flyo are optional
 
     ------------------------------------------------------------------------------
 
