@@ -1,16 +1,10 @@
 CHANGELOG
-CREDITS
-docs/UH60M-FDCP.pdf
 docs/UH60M-FMS.pdf
 docs/UH60M-OpsManual.pdf
-fmod/GUIDs.txt
-fmod/Master Bank.bank
 missions/EDDF-EDDM.fpn
 missions/MISSIONS_HOWTO.TXT
 objects/cockpit.obj
 objects/cockpit2.obj
-objects/lights_out_xp11.obj
-objects/torpedo.obj
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
@@ -68,7 +62,6 @@ plugins/UH60M/data/modules/Custom Module/slingops.secured
 plugins/UH60M/data/modules/Custom Module/sys.secured
 plugins/UH60M/data/modules/Custom Module/vibration.secured
 plugins/UH60M/data/modules/Custom Module/winch.secured
-plugins/UH60M/data/modules/configuration/configuration.ini
 plugins/UH60M/data/modules/main.secured
 plugins/UH60M/liblinux/libc++.so
 plugins/UH60M/liblinux/libc++.so.1
@@ -77,5 +70,4 @@ plugins/UH60M/liblinux/libc++abi.so
 plugins/UH60M/liblinux/libc++abi.so.1
 plugins/UH60M/liblinux/libc++abi.so.1.0
 plugins/UH60M/version.txt
-plugins/mac_setup.sh
 uh60m.acf
