@@ -15431,7 +15431,7 @@ P acf/_cyclic_lf_trim_rat 0.250000000
 P acf/_cyclic_rt_trim_rat 0.259999990
 P acf/_cyclic_up_trim_rat 0.500000000
 P acf/_default_livery_name Default
-P acf/_deg_psi_per_deg_def 1.000000000
+P acf/_deg_psi_per_deg_def 12.000000000
 P acf/_deg_the_per_deg_def 6.000000000
 P acf/_delta3 0.000000000
 P acf/_descrip Sikorsky UH-60M BlackHawk
@@ -16446,9 +16446,9 @@ P acf/_prop_inlet_recovery_v12 0.000000000
 P acf/_prop_pitch_deg_per_sec 45.000000000
 P acf/_prop_pitch_deg_per_sec_unfeather 45.000000000
 P acf/_prop_x_ctr 0.000000000
-P acf/_ptch_acft_dn_trim_rat 0.000000000
+P acf/_ptch_acft_dn_trim_rat 16.000000000
 P acf/_ptch_acft_trim_mode 0
-P acf/_ptch_acft_up_trim_rat 0.000000000
+P acf/_ptch_acft_up_trim_rat 13.000000000
 P acf/_ptch_but_adjusts_alt_hold 0
 P acf/_ptch_max_full_def_KIAS 999.000000000
 P acf/_puff_LMN/0 0.000000000
@@ -16951,7 +16951,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.6.7 XP12
+P acf/_version 0.6.8 XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0
