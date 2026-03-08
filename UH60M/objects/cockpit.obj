@@ -42069,7 +42069,7 @@ TRIS 3066 36
 ANIM_end
 ANIM_begin
 ANIM_begin
-ATTR_manip_drag_axis rotate_medium 0.050000 0.050000 0.000000 0.000000 1.000000 uh60m/lights/formation_light formation lights
+ATTR_manip_drag_axis rotate_medium 0.050000 0.050000 0.000000 0.000000 1.000000 uh60m/sys/sw/formation_light formation lights
 ATTR_axis_detent_range 0.000000 0.000000 0.000000
 ATTR_manip_wheel 0.100000
 TRIS 3102 36

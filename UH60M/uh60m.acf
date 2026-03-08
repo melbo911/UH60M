@@ -13609,7 +13609,7 @@ P acf/_AShi_max_beta 0.000000000
 P acf/_AShi_max_phidot 0.000000000
 P acf/_AShi_phi_V 1001.000000000
 P acf/_AShi_phidot_k 0.000000000
-P acf/_AShi_psi_V 1001.000000000
+P acf/_AShi_psi_V 51.000000000
 P acf/_AShi_ptch_rat 1.000000000
 P acf/_AShi_roll_rat 1.000000000
 P acf/_AShi_the_V 1001.000000000
@@ -13619,7 +13619,7 @@ P acf/_ASlo_max_psidot 40.000000000
 P acf/_ASlo_max_thedot 30.000000000
 P acf/_ASlo_phi_V 1000.000000000
 P acf/_ASlo_phidot_k 0.020000000
-P acf/_ASlo_psi_V 1000.000000000
+P acf/_ASlo_psi_V 50.000000000
 P acf/_ASlo_psidot_k 0.020000000
 P acf/_ASlo_ptch_rat 1.000000000
 P acf/_ASlo_roll_rat 1.000000000
@@ -15431,7 +15431,7 @@ P acf/_cyclic_lf_trim_rat 0.250000000
 P acf/_cyclic_rt_trim_rat 0.259999990
 P acf/_cyclic_up_trim_rat 0.500000000
 P acf/_default_livery_name Default
-P acf/_deg_psi_per_deg_def 12.000000000
+P acf/_deg_psi_per_deg_def 20.000000000
 P acf/_deg_the_per_deg_def 6.000000000
 P acf/_delta3 0.000000000
 P acf/_descrip Sikorsky UH-60M BlackHawk
@@ -16951,7 +16951,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.6.9 XP12
+P acf/_version 0.6.10 XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0
