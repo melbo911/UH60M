@@ -106,7 +106,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR -90.0
 P _gear/0/_scon 16493.208984375
-P _gear/0/_stat_def 0.498208582
+P _gear/0/_stat_def 0.498208702
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -140,7 +140,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 16493.208984375
-P _gear/1/_stat_def 0.498208582
+P _gear/1/_stat_def 0.498208702
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -174,7 +174,7 @@ P _gear/2/_lonE 0.0
 P _gear/2/_lonN 0.0
 P _gear/2/_lonR 90.0
 P _gear/2/_scon 4046.944335938
-P _gear/2/_stat_def 0.267957002
+P _gear/2/_stat_def 0.267957091
 P _gear/2/_steerdeg_hispeed 13.0
 P _gear/2/_steerdeg_lospeed 31.0
 P _gear/2/_strut_comp 0.0
@@ -208,7 +208,7 @@ P _gear/3/_lonE 0.0
 P _gear/3/_lonN 0.0
 P _gear/3/_lonR 90.0
 P _gear/3/_scon 8093.888671875
-P _gear/3/_stat_def 0.553624928
+P _gear/3/_stat_def 0.553624570
 P _gear/3/_steerdeg_hispeed 13.0
 P _gear/3/_steerdeg_lospeed 31.0
 P _gear/3/_strut_comp 0.0
@@ -12552,7 +12552,7 @@ P _part/85/_part_specs_invis 1
 P _part/85/_part_tex 0
 P _part/85/_part_the 0.0
 P _part/85/_part_x -4.679999828
-P _part/85/_part_y -2.301791430
+P _part/85/_part_y -2.301791191
 P _part/85/_part_z 11.500000000
 P _part/85/_patt_con 0
 P _part/85/_patt_prt 0
@@ -14022,7 +14022,7 @@ P _part/86/_part_specs_invis 1
 P _part/86/_part_tex 0
 P _part/86/_part_the 0.0
 P _part/86/_part_x 4.679999828
-P _part/86/_part_y -2.301791430
+P _part/86/_part_y -2.301791191
 P _part/86/_part_z 11.500000000
 P _part/86/_patt_con 0
 P _part/86/_patt_prt 0
@@ -15492,7 +15492,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 0.0
 P _part/87/_part_x 0.0
-P _part/87/_part_y -3.452042818
+P _part/87/_part_y -3.452042580
 P _part/87/_part_z 40.130001068
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -16962,7 +16962,7 @@ P _part/88/_part_specs_invis 1
 P _part/88/_part_tex 0
 P _part/88/_part_the 0.0
 P _part/88/_part_x 0.0
-P _part/88/_part_y -3.166374922
+P _part/88/_part_y -3.166375160
 P _part/88/_part_z 26.500000000
 P _part/88/_patt_con 0
 P _part/88/_patt_prt 0
@@ -19064,7 +19064,7 @@ P acf/_AShi_max_beta 0.0
 P acf/_AShi_max_phidot 0.0
 P acf/_AShi_phi_V 1001.0
 P acf/_AShi_phidot_k 0.0
-P acf/_AShi_psi_V 1051.0
+P acf/_AShi_psi_V 50.0
 P acf/_AShi_ptch_rat 1.0
 P acf/_AShi_roll_rat 1.0
 P acf/_AShi_the_V 1001.0
@@ -19077,7 +19077,7 @@ P acf/_ASlo_max_thedot 30.0
 P acf/_ASlo_phi_V 1000.0
 P acf/_ASlo_phi_k 0.0
 P acf/_ASlo_phidot_k 0.020000000
-P acf/_ASlo_psi_V 1000.0
+P acf/_ASlo_psi_V 30.0
 P acf/_ASlo_psidot_k 0.020000000
 P acf/_ASlo_ptch_rat 1.0
 P acf/_ASlo_roll_rat 1.0
@@ -20813,7 +20813,7 @@ P acf/_cyclic_dn_trim_rat 0.500000000
 P acf/_cyclic_lf_trim_rat 0.250000000
 P acf/_cyclic_rt_trim_rat 0.259999990
 P acf/_cyclic_up_trim_rat 0.500000000
-P acf/_deg_psi_per_deg_def 12.0
+P acf/_deg_psi_per_deg_def 20.0
 P acf/_deg_the_per_deg_def 6.0
 P acf/_delta3 0.0
 P acf/_descrip Sikorsky UH-60M BlackHawk
@@ -21636,15 +21636,15 @@ P acf/_ott_atr_Kp 0.449999988
 P acf/_ott_flare_begin 15.0
 P acf/_ott_flare_end 5.0
 P acf/_ott_gls_sec_into_future 8.0
-P acf/_ott_phi_deg_off_for_full_def 69.599998474
+P acf/_ott_phi_deg_off_for_full_def 19.600000381
 P acf/_ott_phi_sec_into_future 0.400000006
 P acf/_ott_phi_sec_to_tune 4.0
 P acf/_ott_psi_deg_off_for_full_def 15.0
 P acf/_ott_psi_sec_into_future 0.750000000
 P acf/_ott_psi_sec_to_tune 15.0
-P acf/_ott_roll_rate 12.0
-P acf/_ott_roll_response 3.400000095
-P acf/_ott_the_deg_off_for_full_def 99.199996948
+P acf/_ott_roll_rate 8.0
+P acf/_ott_roll_response 4.400000095
+P acf/_ott_the_deg_off_for_full_def 39.200000763
 P acf/_ott_the_deg_per_kt 0.200000003
 P acf/_ott_the_sec_into_future 0.400000006
 P acf/_ott_the_sec_to_trim 0.0
@@ -22165,7 +22165,7 @@ P acf/_vect_power_for 1.0
 P acf/_vect_rate 15.0
 P acf/_vectarmY 0.0
 P acf/_vectarmZ 0.0
-P acf/_version 0.6.10 XP11
+P acf/_version 0.6.11 XP11
 P acf/_vvi_but_adjusts_pitch 0
 P acf/_warn_airliner 0
 P acf/_warn_alt_app_100 0
