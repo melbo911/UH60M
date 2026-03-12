@@ -17,6 +17,8 @@ fixed bug in cargo-door left window 3D-model
 
 fixed tank assignment during restart
 
+fixed issues in LNAV ( thx @Bob Denny for your patience )
+
 improved rotor brake ( thx @Janov for the hint )
 
 changed FUEL BOOST PUMPS to "not always required" ( thx @Janov )
