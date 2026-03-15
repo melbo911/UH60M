@@ -1,3 +1,14 @@
+0.7.d2
+new autopilot constants
+
+slider in config menu
+
+config option for self centering cyclics
+
+
+0.7.d1
+fixed issue with FPS trim
+
 ------------------------------------------------------------------------------
 0.7
 
@@ -16,6 +27,8 @@ fixed (finally) file name for font MODENINE.ttf
 fixed bug in cargo-door left window 3D-model
 
 fixed tank assignment during restart
+
+fixed issues in LNAV ( thx @Bob Denny for your patience )
 
 improved rotor brake ( thx @Janov for the hint )
 

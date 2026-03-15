@@ -1,4 +1,4 @@
-CHANGELOG:15930
+CHANGELOG:16121
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
 plugins/UH60M/64/lin.xpl:16640896
@@ -22,7 +22,7 @@ plugins/UH60M/data/init/initBasicHelpers.secured:544
 plugins/UH60M/data/init/initContextWindows.secured:8880
 plugins/UH60M/data/init/initDefaultEventHandlers.secured:1600
 plugins/UH60M/data/init/initFilesystemHelpers.secured:1280
-plugins/UH60M/data/init/initMain.secured:18672
+plugins/UH60M/data/init/initMain.secured:18624
 plugins/UH60M/data/init/initMathHelpers.secured:1392
 plugins/UH60M/data/init/initProcessing.secured:3904
 plugins/UH60M/data/init/initProperties.secured:14688
@@ -33,35 +33,35 @@ plugins/UH60M/data/init/readme.txt:47
 plugins/UH60M/data/modules/Custom Module/CDU1.secured:109344
 plugins/UH60M/data/modules/Custom Module/CDU2.secured:109344
 plugins/UH60M/data/modules/Custom Module/FDCP.secured:29024
-plugins/UH60M/data/modules/Custom Module/MFD.secured:159648
-plugins/UH60M/data/modules/Custom Module/airfuel.secured:9984
-plugins/UH60M/data/modules/Custom Module/anims.secured:20464
-plugins/UH60M/data/modules/Custom Module/configs.secured:17872
-plugins/UH60M/data/modules/Custom Module/controls.secured:24336
-plugins/UH60M/data/modules/Custom Module/engines.secured:15056
-plugins/UH60M/data/modules/Custom Module/events.secured:18896
-plugins/UH60M/data/modules/Custom Module/failures.secured:2672
-plugins/UH60M/data/modules/Custom Module/formation.secured:3280
-plugins/UH60M/data/modules/Custom Module/icam.secured:13696
-plugins/UH60M/data/modules/Custom Module/limits.secured:880
-plugins/UH60M/data/modules/Custom Module/menu.secured:18336
-plugins/UH60M/data/modules/Custom Module/message.secured:4448
+plugins/UH60M/data/modules/Custom Module/MFD.secured:159680
+plugins/UH60M/data/modules/Custom Module/airfuel.secured:10016
+plugins/UH60M/data/modules/Custom Module/anims.secured:20832
+plugins/UH60M/data/modules/Custom Module/configs.secured:17920
+plugins/UH60M/data/modules/Custom Module/controls.secured:24496
+plugins/UH60M/data/modules/Custom Module/engines.secured:14992
+plugins/UH60M/data/modules/Custom Module/events.secured:18832
+plugins/UH60M/data/modules/Custom Module/failures.secured:2688
+plugins/UH60M/data/modules/Custom Module/formation.secured:3296
+plugins/UH60M/data/modules/Custom Module/icam.secured:13728
+plugins/UH60M/data/modules/Custom Module/limits.secured:896
+plugins/UH60M/data/modules/Custom Module/menu.secured:20800
+plugins/UH60M/data/modules/Custom Module/message.secured:4464
 plugins/UH60M/data/modules/Custom Module/mission.secured:35344
 plugins/UH60M/data/modules/Custom Module/nav.secured:22464
-plugins/UH60M/data/modules/Custom Module/ops.secured:32944
-plugins/UH60M/data/modules/Custom Module/patch.secured:6432
+plugins/UH60M/data/modules/Custom Module/ops.secured:32960
+plugins/UH60M/data/modules/Custom Module/patch.secured:6368
 plugins/UH60M/data/modules/Custom Module/perf.secured:2608
-plugins/UH60M/data/modules/Custom Module/rotors.secured:5840
+plugins/UH60M/data/modules/Custom Module/rotors.secured:5856
 plugins/UH60M/data/modules/Custom Module/slingops.secured:8816
 plugins/UH60M/data/modules/Custom Module/sys.secured:39680
-plugins/UH60M/data/modules/Custom Module/vibration.secured:1904
-plugins/UH60M/data/modules/Custom Module/winch.secured:4960
-plugins/UH60M/data/modules/main.secured:94032
-plugins/UH60M/liblinux/libc++.so:28
-plugins/UH60M/liblinux/libc++.so.1:787328
+plugins/UH60M/data/modules/Custom Module/vibration.secured:1840
+plugins/UH60M/data/modules/Custom Module/winch.secured:4976
+plugins/UH60M/data/modules/main.secured:94320
 plugins/UH60M/liblinux/libc++.so.1.0:787328
-plugins/UH60M/liblinux/libc++abi.so:194968
-plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++.so.1:787328
+plugins/UH60M/liblinux/libc++.so:28
 plugins/UH60M/liblinux/libc++abi.so.1.0:194968
+plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++abi.so:194968
 plugins/UH60M/version.txt:182
-uh60m.acf:728686
+uh60m.acf:728681

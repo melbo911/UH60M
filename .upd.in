@@ -1,15 +1,4 @@
 CHANGELOG
-docs/UH60M-FMS.pdf
-docs/UH60M-OpsManual.pdf
-fmod/GUIDs.txt
-fmod/Master Bank.bank
-missions/EDDF-EDDM.fpn
-missions/MISSIONS_HOWTO.TXT
-objects/cockpit.obj
-objects/cockpit2.obj
-objects/fuselage.obj
-objects/lights_out_xp11.obj
-objects/torpedo.obj
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
@@ -75,7 +64,4 @@ plugins/UH60M/liblinux/libc++abi.so
 plugins/UH60M/liblinux/libc++abi.so.1
 plugins/UH60M/liblinux/libc++abi.so.1.0
 plugins/UH60M/version.txt
-slungload/rescuer.obj
-slungload/rescuer.png
-slungload/rescuer_normal.png
 uh60m.acf
