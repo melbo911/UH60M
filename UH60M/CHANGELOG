@@ -1,3 +1,10 @@
+0.7.d4
+fixed hover and level hold buttons on FDCP
+
+changed MFD1 slip-indicator to use sim/cockpit2/gauges/indicators/slip_deg
+
+added 2nd search light for jayhawk liveries
+
 0.7.d3
 reworked rotor spin down code
 
