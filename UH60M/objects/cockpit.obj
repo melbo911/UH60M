@@ -42894,10 +42894,12 @@ ATTR_draw_enable
 ATTR_manip_none
 TRIS 8430 6
 ANIM_begin
-ANIM_trans_begin sim/cockpit2/gauges/indicators/sideslip_degrees
-ANIM_trans_key -90.000000 -0.012499 0.000575 -0.000360
+ANIM_trans_begin sim/cockpit2/gauges/indicators/slip_deg
+ANIM_trans_key 100.000000 -0.012499 0.000575 -0.000360
+ANIM_trans_key 8.000000 -0.012499 0.000575 -0.000360
 ANIM_trans_key 0.000000 0.000000 0.000000 0.000000
-ANIM_trans_key 90.000000 0.012400 0.000446 -0.000530
+ANIM_trans_key -8.000000 0.012400 0.000446 -0.000530
+ANIM_trans_key -100.000000 0.012400 0.000446 -0.000530
 ANIM_trans_end
 TRIS 8436 4218
 ANIM_end
