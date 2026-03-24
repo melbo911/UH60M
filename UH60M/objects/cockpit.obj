@@ -42904,28 +42904,34 @@ ANIM_trans_end
 TRIS 8436 4218
 ANIM_end
 ANIM_begin
-ANIM_trans_begin sim/cockpit2/gauges/indicators/sideslip_degrees
-ANIM_trans_key -90.000000 -0.017101 0.001186 -0.000803
+ANIM_trans_begin sim/cockpit2/gauges/indicators/slip_deg
+ANIM_trans_key 100.000000 -0.017101 0.001186 -0.000803
+ANIM_trans_key 8.000000 -0.017101 0.001186 -0.000803
 ANIM_trans_key 0.000000 0.000000 0.000000 0.000000
-ANIM_trans_key 90.000000 0.017700 0.001173 -0.000929
+ANIM_trans_key -8.000000 0.017700 0.001173 -0.000929
+ANIM_trans_key -100.000000 0.017700 0.001173 -0.000929
 ANIM_trans_end
 TRIS 12654 4218
 ANIM_end
 TRIS 16872 36
 ANIM_begin
-ANIM_trans_begin sim/cockpit2/gauges/indicators/sideslip_degrees
-ANIM_trans_key -90.000000 -0.016399 0.001375 -0.000798
+ANIM_trans_begin sim/cockpit2/gauges/indicators/slip_deg
+ANIM_trans_key 100.000000 -0.016399 0.001375 -0.000798
+ANIM_trans_key 8.000000 -0.016399 0.001375 -0.000798
 ANIM_trans_key 0.000000 0.000000 0.000000 0.000000
-ANIM_trans_key 90.000000 0.017700 0.001139 -0.000974
+ANIM_trans_key -8.000000 0.017700 0.001139 -0.000974
+ANIM_trans_key -100.000000 0.017700 0.001139 -0.000974
 ANIM_trans_end
 TRIS 16908 4218
 ANIM_end
 TRIS 21126 36
 ANIM_begin
-ANIM_trans_begin sim/cockpit2/gauges/indicators/sideslip_degrees
-ANIM_trans_key -90.000000 -0.016699 0.001146 -0.000769
+ANIM_trans_begin sim/cockpit2/gauges/indicators/slip_deg
+ANIM_trans_key 100.000000 -0.016699 0.001146 -0.000769
+ANIM_trans_key 8.000000 -0.016699 0.001146 -0.000769
 ANIM_trans_key 0.000000 0.000000 0.000000 0.000000
-ANIM_trans_key 90.000000 0.018702 0.001241 -0.000938
+ANIM_trans_key -8.000000 0.018702 0.001241 -0.000938
+ANIM_trans_key -100.000000 0.018702 0.001241 -0.000938
 ANIM_trans_end
 TRIS 21162 4218
 ANIM_end
