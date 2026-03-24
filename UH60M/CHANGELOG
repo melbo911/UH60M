@@ -1,5 +1,5 @@
 0.7.d5
-fixed "very low fuel" event
+fixed "very low fuel" event message
 
 0.7.d4
 fixed hover and level hold buttons on FDCP
@@ -9,7 +9,7 @@ changed MFD1 slip-indicator to use sim/cockpit2/gauges/indicators/slip_deg
 added 2nd search light for jayhawk liveries
 
 0.7.d3
-reworked rotor spin down code
+reworked rotor spin-down code
 
 0.7.d2
 new autopilot constants
