@@ -1,7 +1,12 @@
+0.7.1
+
+0.7.d7
+added fix circle as acf reference point in MFD ADI 
+
 0.7.d6
 fixed some HSTAB code issues
 
-added "beta" slip degrees indicator into PFD
+added "beta" slip degrees indicator (brick) into ADI PFD
 
 0.7.d5
 fixed "very low fuel" event message
@@ -9,7 +14,7 @@ fixed "very low fuel" event message
 0.7.d4
 fixed hover and level hold buttons on FDCP
 
-changed MFD1 slip-indicator to use sim/cockpit2/gauges/indicators/slip_deg
+changed MFD slip-indicator to use sim/cockpit2/gauges/indicators/slip_deg
 
 added 2nd search light for jayhawk liveries
 
@@ -19,7 +24,7 @@ reworked rotor spin-down code
 0.7.d2
 new autopilot constants
 
-slider in config menu
+added slider in config menu for seats, pax and FPS dead-zone
 
 config option for self centering cyclics
 
