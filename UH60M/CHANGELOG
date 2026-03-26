@@ -1,3 +1,8 @@
+0.7.d6
+fixed some HSTAB code issues
+
+added "beta" slip degrees indicator into PFD
+
 0.7.d5
 fixed "very low fuel" event message
 
