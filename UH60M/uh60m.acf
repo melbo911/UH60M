@@ -9284,16 +9284,16 @@ P _wing/10/_inc_vect/9 0
 P _wing/10/_inc_vect/count 10
 P _wing/10/_incid_chrd_inc 0.000000000
 P _wing/10/_incid_full_up 0.000000000
-P _wing/10/_incidence/0 0.000000000
-P _wing/10/_incidence/1 0.000000000
-P _wing/10/_incidence/2 0.000000000
-P _wing/10/_incidence/3 0.000000000
-P _wing/10/_incidence/4 0.000000000
-P _wing/10/_incidence/5 0.000000000
-P _wing/10/_incidence/6 0.000000000
-P _wing/10/_incidence/7 0.000000000
-P _wing/10/_incidence/8 0.000000000
-P _wing/10/_incidence/9 0.000000000
+P _wing/10/_incidence/0 2.000000000
+P _wing/10/_incidence/1 2.000000000
+P _wing/10/_incidence/2 2.000000000
+P _wing/10/_incidence/3 2.000000000
+P _wing/10/_incidence/4 2.000000000
+P _wing/10/_incidence/5 2.000000000
+P _wing/10/_incidence/6 2.000000000
+P _wing/10/_incidence/7 2.000000000
+P _wing/10/_incidence/8 2.000000000
+P _wing/10/_incidence/9 2.000000000
 P _wing/10/_incidence/count 10
 P _wing/10/_is_right_mult -1.000000000
 P _wing/10/_locked/0,0 0
@@ -15842,7 +15842,7 @@ P acf/_feathered_pitch 0.000000000
 P acf/_ff_rat_idle_JET 0.100000001
 P acf/_ff_rat_idle_PRP 0.219999999
 P acf/_ff_rat_idle_turbo 0.219999999
-P acf/_file_writer_version 124102
+P acf/_file_writer_version 124104
 P acf/_fixed_max/0 1000.000000000
 P acf/_fixed_max/1 1000.000000000
 P acf/_fixed_max/2 1000.000000000
@@ -16951,7 +16951,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.7.1 XP12
+P acf/_version 0.7.d8 XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0

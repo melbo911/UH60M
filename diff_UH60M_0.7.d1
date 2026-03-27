@@ -1,7 +1,7 @@
-CHANGELOG:16574
+CHANGELOG:16594
 cockpit_3d/EFIS/EFIS elements primary/el_horizon-2.png:4597
 docs/UH60M-OpsManual.pdf:7219040
-objects/cockpit.obj:3127265
+objects/cockpit.obj:3127263
 objects/lights_out_xp12.obj:8914
 objects/rotors.png:2847810
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
@@ -63,4 +63,4 @@ plugins/UH60M/liblinux/libc++abi.so.1:194968
 plugins/UH60M/liblinux/libc++abi.so.1.0:194968
 plugins/UH60M/liblinux/readme.txt:43
 plugins/UH60M/version.txt:182
-uh60m.acf:583492
+uh60m.acf:583493
