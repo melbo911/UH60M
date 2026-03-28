@@ -1,0 +1,72 @@
+CHANGELOG
+cockpit_3d/EFIS/EFIS elements primary/el_horizon-2.png
+docs/UH60M-OpsManual.pdf
+objects/cockpit.obj
+objects/lights_out_xp11.obj
+objects/rotors.png
+plugins/UH60M/64/libcrypto-3-x64.dll
+plugins/UH60M/64/libssl-3-x64.dll
+plugins/UH60M/64/lin.xpl
+plugins/UH60M/64/mac.xpl
+plugins/UH60M/64/win.xpl
+plugins/UH60M/EndUserLicense
+plugins/UH60M/changelog.txt
+plugins/UH60M/data/acturl.dat
+plugins/UH60M/data/components/Roboto-Regular-LICENSE.txt
+plugins/UH60M/data/components/Roboto-Regular.ttf
+plugins/UH60M/data/components/defdecore.png
+plugins/UH60M/data/components/interactive.png
+plugins/UH60M/data/components/interactive.secured
+plugins/UH60M/data/components/mouseFocusedZone.secured
+plugins/UH60M/data/components/popupCloseButton.secured
+plugins/UH60M/data/components/popupResizeButton.secured
+plugins/UH60M/data/components/readme.txt
+plugins/UH60M/data/components/rectangle.secured
+plugins/UH60M/data/init/initAvionics.secured
+plugins/UH60M/data/init/initBasicHelpers.secured
+plugins/UH60M/data/init/initContextWindows.secured
+plugins/UH60M/data/init/initDefaultEventHandlers.secured
+plugins/UH60M/data/init/initFilesystemHelpers.secured
+plugins/UH60M/data/init/initMain.secured
+plugins/UH60M/data/init/initMathHelpers.secured
+plugins/UH60M/data/init/initProcessing.secured
+plugins/UH60M/data/init/initProperties.secured
+plugins/UH60M/data/init/initResourcesLoaders.secured
+plugins/UH60M/data/init/initSubpanelCreator.secured
+plugins/UH60M/data/init/initTableHelpers.secured
+plugins/UH60M/data/init/readme.txt
+plugins/UH60M/data/modules/Custom Module/CDU1.secured
+plugins/UH60M/data/modules/Custom Module/CDU2.secured
+plugins/UH60M/data/modules/Custom Module/FDCP.secured
+plugins/UH60M/data/modules/Custom Module/MFD.secured
+plugins/UH60M/data/modules/Custom Module/airfuel.secured
+plugins/UH60M/data/modules/Custom Module/anims.secured
+plugins/UH60M/data/modules/Custom Module/configs.secured
+plugins/UH60M/data/modules/Custom Module/controls.secured
+plugins/UH60M/data/modules/Custom Module/engines.secured
+plugins/UH60M/data/modules/Custom Module/events.secured
+plugins/UH60M/data/modules/Custom Module/failures.secured
+plugins/UH60M/data/modules/Custom Module/formation.secured
+plugins/UH60M/data/modules/Custom Module/icam.secured
+plugins/UH60M/data/modules/Custom Module/limits.secured
+plugins/UH60M/data/modules/Custom Module/menu.secured
+plugins/UH60M/data/modules/Custom Module/message.secured
+plugins/UH60M/data/modules/Custom Module/mission.secured
+plugins/UH60M/data/modules/Custom Module/nav.secured
+plugins/UH60M/data/modules/Custom Module/ops.secured
+plugins/UH60M/data/modules/Custom Module/patch.secured
+plugins/UH60M/data/modules/Custom Module/perf.secured
+plugins/UH60M/data/modules/Custom Module/rotors.secured
+plugins/UH60M/data/modules/Custom Module/slingops.secured
+plugins/UH60M/data/modules/Custom Module/sys.secured
+plugins/UH60M/data/modules/Custom Module/vibration.secured
+plugins/UH60M/data/modules/Custom Module/winch.secured
+plugins/UH60M/data/modules/main.secured
+plugins/UH60M/liblinux/libc++.so
+plugins/UH60M/liblinux/libc++.so.1
+plugins/UH60M/liblinux/libc++.so.1.0
+plugins/UH60M/liblinux/libc++abi.so
+plugins/UH60M/liblinux/libc++abi.so.1
+plugins/UH60M/liblinux/libc++abi.so.1.0
+plugins/UH60M/version.txt
+uh60m.acf
