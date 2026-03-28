@@ -1,0 +1,633 @@
+0.7.d8
+
+0.7.1    -- PATCH
+
+0.7.d7
+added fix circle as acf reference point in MFD ADI 
+
+0.7.d6
+fixed some HSTAB code issues
+
+added "beta" slip degrees indicator (brick) into ADI PFD
+
+0.7.d5
+fixed "very low fuel" event message
+
+0.7.d4
+fixed hover and level hold buttons on FDCP
+
+changed MFD slip-indicator to use sim/cockpit2/gauges/indicators/slip_deg
+
+added 2nd search light for jayhawk liveries
+
+0.7.d3
+reworked rotor spin-down code
+
+0.7.d2
+new autopilot constants
+
+added slider in config menu for seats, pax and FPS dead-zone
+
+config option for self centering cyclics
+
+0.7.d1
+fixed issue with FPS trim
+
+------------------------------------------------------------------------------
+0.7
+
+fixed mismatch in documentation and mission commands
+
+fixed issue with flight plan sequencing next way point  
+
+fixed issue in range after plugin restart in hover display
+
+fixed strobe and beacon light positions   ( thx @Janov )
+
+fixed fmod sounds for strobe and beacon switches
+
+fixed (finally) file name for font MODENINE.ttf
+
+fixed bug in cargo-door left window 3D-model
+
+fixed tank assignment during restart
+
+fixed issues in LNAV ( thx @Bob Denny for your patience )
+
+improved rotor brake ( thx @Janov for the hint )
+
+changed FUEL BOOST PUMPS to "not always required" ( thx @Janov )
+
+reworked run-up throttle code
+
+reworked FPS ( flight path stability ) code and functionality
+
+added BLADE DE-ICE function via pedestal module  ( thx @Janov )
+
+added VHF-FM HOMING antennas ( livery conf option "homing=1" )
+
+added cockpit vibration ( enable via PREFS menu )
+
+added rheo for formation lights ( thx @Janov )
+
+added functionality of 3 JayHawk AUX tanks ( conf/exterior = 2 )
+
+added functionality of SeaHawk AUX tank ( conf/exterior = 1 )
+
+added animated torpedo in MH-60R (SeaHawk), follows ground target. with FMOD sound
+
+added DIM function to NAV lights
+
+provided update / patch system. new updates will be announced with a popup and in MFD
+
+improved HoverHold ( HVR POS )
+
+released new paint-kit
+
+------------------------------------------------------------------------------
+0.6.0
+
+Fixed HSTAB manual-switch
+
+Fixed wind indicator in XP12 ( thanks @Janov )
+
+Added missing glass_normal.png
+
+cockpit.obj cleanup for better performance
+
+Improved seal insertion and extraction missions ( multi missions )
+
+Added "clear_scenery" opt to Operations pulldown menu to remove placed seal objects (proposed by @azragod)
+
+Wiper 2-arm design
+
+Improved rotorhead animation
+
+Added option "hw_ffb" option to acf_config.ini to support force feedback hardware
+
+Fixed with bug in weapon-cycling if guns are not installed
+
+Reduced GUN hit impact particles to look more realistic
+
+CDU ZRO now also wipes XP FMS
+
+Expanded exterior configuration options
+
+Updated MH-60R_Seahawk and MH-60T_USCG liveries. Added exterior objects
+
+New livery HH-60J_Jayhawk with added exterior objects
+
+Foldable tail and rotor
+
+New paint-kit to reflect additional configuration options
+
+XP11: set m_jett in ACF file to 0 again
+
+XP11: fixed GUN fire direction
+
+------------------------------------------------------------------------------
+0.5.0
+
+SASL 3.21.2
+
+Fixed ENGN DE-ICE switch warning
+
+Fixed right-outside aux fuel switch
+
+Fixed HDG push-sync-rotary
+
+Fixed neg-pitch rotor cone
+
+Fixed BRG1 and BRG2 rotary on FDCP to display the right NAV data on NDs
+
+Fixed RNG and NXT information in CDU header
+
+Fixed some issues in FMS navigation and flight plan processing
+	( many thanks to @Bob Denny for spending countless hours with tests and suggestions )
+
+Fixed "weight" issues with slingops
+
+Minor 3D-mesh fixes on doors
+
+Reworked M134 mini-gun
+
+Reworked HSI to have a more sensitive radiant/course deviation indicators
+
+New textures for HSI and bearing pointers in ND
+
+Reduced performance impact when searching/switching NavAids or loading flight plans
+
+Added window scratches through glass normal file
+
+Adding "rounding" in some beep-trim and rotary functions
+
+Added ALTP beep-trim function
+
+Added full support for TACAN in XP12 version
+
+Added SAR pattern modes ( "creep line" and "expanding square" ) for autopilot ( XP11 & X12 ! )
+	Pattern visible on MFD-ND and FMS/CDU map. Can be integrated into flight plan
+
+Instrument reflections reduced
+
+Integrated XP's synthetic text to speech module ( used in CHECKLIST and OPS )
+
+Replaced "earplugs" with "headset" config, which is more quiet now to allow listen to ISC talk , slingload guidance and seal operations.
+
+Re-aligned landing-light intensity ( thanks to @Janov )
+
+Improved stability on OSM queries
+
+Improved some FMS UI functions
+
+Optimized certain drawing functions
+
+Updated manuals. Check for the yellow NEW tags to see what has changed !!
+
+---------------------------------------------------------------------------
+
+0.4.0
+
+Using "Commercial SASL" from now on
+
+Added optical confirmation of pressed buttons on MFD
+
+Fixed issue with formation flight in X-Plane 12
+
+Added refueling internal tanks from fuel truck  (APU=ON + XFER=MANUAL + PRESS=REFUEL)
+
+Fixed issue with zeroize CDUs. DTS (which actually is the filesystem of your computer) is NOT wiped.
+
+Added function to jettison ALL remaining flares
+
+Dispenser bypass switch now re-arms weapons. IRL it re-inventories the dispenser munitions
+
+Added additional description to MISSIONS_HOWTO.TXT
+
+Added random seal "insertion" mission via JVMF order
+
+Added option to acf_config.ini to disable internal winch ops code ( winch_ops=0 )
+	required when using the AlpineHoist plugin
+
+Added 3 new "Timberline" liveries  ( many thanks to @Ceds HSF Team ! )
+
+Reworked compass object
+
+Added extensive "beep trim" functions (see manual)
+
+Added sound to fuel truck and improved gpu sound
+
+UPDATED OPS-MANUAL.PDF !!!!
+
+---------------------------------------------------------------------------
+
+0.3.3
+
+3rd row of seats ( 11 pax seats now )
+
+11 seal pax selectable
+
+Drop-seal removes pax from seats
+
+Drop-seal now works with WOW (on ground) too
+
+Seals loaded into acf show up in seats during extraction
+
+New autostart (ctrl-shift-E) code
+
+Reworked engine run-up
+
+Searchlight linked to acf-pitch to keep target in spot 
+
+Fixed rotor animation in replays
+
+Windshield wipers "beautyfied" 
+
+Modified window frames and glass in VIP config
+
+Updated POTUS seal
+
+---------------------------------------------------------------------------
+
+0.3.2
+
+
+SASL 3.21.0
+
+Fixed font name issue on Linux
+
+auto_vs now optional , default: warning event "UNABLE NEXT ALT" in MFD
+
+Fixed issue in "mission.lua" set_altitude()
+
+New rotor animation ( 3 states: off/start , idle and flight )
+
+Main rotor now with coning and blade twist
+
+Rotor elevation matched to IRL and blade-flex re-adjusted
+
+Optimized performance for "airport scans" ( ND->NEAR and CDU->GPS )
+
+AP servos now react to servo-test-switch ( FDCP CPLD related )
+
+Fixed aux fuel display issues
+
+Engine start-buttons now work only if "bleed air available" or APU running
+
+Fixed doubled FMS paths in ND display
+
+Expanded functions on audio panels 
+
+Added commands for changing radio selection and presets and added switches for it on collectives
+
+TRIM switch now enables ATTITUDE and ROLL HOLD if AP is engaged w/o upper modes
+
+Changed command ForceTrimRelease to "NOT disengage AP during FTR hold" to allow spring loaded cyclics to use it for trim with AP
+
+Added command ForceTrimReleaseAP to provide the previous FTR function WITH AP control
+
+Optimized OBJs for less and larger "writes" to faster rendering (reduce CPU load)
+
+More use of split and "killed" objects to gain additional performance
+
+DRCT and GPS selected waypoints now added to FPN, so vectors are shown on ND
+
+Fixed click-sounds on battery switches
+
+Expanded click-areas in setup menu allow easier selections
+
+Small 3D model fixes and improvements
+
+Added manuals for FDCP and FMS ( see docs folder )
+
+Refined MarineOne livery ( thanks to @DutchX172 )
+
+
+---------------------------------------------------------------------------
+
+0.3.1
+
+
+Fixed wrong dataref in CHECKLIST.MSN and changed code to be more resilient
+
+APT DRCT (ND -> NEAR) list sort fixed
+
+Added selectable Hover-Guidance range
+
+IRCM / IR JAM now configurable per livery
+
+Fixed small poly mis-alignments on pilots seats , cockpit frame and cargo doors
+
+Fixed Aux-Fuel-Mgmt-Panel function
+
+VH-60N added internal POTUS seal and damper animation on door steps
+
+Added configurable SeaHawk tail wheel per livery ( add "variant=2" to opt_config.ini )
+
+Added Armor-Panel config per livery to setup menu
+
+Anti collision (up/down/both day/night) and navigation light (flash/steady) switches and function reworked to match reality as much as possible
+
+Animation of more switches
+
+Cyclic grip switch and design correction
+
+Provided optional tinted window glass.png ( blue, green and blue-green )
+
+Fixed problem in auto-VS alignment if FPN WPT has no altitude defined
+
+Fixed bearing indicators in ND.
+
+Separate Pilot/CoPilot AP settings in preparation for dual-autopilot support. Dual-AP & servos planned for 0.3.2
+
+FDCP rotary commands ( fdcp1_rot_inc/dec ) now change inc/dec values dynamically to reach quicker desired setting. Other related commands renamed to dcp1_rot_nxt,fdcp1_rot_prv,fdcp1_rot_psh , fdcp1_but_nxt,fdcp1_but_prv,fdcp1_but_psh.
+
+Radiocall/call-id tag on dash now configurable via opt_config.ini ( tailnum=xxxx ). Updated liveries !
+
+Jettison of aux tanks or weapons is disabled when WOW
+
+Troop commander / crew chief now has it's own ICS panel with animated cable connected
+
+
+XP12 only:
+
+Improved scaling of EFIS and WXR map
+
+Support for "terrain map" in ND ( >= XP 12.3 )
+
+Fixed wiper track in windshield rain effect
+
+---------------------------------------------------------------------------
+
+0.3.0
+
+New THROTTLE setup !!!!  No Wing-Sweep anymore !!!  READ the OPS manual !!!
+Allows single or dual throttle joystick hardware
+Map Trottle-3 (and optionally Throttle-4) to your hardware
+
+New arrangement of Hellfire and Hydra weapons
+
+New commands for master_arm and weapon selection
+
+GUNs point now forward if ESSS installed
+
+"Jettison switches" will also jettison missiles/rockets 
+
+Working Fuel-Indicator-Test switch
+
+Batteries and generators now on 3-way switches with test function
+
+Working BATT/APU Indicator-Capsule
+
+Updated OAT indicator
+
+MFD-2 & 3 have now seperate power switches
+
+Formation lights at night
+
+Avionics compartment cover reworked
+
+Added new PaintKit
+
+
+Added roll/pitch command bars in attitude direction indicator and
+bearing pointers on the ND page -- thanks to @Dameron for the suggestion
+
+New Interior and External Doors for the VH-60N config -- many thanks to @Awafe for his great Blender work and @DutchX172 doing -- the textures and pushing us to the limit ;-) 
+
+Design of the cyclic and collective grips refreshed -- thanks to @Janov for the hint
+
+Reworked Master-Warning-Panel -- thanks to @313_Nevo for the suggestion
+
+---------------------------------------------------------------------------
+0.2.3
+
+New multi tab config/setup popup
+
+VH-60N ( Marine One ) livery, thanks to @DutchX172  
+
+ESSS pylon for external tanks or missiles / rockets
+
+Hellfire missiles ( credits to @Fred_Perth )
+    air2air missiles, targets selectable via camera tracking
+
+Hydra 70x19 launcher added, unguided rockets
+    ( credits to "KojfDiscord" at SketchFab.com )
+
+Weapon select via MFD buttons EICAS ( GUN RKT MSL )
+    MASTER-ARM switch on DISP module in pedestal
+
+Jettisonable external tanks
+
+Functional fuel pump mgmt panel for external tanks
+
+Controlled throttle during run-up 
+
+Per livery configurable tail number ( incl. ATC )
+
+Green and white cockpit LIT file ( optional ) provided
+
+Flare/chaff/missile/rocket sounds
+
+Ramp operation scene with fuel hose and fuel truck
+
+Built-in interactive Humvee and Howitzer sling operations 
+	( credits to "mamont nikita" and "Duane's Mind" SketchFab.com )
+
+Added cargo-hook light
+
+Added machine gun operators / gunners
+
+Configurable seat setup with seal-passengers
+
+Fixed internal tank size and some W&B values
+
+Reworked weight and balance on XP11 and XP12
+
+Fixed bug in rotor downwash config 
+
+Major updates to the OPS-Manual ( worth to read it again ! )
+
+XP12 only:
+
+Rain on cockpit glass
+
+0.2.3b
+
+fixed possible issue with "vh60" opt with older liveries 
+
+updated MarineOne textures
+
+
+---------------------------------------------------------------------------
+0.2.2
+
+fixed HRST rope length
+
+improved rotor downwash
+
+removed debug BALL from airfuel module
+
+fixed CHECKLIST and automatic mission start
+
+---------------------------------------------------------------------------
+0.2.1
+
+optimized internal lights
+
+new texture files to fix UV corruption
+
+new paintkit with Blender file to allow painting on 3D mesh
+
+fixed baro knob on P2 FDCP
+
+fixed bug in FMS if adding new wpt without altitude
+
+wipers have now 2 speeds
+
+corrected position of tail light
+
+armor panels in cockpit now configurable
+
+scanning for new Apts around done in background now
+
+more fine tuning in aerial refueling module
+
+fixed issue with internal lighting of gunner doors
+
+fixed issue with internal glass on MFD2 - MFD4
+
+fixed ground speed indicator
+
+refined rotor downwash
+
+improved rotor slap in FMOD
+
+corrected brightness of landing and search lights
+
+added new Rusty, Desert and TigerShark liveries
+
+added "shiny" body_normal files to USCG and TigerShark liveries
+
+updated MedEvac livery to match change in UV mapping
+
+updated Ops-Manual
+
+XP12 version available now
+
+XP12 fixed air source issue for engine-2 start
+
+XP12 fixed texturing issues visible in XP12 only ( marching ants )
+
+XP12 load station support
+
+---------------------------------------------------------------------------
+
+0.1.66
+
+reworked aerial refueling mission system
+
+reworked fuel lever animation
+
+EOMS ( missile sensors ) reworked and now selectable
+
+fixed missing sound on copilot pitot-switch
+
+updated switch-hint tags
+
+built-in optional auto-update of core files
+
+improved GoAround mode
+
+settings file split into separate files for global and per-livery settings
+
+chocks supported in XP12.2
+
+improved logging system (log-level selectable via "verbose" acf_config variable)
+
+updated OPS manual
+
+fixed typo on reversionary-switches
+
+added USCG, SH60, MedEvac and DSparks livery and GIMP paint-masks (separate downloads)
+
+
+---------------------------------------------------------------------------
+
+0.1.65
+
+- fixed bug in fuel levers which in certain situations could prevent engines from starting.
+
+- changed external OBJs to use "Global_specular 1.0" now, to allow liveries to be shiny.
+
+- updated interior and exterior texture/normals.
+
+- to avoid conflicts with previous liveries, naming on body texture files has been changed from "UH60_body.dds" to "body.png" ( same applies to the normal file ).
+
+- added a new GIMP paintkit to reflect above changes. GIMP can save them as "psd" if needed.
+
+- fixed bug in multi-cam code which could cause an error message.
+
+- added the "DSparks" livery. 
+
+---------------------------------------------------------------------------
+
+0.1.64
+
+missing ignition key
+
+---------------------------------------------------------------------------
+
+0.1.63
+
+removed debug flag from startup code. in C&D startup, MFD need to be manually switched ON now
+
+updated CHECKLIST.msn to wait for MFDs being switched ON
+
+reworked search and landing-light code. animation follows taxi and landing lights datarefs 
+
+improved fuel lever animation. noticable detents on positions  OFF , DIR and XFD
+
+optimized config save/load code. more simplified and scalable
+
+chaff/flare optional. can now be selected via MFD config menu
+
+---------------------------------------------------------------------------
+
+0.1.62
+
+animated crew 
+      see  https://www.youtube.com/watch?v=HvitFEZjM5s 
+      and https://www.youtube.com/watch?v=EOJZ-JUwFSw
+
+reworked exterior PBR texture
+
+new Paint-Kit added ( see last gallery pictures ) 
+
+---------------------------------------------------------------------------
+
+0.1.61b
+
+PBR textures for exterior and interior
+
+fixed scaling in vertical speed indicators
+
+updates to OPS-Manual
+
+PaintKit available as separate download ( many thanks to @derizu for creating it )
+
+fixed stupid door animation bug
+
+---------------------------------------------------------------------------
+
+0.1.60
+
+Aerial refuel: pull-down menu now shows 2 options: Mission and Training. Mission does not show the green box anymore.
+
+Aerial refuel: 2 new popups: info notice if probe is not "installed" and reject notice if airspeed is below 100 kts.
+
+FMOD: external sound level slightly increased.
+
+Cockpit: fixed missing switch for strobe lights in overhead panel.
+
+---------------------------------------------------------------------------
