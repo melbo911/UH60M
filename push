@@ -1,4 +1,4 @@
-.touch .pushed
+touch .pushed
 git add .
 git commit -m "update"
 git push origin HEAD:XP12_DEV

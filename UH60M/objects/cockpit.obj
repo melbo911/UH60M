@@ -42894,7 +42894,7 @@ ATTR_draw_enable
 ATTR_manip_none
 TRIS 8430 6
 ANIM_begin
-ANIM_trans_begin uh60m/sys/slip_ind
+ANIM_trans_begin sim/cockpit2/gauges/indicators/slip_deg
 ANIM_trans_key -100.000000 0.011634 0.000786 -0.000016
 ANIM_trans_key -8.000000 0.011634 0.000786 -0.000016
 ANIM_trans_key 0.000000 0.000000 0.000000 0.000000
@@ -42915,7 +42915,7 @@ TRIS 12654 4218
 ANIM_end
 TRIS 16872 36
 ANIM_begin
-ANIM_trans_begin uh60m/sys/slip_ind
+ANIM_trans_begin sim/cockpit2/gauges/indicators/slip_deg
 ANIM_trans_key -100.000000 0.016219 0.001476 -0.000017
 ANIM_trans_key -8.000000 0.016219 0.001476 -0.000017
 ANIM_trans_key 0.000000 0.000000 0.000000 0.000000
@@ -42926,7 +42926,7 @@ TRIS 16908 4218
 ANIM_end
 TRIS 21126 36
 ANIM_begin
-ANIM_trans_begin uh60m/sys/slip_ind
+ANIM_trans_begin sim/cockpit2/gauges/indicators/slip_deg
 ANIM_trans_key -100.000000 0.016422 0.001241 0.000019
 ANIM_trans_key -8.000000 0.016422 0.001241 0.000019
 ANIM_trans_key 0.000000 0.000000 0.000000 0.000000
