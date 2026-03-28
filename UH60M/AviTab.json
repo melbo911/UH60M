@@ -1,0 +1,11 @@
+{
+    "panel": {
+        "left":     0,
+        "bottom":   0,
+        "width":    800,
+        "height":   480,                       
+        "enabled":    true,
+        "hide_header": true,
+        "disable_capture_window": true
+    }
+}

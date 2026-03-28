@@ -1,0 +1,8 @@
+A
+750 version
+x   y  
+0   -52	// -52 comment: rose offsets in expanded mode
+0   0	   // comment: rose offsets in centered mode
+2.0 2.0	// scale factor for symbol and text size
+38 -20	// text label offset x and y in pixels at the provided scale
+65280 -1 // 24bit color for the "magenta" line and absolute size of the compass rose
