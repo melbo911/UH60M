@@ -1,6 +1,19 @@
-0.7.d8
+0.7.d10
+SASL-v3.22.0
 
-0.7.1    -- PATCH
+changed WOW to use only the 2 main wheels
+
+added center-marker to "beta brick"
+
+0.7.2 
+
+0.7.d8
+added separate branches for DEV updates on repository
+
+0.7.d8
+modified VSTAB incidences
+
+0.7.1
 
 0.7.d7
 added fix circle as acf reference point in MFD ADI 

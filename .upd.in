@@ -1,5 +1,7 @@
+.version
 CHANGELOG
 cockpit_3d/EFIS/EFIS elements primary/el_horizon-2.png
+cockpit_3d/EFIS/EFIS elements primary/el_horizon-4.png
 docs/UH60M-OpsManual.pdf
 objects/cockpit.obj
 objects/lights_out_xp11.obj
@@ -14,6 +16,7 @@ plugins/UH60M/changelog.txt
 plugins/UH60M/data/acturl.dat
 plugins/UH60M/data/components/Roboto-Regular-LICENSE.txt
 plugins/UH60M/data/components/Roboto-Regular.ttf
+plugins/UH60M/data/components/cursors.png
 plugins/UH60M/data/components/defdecore.png
 plugins/UH60M/data/components/interactive.png
 plugins/UH60M/data/components/interactive.secured
