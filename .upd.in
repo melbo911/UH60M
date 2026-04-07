@@ -4,8 +4,6 @@ cockpit_3d/EFIS/EFIS elements primary/el_horizon-2.png
 cockpit_3d/EFIS/EFIS elements primary/el_horizon-4.png
 docs/UH60M-OpsManual.pdf
 objects/cockpit.obj
-objects/lights_out_xp12.obj
-objects/rotors.png
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
