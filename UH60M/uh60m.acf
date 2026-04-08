@@ -16408,8 +16408,8 @@ P acf/_ott_psi_sec_to_tune 15.000000000
 P acf/_ott_roll_rate 8.000000000
 P acf/_ott_roll_response 4.000000000
 P acf/_ott_the_deg_off_for_full_def 70.000000000
-P acf/_ott_the_deg_per_kt 0.200000003
-P acf/_ott_the_sec_into_future 0.800000012
+P acf/_ott_the_deg_per_kt 0.100000001
+P acf/_ott_the_sec_into_future 0.899999976
 P acf/_ott_the_sec_to_trim 0.000000000
 P acf/_ott_the_sec_to_tune 0.600000024
 P acf/_otto_ah_source_type 10
@@ -16951,7 +16951,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.7.d10 XP12
+P acf/_version 0.7.d11 XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0
