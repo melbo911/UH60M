@@ -1,3 +1,10 @@
+0.7.d12
+added 2nd FTR mode ( option A & B in menu ) for self centering cyclics
+
+added MEDEVAC interior ( opt_config medevac = 1 )
+
+fixed some UV mapping of latches on avionics and hydraulics covers
+
 0.7.d11
 re-tuned AP pitch settings
 
