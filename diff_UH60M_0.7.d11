@@ -1,0 +1,78 @@
+.version:8
+CHANGELOG:16894
+objects/avionics_bay_door.obj:366184
+objects/body.dds:11184952
+objects/cockpit1.obj:9932928
+objects/doors1.obj:130880
+objects/doors1_inside.obj:65522
+objects/engines.obj:791842
+objects/external_glass.obj:90785
+objects/interior2.obj:3333974
+objects/medevac.dds:2796344
+objects/medevac.obj:3263491
+plugins/UH60M/64/libcrypto-3-x64.dll:6879232
+plugins/UH60M/64/libssl-3-x64.dll:1346560
+plugins/UH60M/64/lin.xpl:16654952
+plugins/UH60M/64/mac.xpl:29155712
+plugins/UH60M/64/win.xpl:5977088
+plugins/UH60M/EndUserLicense:992
+plugins/UH60M/changelog.txt:52336
+plugins/UH60M/data/acturl.dat:9
+plugins/UH60M/data/components/Roboto-Regular-LICENSE.txt:11358
+plugins/UH60M/data/components/Roboto-Regular.ttf:171676
+plugins/UH60M/data/components/defdecore.png:987
+plugins/UH60M/data/components/interactive.png:250
+plugins/UH60M/data/components/interactive.secured:544
+plugins/UH60M/data/components/mouseFocusedZone.secured:544
+plugins/UH60M/data/components/popupCloseButton.secured:832
+plugins/UH60M/data/components/popupResizeButton.secured:544
+plugins/UH60M/data/components/readme.txt:46
+plugins/UH60M/data/components/rectangle.secured:544
+plugins/UH60M/data/init/initAvionics.secured:5088
+plugins/UH60M/data/init/initBasicHelpers.secured:544
+plugins/UH60M/data/init/initContextWindows.secured:9264
+plugins/UH60M/data/init/initDefaultEventHandlers.secured:1536
+plugins/UH60M/data/init/initFilesystemHelpers.secured:1264
+plugins/UH60M/data/init/initMain.secured:19056
+plugins/UH60M/data/init/initMathHelpers.secured:1392
+plugins/UH60M/data/init/initProcessing.secured:3872
+plugins/UH60M/data/init/initProperties.secured:14800
+plugins/UH60M/data/init/initResourcesLoaders.secured:2752
+plugins/UH60M/data/init/initSubpanelCreator.secured:3504
+plugins/UH60M/data/init/initTableHelpers.secured:1472
+plugins/UH60M/data/init/readme.txt:47
+plugins/UH60M/data/modules/Custom Module/CDU1.secured:109360
+plugins/UH60M/data/modules/Custom Module/CDU2.secured:109312
+plugins/UH60M/data/modules/Custom Module/FDCP.secured:28896
+plugins/UH60M/data/modules/Custom Module/MFD.secured:160320
+plugins/UH60M/data/modules/Custom Module/airfuel.secured:10016
+plugins/UH60M/data/modules/Custom Module/anims.secured:20864
+plugins/UH60M/data/modules/Custom Module/configs.secured:19152
+plugins/UH60M/data/modules/Custom Module/controls.secured:25248
+plugins/UH60M/data/modules/Custom Module/engines.secured:15088
+plugins/UH60M/data/modules/Custom Module/events.secured:18928
+plugins/UH60M/data/modules/Custom Module/failures.secured:2704
+plugins/UH60M/data/modules/Custom Module/formation.secured:3312
+plugins/UH60M/data/modules/Custom Module/icam.secured:13728
+plugins/UH60M/data/modules/Custom Module/limits.secured:912
+plugins/UH60M/data/modules/Custom Module/menu.secured:21040
+plugins/UH60M/data/modules/Custom Module/message.secured:4480
+plugins/UH60M/data/modules/Custom Module/mission.secured:35312
+plugins/UH60M/data/modules/Custom Module/nav.secured:22464
+plugins/UH60M/data/modules/Custom Module/ops.secured:32976
+plugins/UH60M/data/modules/Custom Module/patch.secured:6464
+plugins/UH60M/data/modules/Custom Module/perf.secured:2640
+plugins/UH60M/data/modules/Custom Module/rotors.secured:5888
+plugins/UH60M/data/modules/Custom Module/slingops.secured:8832
+plugins/UH60M/data/modules/Custom Module/sys.secured:39840
+plugins/UH60M/data/modules/Custom Module/vibration.secured:1936
+plugins/UH60M/data/modules/Custom Module/winch.secured:4992
+plugins/UH60M/data/modules/main.secured:95136
+plugins/UH60M/liblinux/libc++.so.1.0:787328
+plugins/UH60M/liblinux/libc++.so.1:787328
+plugins/UH60M/liblinux/libc++.so:28
+plugins/UH60M/liblinux/libc++abi.so.1.0:194968
+plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++abi.so:194968
+plugins/UH60M/version.txt:182
+uh60m.acf:706492

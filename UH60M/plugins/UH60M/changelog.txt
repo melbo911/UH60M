@@ -1,4 +1,26 @@
 ----------------------------------------------------------
+SASL 3.22.3
+----------------------------------------------------------
+
+-- Added optional parametrization to 'listFiles' function to include system/metadata files/folders (such files will be excluded by default)
+-- Fixed fail to load and work with supplied preload Lua scripts in case if some metadata files present in the filesystem in the same folder
+
+----------------------------------------------------------
+SASL 3.22.2
+----------------------------------------------------------
+
+-- Fixed Context Windows incorrect positionining after loading saved state when window was in popped-out OS window
+
+----------------------------------------------------------
+SASL 3.22.1
+----------------------------------------------------------
+
+-- Added 'requestReload' function which is analogue to 'request', but forces to reload script from file system
+-- Added CURSOR_XP_HIDDEN cursor identifier to use for components in Context Windows and Avionics Devices
+-- Fixed Context Windows created in preload scripts not visible before successful product activation (Commercial version)
+-- Fixed Context Windows with saved states resetting position/visibility values after first update to SASL >= 3.22.0
+
+----------------------------------------------------------
 SASL 3.22.0
 ----------------------------------------------------------
 
