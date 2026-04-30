@@ -1,3 +1,6 @@
+0.7.d14
+FTR mode B now waits for timeout AND joystick center
+
 0.7.d13
 added conf_ftr_dz DREF to specify FTR deadzone separately
 
