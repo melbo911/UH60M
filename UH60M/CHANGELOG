@@ -1,3 +1,6 @@
+0.7.d13
+added conf_ftr_dz DREF to specify FTR deadzone separately
+
 0.7.d12
 added 2nd FTR mode ( option A & B in menu ) for self centering cyclics
 

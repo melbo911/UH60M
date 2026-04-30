@@ -3,6 +3,9 @@ CHANGELOG
 cockpit_3d/EFIS/EFIS elements primary/el_horizon-2.png
 cockpit_3d/EFIS/EFIS elements primary/el_horizon-4.png
 docs/UH60M-OpsManual.pdf
+fmod/GUIDs.txt
+fmod/Master Bank.bank
+fmod/uh60m.snd
 objects/avionics_bay_door.obj
 objects/body.dds
 objects/cockpit.obj
@@ -12,6 +15,7 @@ objects/doors1_inside.obj
 objects/engines.obj
 objects/external_glass.obj
 objects/interior2.obj
+objects/internal_glass.obj
 objects/medevac.dds
 objects/medevac.obj
 plugins/UH60M/64/libcrypto-3-x64.dll
