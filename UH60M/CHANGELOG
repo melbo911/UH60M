@@ -1,3 +1,8 @@
+0.7.d15
+added support for PaveHawk livery and its exterior objects
+
+added remove-before-flight and tie-down objects. controlled via pull-down menu
+
 0.7.d14
 FTR mode B now waits for timeout AND joystick center
 
