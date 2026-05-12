@@ -1,8 +1,5 @@
 .version:8
 CHANGELOG:17222
-cockpit_3d/EFIS/EFIS elements primary/el_horizon-2.png:4597
-cockpit_3d/EFIS/EFIS elements primary/el_horizon-4.png:1668
-docs/UH60M-OpsManual.pdf:7219040
 fmod/GUIDs.txt:3146
 fmod/Master Bank.bank:17010848
 fmod/uh60m.snd:31801
@@ -21,12 +18,10 @@ objects/external_glass.obj:90785
 objects/fuselage.obj:2839158
 objects/interior2.obj:3333974
 objects/internal_glass.obj:201367
-objects/lights_out_xp11.obj:8921
 objects/medevac.dds:2796344
 objects/medevac.obj:3300044
 objects/rbf.dds:43832
 objects/rbf.obj:772939
-objects/rotors.png:2847810
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
 plugins/UH60M/64/lin.xpl:16654952
@@ -37,7 +32,6 @@ plugins/UH60M/changelog.txt:52336
 plugins/UH60M/data/acturl.dat:9
 plugins/UH60M/data/components/Roboto-Regular-LICENSE.txt:11358
 plugins/UH60M/data/components/Roboto-Regular.ttf:171676
-plugins/UH60M/data/components/cursors.png:55892
 plugins/UH60M/data/components/defdecore.png:987
 plugins/UH60M/data/components/interactive.png:250
 plugins/UH60M/data/components/interactive.secured:544
@@ -86,11 +80,11 @@ plugins/UH60M/data/modules/Custom Module/sys.secured:39744
 plugins/UH60M/data/modules/Custom Module/vibration.secured:1872
 plugins/UH60M/data/modules/Custom Module/winch.secured:4896
 plugins/UH60M/data/modules/main.secured:95632
-plugins/UH60M/liblinux/libc++.so:28
-plugins/UH60M/liblinux/libc++.so.1:787328
 plugins/UH60M/liblinux/libc++.so.1.0:787328
-plugins/UH60M/liblinux/libc++abi.so:194968
-plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++.so.1:787328
+plugins/UH60M/liblinux/libc++.so:28
 plugins/UH60M/liblinux/libc++abi.so.1.0:194968
+plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++abi.so:194968
 plugins/UH60M/version.txt:182
 uh60m.acf:707322

@@ -25,6 +25,7 @@
 {eae55115-c2e4-45b1-9836-c55618bb1af6} event:/engines/rotor_running
 {7c0f8577-412f-438d-ba0e-9981e82cec75} event:/engines/rotor_running_inside
 {205b19f1-6484-42ed-9278-321a5e75c554} event:/engines/rotor_slap
+{bdcdbf12-2161-418b-bc67-e3c37e98cfff} event:/others/BED
 {5e63362e-439f-4e76-b27d-33a36203e49e} event:/others/GPU
 {3aed4799-949a-4ed1-bf1b-17b27d80aa5c} event:/others/TRUCK
 {48395216-7023-44a4-a803-6cdb0191abec} event:/weapons/CHAFF
