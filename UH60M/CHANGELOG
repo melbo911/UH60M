@@ -1,10 +1,12 @@
 0.7.d15
 added support for PaveHawk livery and its exterior objects
 
-added remove-before-flight and tie-down objects. controlled via pull-down menu
+added remove-before-flight and tie-down objects. controlled via UH60M/ops pull-down menu
+
+weather radar now has 2 variants. "A" the larger centered and "B" the smaller on the co-pilots side
 
 0.7.d14
-FTR mode B now waits for timeout AND joystick center
+FTR mode "B" now waits for timeout AND joystick center
 
 0.7.d13
 added conf_ftr_dz DREF to specify FTR deadzone separately

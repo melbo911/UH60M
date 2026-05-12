@@ -1,5 +1,5 @@
 .version:8
-CHANGELOG:17370
+CHANGELOG:17483
 fmod/GUIDs.txt:3146
 fmod/Master Bank.bank:17010848
 fmod/uh60m.snd:31801
@@ -81,4 +81,4 @@ plugins/UH60M/liblinux/libc++abi.so.1:194968
 plugins/UH60M/liblinux/libc++abi.so:194968
 plugins/UH60M/liblinux/readme.txt:43
 plugins/UH60M/version.txt:182
-uh60m.acf:584022
+uh60m.acf:585211
