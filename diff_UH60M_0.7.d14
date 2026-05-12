@@ -1,8 +1,5 @@
 .version:8
 CHANGELOG:17222
-cockpit_3d/EFIS/EFIS elements primary/el_horizon-2.png:4597
-cockpit_3d/EFIS/EFIS elements primary/el_horizon-4.png:1668
-docs/UH60M-OpsManual.pdf:7219040
 fmod/GUIDs.txt:3146
 fmod/Master Bank.bank:17010848
 fmod/uh60m.snd:31801
@@ -76,12 +73,12 @@ plugins/UH60M/data/modules/Custom Module/sys.secured:39744
 plugins/UH60M/data/modules/Custom Module/vibration.secured:1872
 plugins/UH60M/data/modules/Custom Module/winch.secured:4896
 plugins/UH60M/data/modules/main.secured:95632
-plugins/UH60M/liblinux/libc++.so:28
-plugins/UH60M/liblinux/libc++.so.1:787328
 plugins/UH60M/liblinux/libc++.so.1.0:787328
-plugins/UH60M/liblinux/libc++abi.so:194968
-plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++.so.1:787328
+plugins/UH60M/liblinux/libc++.so:28
 plugins/UH60M/liblinux/libc++abi.so.1.0:194968
+plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++abi.so:194968
 plugins/UH60M/liblinux/readme.txt:43
 plugins/UH60M/version.txt:182
 uh60m.acf:584022
