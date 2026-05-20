@@ -922,6 +922,7 @@ ANIM_begin
 ANIM_hide 0.000000 0.000000 
 ANIM_show 0.000000 1.500000 uh60m/conf/variant
 ANIM_begin
+ANIM_hide 0.500000 1.000000 uh60m/conf/medevac
 ANIM_begin
 ANIM_trans 0.000000 0.000000 0.000000 0.000000 0.000000 -0.400024 0.000000 1.000000 uh60m/door/ratio[5]
 TRIS 0 108
