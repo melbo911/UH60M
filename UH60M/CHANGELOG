@@ -1,42 +1,81 @@
+0.8.1
+fixed cyclic re-center mode A
+
+added FTR-dead-zone slider to "PREFS" menu
+
+added "Action" pulldown sub-menu for non-ops actions
+
+added tie-down and rotor-stow to "MAIN" menu
+
+
+0.8
+
+changed animation timing in tie-down and stow-rotor
+
+added 3d objects to tail sweep mechanism
+
+fixed issue with chocks and tie-down and stow-rotor
+
+fixed battery test logic
+
+added support for PaveHawk livery and its exterior objects
+
+added remove-before-flight and tie-down objects. controlled via UH60M/ops pull-down menu
+
+nose weather radar object now has 2 variants. "A" the larger centered and "B" the smaller on the co-pilots side
+
+FTR mode "B" now waits for timeout AND joystick center
+
+added conf_ftr_dz DREF to specify FTR deadzone separately
+
+added 2nd FTR mode ( option A & B in menu ) for self centering cyclics
+
+added MEDEVAC interior ( opt_config medevac = 1 )
+
+fixed some UV mapping of latches on avionics and hydraulics covers
+
+re-tuned AP pitch settings
+
+fixed bug with HydrBkupPump switch
+
+included tail-wheel into WOW mode again 
+
+SASL-v3.22.3
+
+changed WOW to use only the 2 main wheels
+
+added center-marker to "beta brick"
+
 0.7.2 
 
-0.7.d8
 added separate branches for DEV updates on repository
 
-0.7.d8
-modified VSTAB incidents
+modified VSTAB incidences
 
 0.7.1
 
-0.7.d7
 added fix circle as acf reference point in MFD ADI 
 
-0.7.d6
 fixed some HSTAB code issues
 
 added "beta" slip degrees indicator (brick) into ADI PFD
 
-0.7.d5
 fixed "very low fuel" event message
 
-0.7.d4
 fixed hover and level hold buttons on FDCP
 
 changed MFD slip-indicator to use sim/cockpit2/gauges/indicators/slip_deg
 
 added 2nd search light for jayhawk liveries
 
-0.7.d3
 reworked rotor spin-down code
 
-0.7.d2
 new autopilot constants
 
 added slider in config menu for seats, pax and FPS dead-zone
 
 config option for self centering cyclics
 
-0.7.d1
 fixed issue with FPS trim
 
 ------------------------------------------------------------------------------
