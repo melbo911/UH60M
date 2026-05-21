@@ -1,3 +1,13 @@
+0.8.2
+fixed bug in fuel management with pavehawk livery
+
+overhaul fuel management code
+
+added internal aux tank
+
+changed setup menu design
+
+
 0.8.1
 fixed cyclic re-center mode A
 

@@ -73,6 +73,7 @@ plugins/UH60M/data/modules/Custom Module/events.secured
 plugins/UH60M/data/modules/Custom Module/failures.secured
 plugins/UH60M/data/modules/Custom Module/formation.secured
 plugins/UH60M/data/modules/Custom Module/icam.secured
+plugins/UH60M/data/modules/Custom Module/images/tabs.png
 plugins/UH60M/data/modules/Custom Module/limits.secured
 plugins/UH60M/data/modules/Custom Module/menu.secured
 plugins/UH60M/data/modules/Custom Module/message.secured
