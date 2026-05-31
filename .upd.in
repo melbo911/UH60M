@@ -36,6 +36,7 @@ plugins/UH60M/64/mac.xpl
 plugins/UH60M/64/win.xpl
 plugins/UH60M/EndUserLicense
 plugins/UH60M/data/acturl.dat
+plugins/UH60M/data/components/cursors.png
 plugins/UH60M/data/components/interactive.secured
 plugins/UH60M/data/components/mouseFocusedZone.secured
 plugins/UH60M/data/components/popupCloseButton.secured
