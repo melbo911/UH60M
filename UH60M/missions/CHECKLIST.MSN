@@ -22,7 +22,7 @@
 #
 40,E G I 1 and E G I 2 - ON
 61,uh60m/sys/sw/egi1,0,0,1
-61,uh60m/sys/sw/egi1,0,0,1
+61,uh60m/sys/sw/egi2,0,0,1
 #
 40,CHECK LAMPS ON MASTER WARNING PANEL
 99
