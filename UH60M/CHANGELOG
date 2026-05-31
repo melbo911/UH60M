@@ -1,3 +1,55 @@
+0.8.d1
+
+blade ice detect message in event system
+
+event message if external GPU has been connected
+
+cockpit doors jettison lever animation
+
+CB for AFMP ( fuel mgmt panel ) and CEFS fuel pump
+
+new (IRL) logic with AUTO main tank refueling 
+
+event message on auto-xfer failure
+
+new external and internal tanks display on EICAS screen
+
+FMS FIX opens FPN EDIT page
+
+red cursor cross now with transparent center
+
+MedEvec ambulance seats and animation
+
+
+0.8.2
+fixed bug in fuel management with pavehawk livery
+
+overhaul fuel management code
+
+added internal aux tank
+
+changed setup menu design
+
+added online-update selection from MFD config menu
+
+
+0.8.1
+fixed cyclic re-center mode A
+
+added FTR-dead-zone slider to "PREFS" menu
+
+added "Action" pulldown sub-menu for non-ops actions
+
+added tie-down and rotor-stow to "MAIN" menu
+
+
+0.8
+0.7.d18
+
+changed animation timing in tie-down and stow-rotor
+
+added 3d objects to tail sweep mechanism
+
 0.7.d17
 fixed issue with chocks and tie-down and stow-rotor
 
@@ -9,7 +61,7 @@ added support for PaveHawk livery and its exterior objects
 
 added remove-before-flight and tie-down objects. controlled via UH60M/ops pull-down menu
 
-weather radar now has 2 variants. "A" the larger centered and "B" the smaller on the co-pilots side
+nose weather radar object now has 2 variants. "A" the larger centered and "B" the smaller on the co-pilots side
 
 0.7.d14
 FTR mode "B" now waits for timeout AND joystick center
@@ -32,7 +84,7 @@ fixed bug with HydrBkupPump switch
 included tail-wheel into WOW mode again 
 
 0.7.d10
-SASL-v3.22.0
+SASL-v3.22.3
 
 changed WOW to use only the 2 main wheels
 

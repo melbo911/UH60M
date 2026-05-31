@@ -9,7 +9,7 @@
 61,uh60m/mfd/on,1,0,1
 #
 40,FUEL PUMP - APU BOOST
-61,sim/cockpit2/engine/actuators/primer_on,1,0,1
+61,sim/cockpit2/engine/actuators/primer_on,3,0,1
 #
 40,A P U CONT - ON
 61,sim/cockpit/engine/APU_running,0,0,1
@@ -21,8 +21,8 @@
 61,uh60m/sys/sw/stby_inst,0,0,1
 #
 40,E G I 1 and E G I 2 - ON
-61,sim/cockpit2/radios/actuators/gps_power,0,0,1
-61,sim/cockpit2/radios/actuators/gps2_power,0,0,1
+61,uh60m/sys/sw/egi1,0,0,1
+61,uh60m/sys/sw/egi1,0,0,1
 #
 40,CHECK LAMPS ON MASTER WARNING PANEL
 99
