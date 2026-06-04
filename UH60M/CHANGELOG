@@ -1,6 +1,8 @@
 0.8.d3
 
-EGI1 and 2 need to be ON during "start with engines running" - bob
+set EGI1 and 2 ON during "start with engines running" and "autostart"
+
+FMS will allow FPN RUN only if EGI1 is ON
 
 fixed error handling in tacan2channel()
 
