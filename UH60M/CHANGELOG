@@ -1,3 +1,17 @@
+0.8.d3
+
+EGI1 and 2 need to be ON during "start with engines running" - bob
+
+fixed error handling in tacan2channel()
+
+0.8.d2
+
+stopped using the private dataref for night vision statics - jan
+
+improved mouse input into MFD->PFD
+
+fixed bug in burning-fuel calculation in ND->FPN screen 
+
 0.8.d1
 
 blade ice detect message in event system
