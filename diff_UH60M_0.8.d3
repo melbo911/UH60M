@@ -1,6 +1,5 @@
 .version:7
 CHANGELOG:18980
-objects/cockpit.obj:3136863
 objects/cockpit1.obj:9933382
 objects/fuselage.obj:3685750
 objects/interior.obj:7283536
@@ -57,12 +56,12 @@ plugins/UH60M/data/modules/Custom Module/sys.secured:40848
 plugins/UH60M/data/modules/Custom Module/vibration.secured:1856
 plugins/UH60M/data/modules/Custom Module/winch.secured:4912
 plugins/UH60M/data/modules/main.secured:98192
-plugins/UH60M/liblinux/libc++.so:28
-plugins/UH60M/liblinux/libc++.so.1:787328
 plugins/UH60M/liblinux/libc++.so.1.0:787328
-plugins/UH60M/liblinux/libc++abi.so:194968
-plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++.so.1:787328
+plugins/UH60M/liblinux/libc++.so:28
 plugins/UH60M/liblinux/libc++abi.so.1.0:194968
+plugins/UH60M/liblinux/libc++abi.so.1:194968
+plugins/UH60M/liblinux/libc++abi.so:194968
 plugins/UH60M/liblinux/readme.txt:43
 plugins/UH60M/version.txt:182
 uh60m.acf:585210

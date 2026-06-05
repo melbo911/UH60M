@@ -23,12 +23,14 @@ objects/exterior2.obj
 objects/exterior3.obj
 objects/external_glass.obj
 objects/fuselage.obj
+objects/interior.obj
 objects/interior2.obj
 objects/internal_glass.obj
 objects/medevac.dds
 objects/medevac.obj
 objects/rbf.dds
 objects/rbf.obj
+objects/rotors_blur.obj
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl

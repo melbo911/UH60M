@@ -1,3 +1,11 @@
+0.8.d4
+added pilots door steps
+
+improved error handling in FMS when entering frequencies
+
+small design changes on FMS display
+
+
 0.8.d3
 
 set EGI1 and 2 ON during "start with engines running" and "autostart"
