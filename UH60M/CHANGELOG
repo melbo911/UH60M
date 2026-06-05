@@ -1,3 +1,27 @@
+0.8.d4
+added pilots door steps
+
+improved error handling in FMS when entering frequencies
+
+small design changes on FMS display
+
+
+0.8.d3
+
+set EGI1 and 2 ON during "start with engines running" and "autostart"
+
+FMS will allow FPN RUN only if EGI1 is ON
+
+fixed error handling in tacan2channel()
+
+0.8.d2
+
+stopped using the private dataref for night vision statics - jan
+
+improved mouse input into MFD->PFD
+
+fixed bug in burning-fuel calculation in ND->FPN screen 
+
 0.8.d1
 
 blade ice detect message in event system
