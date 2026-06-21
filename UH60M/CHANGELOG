@@ -5,6 +5,15 @@ improved error handling in FMS when entering frequencies
 
 small design changes on FMS display
 
+added GUST LOCK handle , linked to tie-down
+
+added SAR sector search pattern 
+
+added TGT bars to the PFD screen
+
+set FPN default VS to 600 fpm
+
+SASL 3.22.5
 
 0.8.d3
 
