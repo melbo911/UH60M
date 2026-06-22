@@ -12,6 +12,7 @@ EMITTER 	UH60M_downwash		0 0 0  0 0 0
 EMITTER		UH60M_engine1		0 0 0  0 0 0
 EMITTER		UH60M_engine2		0 0 0  0 0 0
 EMITTER		UH60M_apu    		0 0 0  0 0 0
+EMITTER		UH60M_water    		0 0 0  0 0 0
 
 
 EMITTER 	UH60M_gun_left		0 0 0  0 0 0

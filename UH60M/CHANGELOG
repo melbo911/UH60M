@@ -1,10 +1,24 @@
+0.8.d5
+
+added GUST LOCK handle , linked to tie-down
+
+added SAR sector search pattern 
+
+added TGT bars to the PFD screen
+
+added FireHawk livery with functions ( separate download )
+
+set FPN default VS to 600 fpm
+
+SASL 3.22.5
+
 0.8.d4
+
 added pilots door steps
 
 improved error handling in FMS when entering frequencies
 
 small design changes on FMS display
-
 
 0.8.d3
 
