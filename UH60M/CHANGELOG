@@ -1,3 +1,15 @@
+0.8.d7
+
+reduced max cyclic values in PM
+
+added conf pref option for reduced roll and pitch authority on WOW.
+
+0.8.d6
+
+new body and exterior normal files
+
+added reduced roll and pitch authority on WOW. makes taxiing easier
+
 0.8.d5
 
 added GUST LOCK handle , linked to tie-down
