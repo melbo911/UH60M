@@ -1,5 +1,5 @@
 .version:7
-CHANGELOG:19318
+CHANGELOG:19428
 docs/UH60M-OpsManual.pdf:8117195
 objects/body_normal.png:2441160
 objects/exterior_normal.png:6249
@@ -24,7 +24,7 @@ plugins/UH60M/data/init/initBasicHelpers.secured:544
 plugins/UH60M/data/init/initContextWindows.secured:9328
 plugins/UH60M/data/init/initDefaultEventHandlers.secured:1600
 plugins/UH60M/data/init/initFilesystemHelpers.secured:1328
-plugins/UH60M/data/init/initMain.secured:19040
+plugins/UH60M/data/init/initMain.secured:18976
 plugins/UH60M/data/init/initMathHelpers.secured:1456
 plugins/UH60M/data/init/initProcessing.secured:3936
 plugins/UH60M/data/init/initProperties.secured:14864

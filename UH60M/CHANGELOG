@@ -1,3 +1,9 @@
+0.8.d7
+
+reduced max cyclic values in PM
+
+added conf pref option for reduced roll and pitch authority on WOW.
+
 0.8.d6
 
 new body and exterior normal files
