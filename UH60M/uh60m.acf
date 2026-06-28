@@ -15481,10 +15481,10 @@ P acf/_cus_rnd_use/9 0
 P acf/_cus_rnd_use/count 50
 P acf/_custom_autopilot 1
 P acf/_custom_govnr 1
-P acf/_cyclic_def_elev_aft 16.000000000
-P acf/_cyclic_def_elev_fwd 16.000000000
-P acf/_cyclic_def_roll_lft 12.000000000
-P acf/_cyclic_def_roll_rgt 12.000000000
+P acf/_cyclic_def_elev_aft 12.000000000
+P acf/_cyclic_def_elev_fwd 12.000000000
+P acf/_cyclic_def_roll_lft 10.000000000
+P acf/_cyclic_def_roll_rgt 10.000000000
 P acf/_cyclic_dn_trim_rat 0.500000000
 P acf/_cyclic_lf_trim_rat 0.250000000
 P acf/_cyclic_rt_trim_rat 0.259999990
@@ -15901,7 +15901,7 @@ P acf/_feathered_pitch 0.000000000
 P acf/_ff_rat_idle_JET 0.100000001
 P acf/_ff_rat_idle_PRP 0.219999999
 P acf/_ff_rat_idle_turbo 0.219999999
-P acf/_file_writer_version 124308
+P acf/_file_writer_version 124311
 P acf/_fixed_max/0 1000.000000000
 P acf/_fixed_max/1 1000.000000000
 P acf/_fixed_max/2 1000.000000000
@@ -17010,7 +17010,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.8.d6 XP12
+P acf/_version 0.8.d7 XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0
