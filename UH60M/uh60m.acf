@@ -7378,6 +7378,20 @@ P _obja/50/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/50/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/50/_v10_is_internal 0
 P _obja/50/_v10_steers_with_gear 0
+P _obja/51/_obj_flags 16
+P _obja/51/_obj_hide_dataref uh60m/kill/fh
+P _obja/51/_v10_att_body -1
+P _obja/51/_v10_att_file_stl gears_fh.obj
+P _obja/51/_v10_att_gear -1
+P _obja/51/_v10_att_phi_ref 0.000000000
+P _obja/51/_v10_att_psi_ref 0.000000000
+P _obja/51/_v10_att_the_ref 0.000000000
+P _obja/51/_v10_att_wing -1
+P _obja/51/_v10_att_x_acf_prt_ref 0.000000000
+P _obja/51/_v10_att_y_acf_prt_ref 0.000000000
+P _obja/51/_v10_att_z_acf_prt_ref 0.000000000
+P _obja/51/_v10_is_internal 0
+P _obja/51/_v10_steers_with_gear 0
 P _obja/6/_obj_flags 69
 P _obja/6/_obj_hide_dataref uh60m/kill/CDU
 P _obja/6/_v10_att_body -1
@@ -7392,7 +7406,7 @@ P _obja/6/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/6/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/6/_v10_is_internal 172274416
 P _obja/6/_v10_steers_with_gear 0
-P _obja/7/_obj_flags 97
+P _obja/7/_obj_flags 99
 P _obja/7/_obj_hide_dataref uh60m/kill/cockpit
 P _obja/7/_v10_att_body -1
 P _obja/7/_v10_att_file_stl compass.obj
@@ -7434,7 +7448,7 @@ P _obja/9/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/9/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/9/_v10_is_internal -21217600
 P _obja/9/_v10_steers_with_gear 0
-P _obja/count 51
+P _obja/count 52
 P _prop/0/_des_AOA_pwr 1.000000000
 P _prop/0/_des_AOA_root 0.000000000
 P _prop/0/_des_AOA_tip 0.000000000
@@ -15467,10 +15481,10 @@ P acf/_cus_rnd_use/9 0
 P acf/_cus_rnd_use/count 50
 P acf/_custom_autopilot 1
 P acf/_custom_govnr 1
-P acf/_cyclic_def_elev_aft 16.000000000
-P acf/_cyclic_def_elev_fwd 16.000000000
-P acf/_cyclic_def_roll_lft 12.000000000
-P acf/_cyclic_def_roll_rgt 12.000000000
+P acf/_cyclic_def_elev_aft 12.000000000
+P acf/_cyclic_def_elev_fwd 12.000000000
+P acf/_cyclic_def_roll_lft 10.000000000
+P acf/_cyclic_def_roll_rgt 10.000000000
 P acf/_cyclic_dn_trim_rat 0.500000000
 P acf/_cyclic_lf_trim_rat 0.250000000
 P acf/_cyclic_rt_trim_rat 0.259999990
@@ -15887,7 +15901,7 @@ P acf/_feathered_pitch 0.000000000
 P acf/_ff_rat_idle_JET 0.100000001
 P acf/_ff_rat_idle_PRP 0.219999999
 P acf/_ff_rat_idle_turbo 0.219999999
-P acf/_file_writer_version 124201
+P acf/_file_writer_version 124311
 P acf/_fixed_max/0 1000.000000000
 P acf/_fixed_max/1 1000.000000000
 P acf/_fixed_max/2 1000.000000000
@@ -16347,11 +16361,11 @@ P acf/_lock_n2 0.000000000
 P acf/_lock_with_elev_EQ 0
 P acf/_m_displaced 0.000000000
 P acf/_m_displaced_Y 0.000000000
-P acf/_m_empty 1.2511E4
+P acf/_m_empty 1.2511003E4
 P acf/_m_fuel_max_tot 2399.951416016
 P acf/_m_fuel_xfer_start 61.200000763
 P acf/_m_fuel_xfer_stop 1.000000000
-P acf/_m_jett 1E4
+P acf/_m_jett 1.0000001E4
 P acf/_m_max 2.2E4
 P acf/_m_shift 0.000000000
 P acf/_m_shift_dx 0.000000000
@@ -16862,7 +16876,7 @@ P acf/_tank_rat/2 0.001000000
 P acf/_tank_rat/3 0.001000000
 P acf/_tank_rat/4 0.001000000
 P acf/_tank_rat/5 0.001000000
-P acf/_tank_rat/6 0.000000000
+P acf/_tank_rat/6 0.001000000
 P acf/_tank_rat/7 0.000000000
 P acf/_tank_rat/8 0.000000000
 P acf/_tank_rat/count 9
@@ -16882,7 +16896,7 @@ P acf/_tank_role/2 2
 P acf/_tank_role/3 2
 P acf/_tank_role/4 2
 P acf/_tank_role/5 2
-P acf/_tank_role/6 0
+P acf/_tank_role/6 2
 P acf/_tank_role/7 0
 P acf/_tank_role/8 0
 P acf/_tank_role/count 9
@@ -16905,8 +16919,8 @@ P acf/_tank_xyz/5,0 9.000000000
 P acf/_tank_xyz/5,1 2.000000000
 P acf/_tank_xyz/5,2 14.000000000
 P acf/_tank_xyz/6,0 0.000000000
-P acf/_tank_xyz/6,1 0.000000000
-P acf/_tank_xyz/6,2 0.000000000
+P acf/_tank_xyz/6,1 0.656167984
+P acf/_tank_xyz/6,2 19.685039520
 P acf/_tank_xyz/7,0 0.000000000
 P acf/_tank_xyz/7,1 0.000000000
 P acf/_tank_xyz/7,2 0.000000000
@@ -16934,8 +16948,8 @@ P acf/_tank_xyz_full/5,0 9.000000000
 P acf/_tank_xyz_full/5,1 2.000000000
 P acf/_tank_xyz_full/5,2 14.000000000
 P acf/_tank_xyz_full/6,0 0.000000000
-P acf/_tank_xyz_full/6,1 0.000000000
-P acf/_tank_xyz_full/6,2 0.000000000
+P acf/_tank_xyz_full/6,1 0.656167984
+P acf/_tank_xyz_full/6,2 19.685039520
 P acf/_tank_xyz_full/7,0 0.000000000
 P acf/_tank_xyz_full/7,1 0.000000000
 P acf/_tank_xyz_full/7,2 0.000000000
@@ -16996,7 +17010,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.8.2 XP12
+P acf/_version 0.9.1 XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0

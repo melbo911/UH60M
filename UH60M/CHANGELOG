@@ -1,3 +1,72 @@
+0.9.1
+fixed CHECKLIST to work without EGI1 ON
+
+state of switches EGI1 and EGI2 are persistent now
+
+support for Fire Fighter Plugin by FSX3D. just use the command "uh60m/anims/water_door" as before to dump water
+
+some more changes to the body and exterior normal files
+
+0.9
+reduced max cyclic values in PM
+
+added conf pref option for reduced roll and pitch authority on WOW.
+
+new body and exterior normal files
+
+added reduced roll and pitch authority on WOW. makes taxiing easier
+
+added GUST LOCK handle , linked to tie-down
+
+added SAR sector search pattern 
+
+added TGT bars to the PFD screen
+
+added FireHawk livery with functions ( separate download )
+
+set FPN default VS to 600 fpm
+
+SASL 3.22.5
+
+added pilots door steps
+
+improved error handling in FMS when entering frequencies
+
+small design changes on FMS display
+
+set EGI1 and 2 ON during "start with engines running" and "autostart"
+
+FMS will allow FPN RUN only if EGI1 is ON
+
+fixed error handling in tacan2channel()
+
+stopped using the private dataref for night vision statics - jan
+
+improved mouse input into MFD->PFD
+
+fixed bug in burning-fuel calculation in ND->FPN screen 
+
+blade ice detect message in event system
+
+event message if external GPU has been connected
+
+cockpit doors jettison lever animation
+
+CB for AFMP ( fuel mgmt panel ) and CEFS fuel pump
+
+new (IRL) logic with AUTO main tank refueling 
+
+event message on auto-xfer failure
+
+new external and internal tanks display on EICAS screen
+
+FMS FIX opens FPN EDIT page
+
+red cursor cross now with transparent center
+
+MedEvac ambulance seats and animation
+
+
 0.8.2
 fixed bug in fuel management with pavehawk livery
 
@@ -6,6 +75,8 @@ overhaul fuel management code
 added internal aux tank
 
 changed setup menu design
+
+added online-update selection from MFD config menu
 
 
 0.8.1

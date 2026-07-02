@@ -1,6 +1,12 @@
 1,CHECKLIST
-2,UH60M CHECKLIST
+2,UH-60M CHECKLIST
 # 61 dref , index, <=lo , >=hi
+40,TIE DOWN - REMOVE
+61,uh60m/kill/rbf,0,0,1
+#
+40,ROTOR BRAKE - DISENGAGE
+61,sim/cockpit2/switches/rotor_brake,0,0.1,0
+#
 40,BATTERY 1 and 2 - ON
 61,sim/cockpit2/electrical/battery_on,1,0,1
 61,sim/cockpit2/electrical/battery_on,2,0,1
@@ -9,7 +15,7 @@
 61,uh60m/mfd/on,1,0,1
 #
 40,FUEL PUMP - APU BOOST
-61,sim/cockpit2/engine/actuators/primer_on,1,0,1
+61,sim/cockpit2/engine/actuators/primer_on,3,0,1
 #
 40,A P U CONT - ON
 61,sim/cockpit/engine/APU_running,0,0,1
@@ -21,8 +27,8 @@
 61,uh60m/sys/sw/stby_inst,0,0,1
 #
 40,E G I 1 and E G I 2 - ON
-61,sim/cockpit2/radios/actuators/gps_power,0,0,1
-61,sim/cockpit2/radios/actuators/gps2_power,0,0,1
+61,uh60m/sys/sw/egi1,0,0,1
+61,uh60m/sys/sw/egi2,0,0,1
 #
 40,CHECK LAMPS ON MASTER WARNING PANEL
 99
