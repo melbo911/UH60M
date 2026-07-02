@@ -1,3 +1,4 @@
+.version:6
 CHANGELOG:19510
 missions/CHECKLIST.MSN:2474
 objects/body_normal.png:2438734
@@ -5,6 +6,7 @@ objects/cockpit.dds:11184952
 objects/exterior_normal.png:6247
 objects/gears.obj:1882496
 objects/gears_fh.obj:2727116
+objects/particles/UH60M_particles.pss:58547
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
 plugins/UH60M/64/lin.xpl:16673400
@@ -29,6 +31,32 @@ plugins/UH60M/data/init/initProperties.secured:14864
 plugins/UH60M/data/init/initResourcesLoaders.secured:2832
 plugins/UH60M/data/init/initSubpanelCreator.secured:3568
 plugins/UH60M/data/init/initTableHelpers.secured:1536
+plugins/UH60M/data/modules/Custom Module/CDU1.secured:111712
+plugins/UH60M/data/modules/Custom Module/CDU2.secured:111728
+plugins/UH60M/data/modules/Custom Module/FDCP.secured:28928
+plugins/UH60M/data/modules/Custom Module/MFD.secured:162736
+plugins/UH60M/data/modules/Custom Module/airfuel.secured:10032
+plugins/UH60M/data/modules/Custom Module/anims.secured:26960
+plugins/UH60M/data/modules/Custom Module/configs.secured:20272
+plugins/UH60M/data/modules/Custom Module/controls.secured:25728
+plugins/UH60M/data/modules/Custom Module/engines.secured:15744
+plugins/UH60M/data/modules/Custom Module/events.secured:19184
+plugins/UH60M/data/modules/Custom Module/failures.secured:2720
+plugins/UH60M/data/modules/Custom Module/formation.secured:3312
+plugins/UH60M/data/modules/Custom Module/icam.secured:13744
+plugins/UH60M/data/modules/Custom Module/limits.secured:928
+plugins/UH60M/data/modules/Custom Module/menu.secured:22528
+plugins/UH60M/data/modules/Custom Module/message.secured:4640
+plugins/UH60M/data/modules/Custom Module/mission.secured:37328
+plugins/UH60M/data/modules/Custom Module/nav.secured:22944
+plugins/UH60M/data/modules/Custom Module/ops.secured:33648
+plugins/UH60M/data/modules/Custom Module/patch.secured:6592
+plugins/UH60M/data/modules/Custom Module/perf.secured:2656
+plugins/UH60M/data/modules/Custom Module/rotors.secured:6288
+plugins/UH60M/data/modules/Custom Module/slingops.secured:8768
+plugins/UH60M/data/modules/Custom Module/sys.secured:40736
+plugins/UH60M/data/modules/Custom Module/vibration.secured:1856
+plugins/UH60M/data/modules/Custom Module/winch.secured:4944
 plugins/UH60M/data/modules/main.secured:99200
 plugins/UH60M/liblinux/libc++.so.1.0:787328
 plugins/UH60M/liblinux/libc++.so.1:787328
