@@ -1,0 +1,53 @@
+[UH60M INFO]: Initializing...
+[UH60M INFO]: [DISPLAY] Monitor 0: 0, 0, 1440, 900
+[UH60M INFO]: Path to module: /Users/jablo/xp/Aircraft/Helis/DIST/plugins/UH60M/data/modules/main.secured
+[UH60M INFO]: Loading module...
+[UH60M INFO]: [LUA]: loading	module
+[UH60M INFO]: [LUA]: "module"	X-Plane Version = 11 (11550)
+[UH60M INFO]: [LUA]: "module"	UH60M 0.9.0	2026.0630.133031
+[UH60M INFO]: [LUA]: main:	acf notes:UH60MX
+[UH60M INFO]: [LUA]: main:	conf is Mike-X
+[UH60M INFO]: [LUA]: "module"	loading FFI for	OSX	Resources/plugins/XPLM.framework/XPLM
+[UH60M INFO]: [LUA]: loading	configs
+[UH60M INFO]: [LUA]: loading	sys
+[UH60M INFO]: [LUA]: loading	limits
+[UH60M INFO]: [LUA]: loading	nav
+[UH60M INFO]: [LUA]: "nav"	read_all_navids()	272985	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	829016	usec
+[UH60M INFO]: [LUA]: loading	engines
+[UH60M INFO]: [LUA]: loading	controls
+[UH60M INFO]: [LUA]: loading	failures
+[UH60M INFO]: [LUA]: loading	rotors
+[UH60M INFO]: [LUA]: loading	anims
+[UH60M INFO]: [LUA]: loading	icam
+[UH60M INFO]: [LUA]: loading	vibration
+[UH60M INFO]: [LUA]: loading	events
+[UH60M INFO]: [LUA]: loading	ops
+[UH60M INFO]: [LUA]: loading	formation
+[UH60M INFO]: [LUA]: loading	mission
+[UH60M INFO]: [LUA]: loading	CDU1
+[UH60M INFO]: [LUA]: loading	CDU2
+[UH60M INFO]: [LUA]: loading	message
+[UH60M INFO]: [LUA]: loading	interactive
+[UH60M INFO]: [LUA]: loading	menu
+[UH60M INFO]: [LUA]: loading	airfuel
+[UH60M INFO]: [LUA]: loading	patch
+[UH60M INFO]: [LUA]: loading	winch
+[UH60M INFO]: [LUA]: loading	slingops
+[UH60M INFO]: [LUA]: loading	MFD
+[UH60M INFO]: [LUA]: loading	FDCP
+[UH60M INFO]: Scripts loading time: 265.5958
+[UH60M INFO]: Module loaded
+[UH60M INFO]: [LUA]: "module"	%% onSceneryLoaded
+[UH60M INFO]: Initializing modules...
+[UH60M INFO]: [LUA]: "module"	%% onModuleInit
+[UH60M INFO]: [LUA]: "sys"	sys: module init
+[UH60M INFO]: [LUA]: "patch"	%% onModuleInit
+[UH60M INFO]: Modules initialization done
+[UH60M INFO]: [LUA]: "sys"	set	6	0
+[UH60M INFO]: [LUA]: "sys"	set	7	0
+[UH60M INFO]: [LUA]: "sys"	set	8	0
+[UH60M INFO]: [LUA]: "sys"	set	10	0
+[UH60M INFO]: Disabling...
+[UH60M INFO]: [LUA]: "module"	%% onModuleShutdown
+[UH60M INFO]: SASL plugin stopped...
