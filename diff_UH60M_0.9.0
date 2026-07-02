@@ -22,14 +22,14 @@ plugins/UH60M/data/init/initBasicHelpers.secured:544
 plugins/UH60M/data/init/initContextWindows.secured:9328
 plugins/UH60M/data/init/initDefaultEventHandlers.secured:1600
 plugins/UH60M/data/init/initFilesystemHelpers.secured:1328
-plugins/UH60M/data/init/initMain.secured:18976
+plugins/UH60M/data/init/initMain.secured:19072
 plugins/UH60M/data/init/initMathHelpers.secured:1456
 plugins/UH60M/data/init/initProcessing.secured:3936
 plugins/UH60M/data/init/initProperties.secured:14864
 plugins/UH60M/data/init/initResourcesLoaders.secured:2832
 plugins/UH60M/data/init/initSubpanelCreator.secured:3568
 plugins/UH60M/data/init/initTableHelpers.secured:1536
-plugins/UH60M/data/modules/main.secured:99216
+plugins/UH60M/data/modules/main.secured:99184
 plugins/UH60M/liblinux/libc++.so.1.0:787328
 plugins/UH60M/liblinux/libc++.so.1:787328
 plugins/UH60M/liblinux/libc++.so:28
