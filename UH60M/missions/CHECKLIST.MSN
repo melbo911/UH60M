@@ -1,6 +1,12 @@
 1,CHECKLIST
-2,UH60M CHECKLIST
+2,UH-60M CHECKLIST
 # 61 dref , index, <=lo , >=hi
+40,TIE DOWN - REMOVE
+61,uh60m/kill/rbf,0,0,1
+#
+40,ROTOR BRAKE - DISENGAGE
+61,sim/cockpit2/switches/rotor_brake,0,0.1,0
+#
 40,BATTERY 1 and 2 - ON
 61,sim/cockpit2/electrical/battery_on,1,0,1
 61,sim/cockpit2/electrical/battery_on,2,0,1

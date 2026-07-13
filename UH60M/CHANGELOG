@@ -1,17 +1,53 @@
-0.8.d7
+0.9.d2
 
+limited cyclic authority if AP active ( to fix potential issues when terrain follow )
+
+support for "DWSIM Mission Editor"  ( additional lua modules required )
+
+fixed cockpit door removal / ejection
+
+fixed potential issue with preserving collective joystick device for LevelHold
+
+workaround for broken "override/joystick_pitch" and "roll" in XP 12.4.3 and 12.5
+      fixes collective and cyclic animation
+
+new PID values for LevelHold and HoverHold
+
+new: engage of FMS LNAV when selecting new FPN waypoint on FMS
+
+new: if FPN WYPT ALT is below 1000ft, radio ALT is being used instead of baro ALT and "terrain follow" is engaged
+
+
+0.9.d1
+
+changes for XP 12.5.d7
+
+throttle idle latch at 5%
+
+mode details on FireHawk OBJs
+
+
+0.9.1
+fixed CHECKLIST to work without EGI1 ON
+
+state of switches EGI1 and EGI2 are persistent now
+
+support for Fire Fighter Plugin by FSX3D. just use the command "uh60m/anims/water_door" as before to dump water
+
+some more changes to the body and exterior normal files
+
+0.9
+0.8.d7
 reduced max cyclic values in PM
 
 added conf pref option for reduced roll and pitch authority on WOW.
 
 0.8.d6
-
 new body and exterior normal files
 
 added reduced roll and pitch authority on WOW. makes taxiing easier
 
 0.8.d5
-
 added GUST LOCK handle , linked to tie-down
 
 added SAR sector search pattern 
@@ -25,7 +61,6 @@ set FPN default VS to 600 fpm
 SASL 3.22.5
 
 0.8.d4
-
 added pilots door steps
 
 improved error handling in FMS when entering frequencies
@@ -33,7 +68,6 @@ improved error handling in FMS when entering frequencies
 small design changes on FMS display
 
 0.8.d3
-
 set EGI1 and 2 ON during "start with engines running" and "autostart"
 
 FMS will allow FPN RUN only if EGI1 is ON
@@ -41,15 +75,13 @@ FMS will allow FPN RUN only if EGI1 is ON
 fixed error handling in tacan2channel()
 
 0.8.d2
-
-stopped using the private dataref for night vision statics - jan
+stopped using the private dataref for night vision statics
 
 improved mouse input into MFD->PFD
 
 fixed bug in burning-fuel calculation in ND->FPN screen 
 
 0.8.d1
-
 blade ice detect message in event system
 
 event message if external GPU has been connected
@@ -68,7 +100,7 @@ FMS FIX opens FPN EDIT page
 
 red cursor cross now with transparent center
 
-MedEvec ambulance seats and animation
+MedEvac ambulance seats and animation
 
 
 0.8.2

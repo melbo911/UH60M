@@ -106,7 +106,7 @@ P _gear/0/_lonE 0.0
 P _gear/0/_lonN 0.0
 P _gear/0/_lonR -90.0
 P _gear/0/_scon 16493.208984375
-P _gear/0/_stat_def 0.498118639
+P _gear/0/_stat_def 0.498118699
 P _gear/0/_steerdeg_hispeed 0.0
 P _gear/0/_steerdeg_lospeed 0.0
 P _gear/0/_strut_comp 0.0
@@ -140,7 +140,7 @@ P _gear/1/_lonE 0.0
 P _gear/1/_lonN 0.0
 P _gear/1/_lonR -90.0
 P _gear/1/_scon 16493.208984375
-P _gear/1/_stat_def 0.498118639
+P _gear/1/_stat_def 0.498118699
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp 0.0
@@ -208,7 +208,7 @@ P _gear/3/_lonE 0.0
 P _gear/3/_lonN 0.0
 P _gear/3/_lonR 90.0
 P _gear/3/_scon 8093.888671875
-P _gear/3/_stat_def 0.553856790
+P _gear/3/_stat_def 0.553856909
 P _gear/3/_steerdeg_hispeed 13.0
 P _gear/3/_steerdeg_lospeed 31.0
 P _gear/3/_strut_comp 0.0
@@ -799,7 +799,7 @@ P _obja/51/_v10_att_the_ref 0.0
 P _obja/51/_v10_att_x_acf_prt_ref 0.0
 P _obja/51/_v10_att_y_acf_prt_ref 0.0
 P _obja/51/_v10_att_z_acf_prt_ref 0.0
-P _obja/51/_v10_is_internal 0
+P _obja/51/_v10_is_internal 886722
 P _obja/51/_v10_steers_with_gear 0
 P _obja/6/_obj_flags 13
 P _obja/6/_obj_hide_dataref uh60m/kill/CDU
@@ -822,7 +822,7 @@ P _obja/7/_v10_att_psi_ref 0.0
 P _obja/7/_v10_att_the_ref 0.0
 P _obja/7/_v10_att_x_acf_prt_ref 0.0
 P _obja/7/_v10_att_y_acf_prt_ref 0.0
-P _obja/7/_v10_att_z_acf_prt_ref 0.010000000
+P _obja/7/_v10_att_z_acf_prt_ref 0.0
 P _obja/7/_v10_is_internal 0
 P _obja/7/_v10_steers_with_gear 0
 P _obja/8/_obj_flags 24
@@ -22213,7 +22213,7 @@ P acf/_vect_power_for 1.0
 P acf/_vect_rate 15.0
 P acf/_vectarmY 0.0
 P acf/_vectarmZ 0.0
-P acf/_version 0.8.d7 XP11
+P acf/_version 0.9.d1 XP11
 P acf/_vvi_but_adjusts_pitch 0
 P acf/_warn_airliner 0
 P acf/_warn_alt_app_100 0
