@@ -1,9 +1,11 @@
 .version:6
-CHANGELOG:20267
+CHANGELOG:20282
 docs/UH60M-OpsManual.pdf:8268296
 missions/CHECKLIST.MSN:2474
 objects/body_normal.png:2438734
 objects/cockpit.dds:11184952
+objects/cockpit1.obj:10011873
+objects/exterior.obj:3581002
 objects/exterior_normal.png:6247
 objects/gears.obj:1882496
 objects/gears_fh.obj:2877768
