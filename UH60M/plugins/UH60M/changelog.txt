@@ -1,4 +1,10 @@
 ----------------------------------------------------------
+SASL 3.22.6
+----------------------------------------------------------
+
+- 'log' function will accept nil value for 'isFatal' parameter and will apply project scope behavior regarding warning and error messages
+
+----------------------------------------------------------
 SASL 3.22.5
 ----------------------------------------------------------
 
