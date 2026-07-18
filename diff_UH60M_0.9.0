@@ -1,10 +1,12 @@
 .version:6
-CHANGELOG:20267
+CHANGELOG:20282
 acf_config.ini:337
 docs/UH60M-OpsManual.pdf:8268296
 missions/CHECKLIST.MSN:2474
 objects/body_normal.png:2438734
 objects/cockpit.dds:11184952
+objects/cockpit1.obj:10011873
+objects/exterior.obj:3581002
 objects/exterior_normal.png:6247
 objects/gears.obj:1882496
 objects/gears_fh.obj:2877768
@@ -74,7 +76,7 @@ plugins/UH60M/data/modules/Custom Module/vibration.secured:1888
 plugins/UH60M/data/modules/Custom Module/winch.secured:4976
 plugins/UH60M/data/modules/main.secured:99552
 plugins/UH60M/data/modules/state.txt:79
-plugins/UH60M/data/output/SASLLog.txt:2516
+plugins/UH60M/data/output/SASLLog.txt:2843
 plugins/UH60M/liblinux/libc++.so:28
 plugins/UH60M/liblinux/libc++.so.1:787328
 plugins/UH60M/liblinux/libc++.so.1.0:787328

@@ -4,7 +4,7 @@
 [UH60M INFO]: Loading module...
 [UH60M INFO]: [LUA]: loading	module
 [UH60M INFO]: [LUA]: "module"	X-Plane Version = 11 (11550)
-[UH60M INFO]: [LUA]: "module"	UH60M 0.9.2	2026.0717.180700
+[UH60M INFO]: [LUA]: "module"	UH60M 0.9.2	2026.0718.203311
 [UH60M INFO]: [LUA]: main:	acf notes:UH60MX
 [UH60M INFO]: [LUA]: main:	conf is Mike-X
 [UH60M INFO]: [LUA]: "module"	loading FFI for	OSX	Resources/plugins/XPLM.framework/XPLM
@@ -13,8 +13,8 @@
 [UH60M INFO]: [LUA]: loading	sys
 [UH60M INFO]: [LUA]: loading	limits
 [UH60M INFO]: [LUA]: loading	nav
-[UH60M INFO]: [LUA]: "nav"	read_all_navids()	487654	usec
-[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	851495	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_navids()	1129216	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	888524	usec
 [UH60M INFO]: [LUA]: loading	engines
 [UH60M INFO]: [LUA]: loading	controls
 [UH60M INFO]: [LUA]: loading	failures
@@ -44,15 +44,24 @@
 [UH60M DEBUG]: [LUA]: "dtc_receiver"	[DTC] Handler registered
 [UH60M INFO]: [LUA]: loading	MFD
 [UH60M INFO]: [LUA]: loading	FDCP
-[UH60M INFO]: Scripts loading time: 37.9981
+[UH60M INFO]: Scripts loading time: 45.1428
 [UH60M INFO]: Module loaded
-[UH60M INFO]: [LUA]: "module"	%% onSceneryLoaded
 [UH60M INFO]: Initializing modules...
 [UH60M INFO]: [LUA]: "module"	%% onModuleInit
 [UH60M INFO]: [LUA]: "sys"	sys: module init
 [UH60M INFO]: [LUA]: "patch"	%% onModuleInit
 [UH60M INFO]: Modules initialization done
-[UH60M INFO]: [LUA]: "sys"	set	6	0
+[UH60M INFO]: [LUA]: "sys"	set	5	1
+[UH60M INFO]: [LUA]: "sys"	set	6	1
 [UH60M INFO]: [LUA]: "sys"	set	7	0
-[UH60M INFO]: [LUA]: "sys"	set	8	0
+[UH60M INFO]: [LUA]: "sys"	set	8	1
 [UH60M INFO]: [LUA]: "sys"	set	10	0
+[UH60M INFO]: [LUA]: "sys"	set	11	1
+[UH60M INFO]: [LUA]: "sys"	set	5	0
+[UH60M INFO]: [LUA]: "sys"	set	6	0
+[UH60M INFO]: [LUA]: "sys"	set	8	0
+[UH60M INFO]: [LUA]: "sys"	set	11	0
+[UH60M INFO]: [LUA]: "module"	%% onPlaneUnloaded
+[UH60M INFO]: Disabling...
+[UH60M INFO]: [LUA]: "module"	%% onModuleShutdown
+[UH60M INFO]: SASL plugin stopped...
