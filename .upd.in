@@ -1,17 +1,10 @@
 .version
 CHANGELOG
-acf_config.ini
 docs/UH60M-OpsManual.pdf
-missions/CHECKLIST.MSN
-objects/body_normal.png
-objects/cockpit.dds
 objects/cockpit1.obj
 objects/exterior.obj
-objects/exterior_normal.png
-objects/gears.obj
 objects/gears_fh.obj
 objects/particles/UH60M_particles.pss
-opt_config.ini
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
