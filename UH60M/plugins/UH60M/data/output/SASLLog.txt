@@ -4,7 +4,7 @@
 [UH60M INFO]: Loading module...
 [UH60M INFO]: [LUA]: loading	module
 [UH60M INFO]: [LUA]: "module"	X-Plane Version = 11 (11550)
-[UH60M INFO]: [LUA]: "module"	UH60M 0.9.X	2026.0719.103750
+[UH60M INFO]: [LUA]: "module"	UH60M 0.9.X	2026.0719.105244
 [UH60M INFO]: [LUA]: main:	acf notes:UH60MX
 [UH60M INFO]: [LUA]: main:	conf is Mike-X
 [UH60M INFO]: [LUA]: "module"	loading FFI for	OSX	Resources/plugins/XPLM.framework/XPLM
@@ -13,8 +13,8 @@
 [UH60M INFO]: [LUA]: loading	sys
 [UH60M INFO]: [LUA]: loading	limits
 [UH60M INFO]: [LUA]: loading	nav
-[UH60M INFO]: [LUA]: "nav"	read_all_navids()	534897	usec
-[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	840157	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_navids()	314547	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	825386	usec
 [UH60M INFO]: [LUA]: loading	engines
 [UH60M INFO]: [LUA]: loading	controls
 [UH60M INFO]: [LUA]: loading	failures
@@ -38,37 +38,25 @@
 [UH60M INFO]: [LUA]: loading	dtc_config_sender
 [UH60M INFO]: [LUA]: requesting	json_lib 
 [UH60M INFO]: [LUA]: requesting	aircraft_configs/uh60m_config 
-[UH60M ERROR]: [LUA]: Can't request script aircraft_configs/uh60m_config.lua
-[UH60M ERROR]: [STACK]:| [string ".../initMain.secured"]:0 in function <?>
-[UH60M ERROR]: [STACK]:| [C]:-1 in function <pcall>
-[UH60M ERROR]: [STACK]:| [string "dtc_config_sender"]:136 in function <send>
-[UH60M ERROR]: [STACK]:| [string "dtc_config_sender"]:169 in function <>
-[UH60M ERROR]: [STACK]:| [string ".../initMain.secured"]:0 in function <dtc_config_sender>
-[UH60M ERROR]: [STACK]:| [string "main"]:2790 in function <>
-[UH60M ERROR]: [STACK]:| ...
-[UH60M DEBUG]: [LUA]: "dtc_config_sender"	[DWSimCfg] aircraft config not found at 'aircraft_configs/uh60m_config'
+[UH60M DEBUG]: [LUA]: "dtc_config_sender"	[DWSimCfg] Mission Editor not loaded — skipping config push
 [UH60M INFO]: [LUA]: loading	dtc_receiver
 [UH60M INFO]: [LUA]: requesting	json_lib 
 [UH60M DEBUG]: [LUA]: "dtc_receiver"	[DTC] Handler registered
 [UH60M INFO]: [LUA]: loading	MFD
 [UH60M INFO]: [LUA]: loading	FDCP
-[UH60M INFO]: Scripts loading time: 43.1870
+[UH60M INFO]: Scripts loading time: 38.0840
 [UH60M INFO]: Module loaded
 [UH60M INFO]: Initializing modules...
 [UH60M INFO]: [LUA]: "module"	%% onModuleInit
 [UH60M INFO]: [LUA]: "sys"	sys: module init
 [UH60M INFO]: [LUA]: "patch"	%% onModuleInit
-[UH60M INFO]: Modules initialization done
-[UH60M INFO]: [LUA]: "sys"	set	7	0
-[UH60M INFO]: [LUA]: "sys"	set	10	0
-[UH60M INFO]: [LUA]: "sys"	set	5	1
-[UH60M INFO]: [LUA]: "sys"	set	6	1
-[UH60M INFO]: [LUA]: "sys"	set	8	1
-[UH60M INFO]: [LUA]: "sys"	set	11	1
 [UH60M INFO]: [LUA]: patch:	looking for 0.9.X updates
+[UH60M INFO]: Modules initialization done
 [UH60M INFO]: [LUA]: patch:	update found for 0.9.X
+[UH60M INFO]: [LUA]: "sys"	set	11	1
 [UH60M INFO]: [LUA]: patch:	updating 	.version
 [UH60M INFO]: [LUA]: patch:	updating 	CHANGELOG
+[UH60M INFO]: [LUA]: patch:	updating 	acf_config.ini
 [UH60M INFO]: [LUA]: patch:	updating 	docs/UH60M-OpsManual.pdf
 [UH60M INFO]: [LUA]: patch:	updating 	objects/cockpit1.obj
 [UH60M INFO]: [LUA]: patch:	updating 	objects/exterior.obj
@@ -105,6 +93,7 @@
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initSubpanelCreator.secured
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initTableHelpers.secured
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/readme.txt
+[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/3rd-modules/aircraft_configs.dis/uh60m_config.lua
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/3rd-modules/aircraft_configs/uh60m_config.lua
 [UH60M INFO]: [LUA]: patch:	ERR: could not create:	/Users/jablo/xp/Aircraft/Helis/DIST/plugins/UH60M/data/modules/3rd-modules/aircraft_configs/uh60m_config.lua
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/3rd-modules/json_lib.lua
@@ -140,12 +129,12 @@
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/main.secured
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/state.txt
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/output/SASLLog.txt
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++.so
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++.so.1
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++.so.1.0
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++abi.so
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++abi.so.1
+[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++.so.1
+[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++.so
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++abi.so.1.0
+[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++abi.so.1
+[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++abi.so
 [UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/version.txt
 [UH60M INFO]: [LUA]: patch:	updating 	uh60m.acf
 [UH60M INFO]: [LUA]: patch:	updating 	uh60m_prefs.txt
