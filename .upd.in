@@ -1,5 +1,6 @@
 .version
 CHANGELOG
+acf_config.ini
 docs/UH60M-OpsManual.pdf
 objects/cockpit1.obj
 objects/exterior.obj
@@ -36,6 +37,7 @@ plugins/UH60M/data/init/initResourcesLoaders.secured
 plugins/UH60M/data/init/initSubpanelCreator.secured
 plugins/UH60M/data/init/initTableHelpers.secured
 plugins/UH60M/data/init/readme.txt
+plugins/UH60M/data/modules/3rd-modules/aircraft_configs.dis/uh60m_config.lua
 plugins/UH60M/data/modules/3rd-modules/aircraft_configs/uh60m_config.lua
 plugins/UH60M/data/modules/3rd-modules/json_lib.lua
 plugins/UH60M/data/modules/Custom Module/CDU1.secured
