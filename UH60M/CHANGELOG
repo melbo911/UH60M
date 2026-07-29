@@ -1,3 +1,8 @@
+0.9.4
+fixed typo-bug in configs.lua
+
+fixed YAW input via keyboard if override_joystick=0
+
 0.9.3
 fixed mouse cam control in MFD target screen
 
@@ -5,7 +10,7 @@ added blinking values to MFD-PDF when in "select" mode (clicking with mouse on i
 
 optimized CDU1 & CDU2 drawing
 
-seperate persistent MFD and CDU brightness setting
+separate and persistent MFD and FMS/FDCP brightness settings
 
 fixed bug during plugin start if conf option HRST was selected
 

@@ -1,11 +1,13 @@
 .version
 AviTab.json
 CHANGELOG
+acf_config.ini
 objects/avionics_bay.obj
 objects/cockpit.obj
 objects/engines.obj
 objects/fuselage.obj
 objects/particles/UH60M_particles.pss
+opt_config.ini
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl

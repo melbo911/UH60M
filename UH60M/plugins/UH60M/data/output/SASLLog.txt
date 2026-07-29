@@ -4,17 +4,17 @@
 [UH60M INFO]: Loading module...
 [UH60M INFO]: [LUA]: loading	module
 [UH60M INFO]: [LUA]: "module"	X-Plane Version = 11 (11550)
-[UH60M INFO]: [LUA]: "module"	UH60M 0.9.X	2026.0719.105244
+[UH60M INFO]: [LUA]: "module"	UH60M 0.9.3	2026.0729.114006
 [UH60M INFO]: [LUA]: main:	acf notes:UH60MX
 [UH60M INFO]: [LUA]: main:	conf is Mike-X
 [UH60M INFO]: [LUA]: "module"	loading FFI for	OSX	Resources/plugins/XPLM.framework/XPLM
-[UH60M INFO]: [LUA]: "module"	AviTab found
+[UH60M INFO]: [LUA]: "module"	no AviTab found
 [UH60M INFO]: [LUA]: loading	configs
 [UH60M INFO]: [LUA]: loading	sys
 [UH60M INFO]: [LUA]: loading	limits
 [UH60M INFO]: [LUA]: loading	nav
-[UH60M INFO]: [LUA]: "nav"	read_all_navids()	314547	usec
-[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	825386	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_navids()	544380	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	871433	usec
 [UH60M INFO]: [LUA]: loading	engines
 [UH60M INFO]: [LUA]: loading	controls
 [UH60M INFO]: [LUA]: loading	failures
@@ -38,108 +38,25 @@
 [UH60M INFO]: [LUA]: loading	dtc_config_sender
 [UH60M INFO]: [LUA]: requesting	json_lib 
 [UH60M INFO]: [LUA]: requesting	aircraft_configs/uh60m_config 
-[UH60M DEBUG]: [LUA]: "dtc_config_sender"	[DWSimCfg] Mission Editor not loaded — skipping config push
 [UH60M INFO]: [LUA]: loading	dtc_receiver
 [UH60M INFO]: [LUA]: requesting	json_lib 
 [UH60M DEBUG]: [LUA]: "dtc_receiver"	[DTC] Handler registered
 [UH60M INFO]: [LUA]: loading	MFD
 [UH60M INFO]: [LUA]: loading	FDCP
-[UH60M INFO]: Scripts loading time: 38.0840
+[UH60M INFO]: Scripts loading time: 45.4063
 [UH60M INFO]: Module loaded
 [UH60M INFO]: Initializing modules...
 [UH60M INFO]: [LUA]: "module"	%% onModuleInit
 [UH60M INFO]: [LUA]: "sys"	sys: module init
 [UH60M INFO]: [LUA]: "patch"	%% onModuleInit
-[UH60M INFO]: [LUA]: patch:	looking for 0.9.X updates
+[UH60M INFO]: [LUA]: patch:	looking for 0.9.3 updates
 [UH60M INFO]: Modules initialization done
-[UH60M INFO]: [LUA]: patch:	update found for 0.9.X
+[UH60M INFO]: [LUA]: "sys"	set	1	1
+[UH60M INFO]: [LUA]: "sys"	set	2	1
+[UH60M INFO]: [LUA]: "sys"	set	3	1
 [UH60M INFO]: [LUA]: "sys"	set	11	1
-[UH60M INFO]: [LUA]: patch:	updating 	.version
-[UH60M INFO]: [LUA]: patch:	updating 	CHANGELOG
-[UH60M INFO]: [LUA]: patch:	updating 	acf_config.ini
-[UH60M INFO]: [LUA]: patch:	updating 	docs/UH60M-OpsManual.pdf
-[UH60M INFO]: [LUA]: patch:	updating 	objects/cockpit1.obj
-[UH60M INFO]: [LUA]: patch:	updating 	objects/exterior.obj
-[UH60M INFO]: [LUA]: patch:	updating 	objects/gears_fh.obj
-[UH60M INFO]: [LUA]: patch:	updating 	objects/particles/UH60M_particles.pss
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/64/libcrypto-3-x64.dll
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/64/libssl-3-x64.dll
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/64/lin.xpl
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/64/mac.xpl
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/64/win.xpl
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/EndUserLicense
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/changelog.txt
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/acturl.dat
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/Roboto-Regular-LICENSE.txt
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/Roboto-Regular.ttf
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/defdecore.png
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/interactive.png
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/interactive.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/mouseFocusedZone.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/popupCloseButton.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/popupResizeButton.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/readme.txt
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/components/rectangle.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initAvionics.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initBasicHelpers.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initContextWindows.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initDefaultEventHandlers.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initFilesystemHelpers.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initMain.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initMathHelpers.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initProcessing.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initProperties.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initResourcesLoaders.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initSubpanelCreator.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/initTableHelpers.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/init/readme.txt
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/3rd-modules/aircraft_configs.dis/uh60m_config.lua
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/3rd-modules/aircraft_configs/uh60m_config.lua
-[UH60M INFO]: [LUA]: patch:	ERR: could not create:	/Users/jablo/xp/Aircraft/Helis/DIST/plugins/UH60M/data/modules/3rd-modules/aircraft_configs/uh60m_config.lua
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/3rd-modules/json_lib.lua
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/CDU1.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/CDU2.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/FDCP.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/MFD.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/airfuel.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/anims.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/configs.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/controls.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/dtc_config_sender.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/dtc_receiver.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/engines.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/events.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/failures.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/formation.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/icam.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/images/uh60-side.png
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/limits.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/menu.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/message.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/mission.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/nav.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/ops.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/patch.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/perf.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/rotors.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/slingops.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/sys.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/vibration.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/Custom Module/winch.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/main.secured
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/modules/state.txt
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/data/output/SASLLog.txt
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++.so.1.0
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++.so.1
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++.so
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++abi.so.1.0
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++abi.so.1
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/liblinux/libc++abi.so
-[UH60M INFO]: [LUA]: patch:	updating 	plugins/UH60M/version.txt
-[UH60M INFO]: [LUA]: patch:	updating 	uh60m.acf
-[UH60M INFO]: [LUA]: patch:	updating 	uh60m_prefs.txt
-[UH60M INFO]: [LUA]: patch:	update FAILED
-[UH60M INFO]: [LUA]: patch:	cleanup
+[UH60M INFO]: [LUA]: patch:	no update found for 0.9.3
+[UH60M INFO]: [LUA]: "MFD"	all_mfd_pwr	1
 [UH60M INFO]: [LUA]: "module"	%% onPlaneUnloaded
 [UH60M INFO]: Disabling...
 [UH60M INFO]: [LUA]: "module"	%% onModuleShutdown
