@@ -1,4 +1,4 @@
-A
+I
 800
 OBJ
 
@@ -42481,9 +42481,9 @@ ATTR_manip_command hand uh60m/mfd/mfd1_s1
 TRIS 6660 6
 ATTR_manip_command button uh60m/mfd/mfd1_pwr MFD POWER
 TRIS 6666 6
-ATTR_manip_command button uh60m/cdu/CDU1_BRT 
+ATTR_manip_command button uh60m/mfd/mfd1_brt 
 TRIS 6672 6
-ATTR_manip_command button uh60m/cdu/CDU1_DIM 
+ATTR_manip_command button uh60m/mfd/mfd1_dim 
 TRIS 6678 6
 ATTR_manip_command button uh60m/mfd/mfd1_l1 
 TRIS 6684 6
@@ -42535,9 +42535,9 @@ ATTR_manip_command button uh60m/mfd/mfd1_b6
 TRIS 6822 6
 ATTR_manip_command button uh60m/mfd/mfd2_pwr MFD POWER
 TRIS 6828 6
-ATTR_manip_command button uh60m/cdu/CDU1_DIM 
+ATTR_manip_command button uh60m/mfd/mfd1_dim 
 TRIS 6834 6
-ATTR_manip_command button uh60m/cdu/CDU1_BRT 
+ATTR_manip_command button uh60m/mfd/mfd1_brt 
 TRIS 6840 6
 ATTR_manip_command button uh60m/mfd/mfd2_b6 
 TRIS 6846 6
@@ -42589,9 +42589,9 @@ ATTR_manip_command button uh60m/mfd/mfd2_l1
 TRIS 6984 6
 ATTR_manip_command button uh60m/mfd/mfd3_pwr MFD POWER
 TRIS 6990 6
-ATTR_manip_command button uh60m/cdu/CDU1_DIM 
+ATTR_manip_command button uh60m/mfd/mfd1_dim 
 TRIS 6996 6
-ATTR_manip_command button uh60m/cdu/CDU1_BRT 
+ATTR_manip_command button uh60m/mfd/mfd1_brt 
 TRIS 7002 6
 ATTR_manip_command button uh60m/mfd/mfd3_l1 
 TRIS 7008 6
@@ -42643,9 +42643,9 @@ ATTR_manip_command button uh60m/mfd/mfd3_b6
 TRIS 7146 6
 ATTR_manip_command button uh60m/mfd/mfd1_pwr MFD POWER
 TRIS 7152 6
-ATTR_manip_command button uh60m/cdu/CDU1_BRT 
+ATTR_manip_command button uh60m/mfd/mfd1_brt 
 TRIS 7158 6
-ATTR_manip_command button uh60m/cdu/CDU1_DIM 
+ATTR_manip_command button uh60m/mfd/mfd1_dim 
 TRIS 7164 6
 ATTR_manip_command button uh60m/mfd/mfd1_l1 
 TRIS 7170 6

@@ -1,9 +1,10 @@
 .version
+AviTab.json
 CHANGELOG
-docs/UH60M-OpsManual.pdf
-objects/cockpit1.obj
-objects/exterior.obj
-objects/gears_fh.obj
+objects/avionics_bay.obj
+objects/cockpit.obj
+objects/engines.obj
+objects/fuselage.obj
 objects/particles/UH60M_particles.pss
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
@@ -29,8 +30,6 @@ plugins/UH60M/data/init/initProperties.secured
 plugins/UH60M/data/init/initResourcesLoaders.secured
 plugins/UH60M/data/init/initSubpanelCreator.secured
 plugins/UH60M/data/init/initTableHelpers.secured
-plugins/UH60M/data/modules/3rd-modules/aircraft_configs/uh60m_config.lua
-plugins/UH60M/data/modules/3rd-modules/json_lib.lua
 plugins/UH60M/data/modules/Custom Module/CDU1.secured
 plugins/UH60M/data/modules/Custom Module/CDU2.secured
 plugins/UH60M/data/modules/Custom Module/FDCP.secured
@@ -46,7 +45,6 @@ plugins/UH60M/data/modules/Custom Module/events.secured
 plugins/UH60M/data/modules/Custom Module/failures.secured
 plugins/UH60M/data/modules/Custom Module/formation.secured
 plugins/UH60M/data/modules/Custom Module/icam.secured
-plugins/UH60M/data/modules/Custom Module/images/uh60-side.png
 plugins/UH60M/data/modules/Custom Module/limits.secured
 plugins/UH60M/data/modules/Custom Module/menu.secured
 plugins/UH60M/data/modules/Custom Module/message.secured
@@ -69,4 +67,6 @@ plugins/UH60M/liblinux/libc++abi.so.1
 plugins/UH60M/liblinux/libc++abi.so.1.0
 plugins/UH60M/liblinux/readme.txt
 plugins/UH60M/version.txt
+scenery/pole.obj
+scenery/pole.png
 uh60m.acf
