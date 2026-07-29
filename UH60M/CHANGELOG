@@ -1,4 +1,19 @@
+0.9.3
+fixed mouse cam control in MFD target screen
+
+added blinking values to MFD-PDF when in "select" mode (clicking with mouse on instruments)
+
+optimized CDU1 & CDU2 drawing
+
+seperate persistent MFD and CDU brightness setting
+
+fixed bug during plugin start if conf option HRST was selected
+
+smaller cosmetic changes on 3D model
+
 0.9.2
+SASL 3.22.6
+
 added support for "Delta Wings Simulations Mission Editor" 
 
 added commands to select next/previous ground targets ( i.e. loaded from DWSIM Mission Editor )

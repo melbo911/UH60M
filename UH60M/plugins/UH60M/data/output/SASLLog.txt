@@ -140,3 +140,7 @@
 [UH60M INFO]: [LUA]: patch:	updating 	uh60m_prefs.txt
 [UH60M INFO]: [LUA]: patch:	update FAILED
 [UH60M INFO]: [LUA]: patch:	cleanup
+[UH60M INFO]: [LUA]: "module"	%% onPlaneUnloaded
+[UH60M INFO]: Disabling...
+[UH60M INFO]: [LUA]: "module"	%% onModuleShutdown
+[UH60M INFO]: SASL plugin stopped...
