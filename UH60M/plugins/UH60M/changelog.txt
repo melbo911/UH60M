@@ -1,4 +1,26 @@
 ----------------------------------------------------------
+SASL 3.23.2
+----------------------------------------------------------
+
+-- Revert minimal messageWindow size to 100x100
+-- Improved performance of main flighloop (Commercial version)
+
+----------------------------------------------------------
+SASL 3.23.1
+----------------------------------------------------------
+
+-- Fixed some general regressions introduced in 3.23.0
+
+----------------------------------------------------------
+SASL 3.23.0
+----------------------------------------------------------
+
+- General stability bugfixes
+- Updated default widgets UI
+- Added native support for copying/pasting from/to clipboard on Linux
+- Implemented internal changes/optimizations related to scripts loading (Commercial version)
+
+----------------------------------------------------------
 SASL 3.22.6
 ----------------------------------------------------------
 
