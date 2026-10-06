@@ -1,22 +1,28 @@
 .version
-AviTab.json
 CHANGELOG
-objects/avionics_bay.obj
-objects/cockpit.obj
+fmod/uh60m_AI.snd
 objects/engines.obj
-objects/fuselage.obj
+objects/exterior2.obj
+objects/exterior3.obj
 objects/particles/UH60M_particles.pss
+objects/rbf.obj
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
 plugins/UH60M/64/mac.xpl
 plugins/UH60M/64/win.xpl
 plugins/UH60M/EndUserLicense
+plugins/UH60M/changelog.txt
 plugins/UH60M/data/acturl.dat
+plugins/UH60M/data/components/Roboto-Regular-LICENSE.txt
+plugins/UH60M/data/components/Roboto-Regular.ttf
+plugins/UH60M/data/components/defdecore.png
+plugins/UH60M/data/components/interactive.png
 plugins/UH60M/data/components/interactive.secured
 plugins/UH60M/data/components/mouseFocusedZone.secured
 plugins/UH60M/data/components/popupCloseButton.secured
 plugins/UH60M/data/components/popupResizeButton.secured
+plugins/UH60M/data/components/readme.txt
 plugins/UH60M/data/components/rectangle.secured
 plugins/UH60M/data/init/initAvionics.secured
 plugins/UH60M/data/init/initBasicHelpers.secured
@@ -30,6 +36,7 @@ plugins/UH60M/data/init/initProperties.secured
 plugins/UH60M/data/init/initResourcesLoaders.secured
 plugins/UH60M/data/init/initSubpanelCreator.secured
 plugins/UH60M/data/init/initTableHelpers.secured
+plugins/UH60M/data/init/readme.txt
 plugins/UH60M/data/modules/Custom Module/CDU1.secured
 plugins/UH60M/data/modules/Custom Module/CDU2.secured
 plugins/UH60M/data/modules/Custom Module/FDCP.secured
@@ -59,6 +66,7 @@ plugins/UH60M/data/modules/Custom Module/sys.secured
 plugins/UH60M/data/modules/Custom Module/vibration.secured
 plugins/UH60M/data/modules/Custom Module/winch.secured
 plugins/UH60M/data/modules/main.secured
+plugins/UH60M/data/output/readme.txt
 plugins/UH60M/liblinux/libc++.so
 plugins/UH60M/liblinux/libc++.so.1
 plugins/UH60M/liblinux/libc++.so.1.0
@@ -67,6 +75,5 @@ plugins/UH60M/liblinux/libc++abi.so.1
 plugins/UH60M/liblinux/libc++abi.so.1.0
 plugins/UH60M/liblinux/readme.txt
 plugins/UH60M/version.txt
-scenery/pole.obj
-scenery/pole.png
 uh60m.acf
+uh60m_AI.acf

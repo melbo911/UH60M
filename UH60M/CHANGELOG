@@ -1,3 +1,33 @@
+0.9.8
+added fmod sound to AI acf
+
+fixed 3D model defect in engines.obj 
+
+fixed issue during MFD power up in specific situation
+
+removed fix for FFI load bug on XP 12.4.4-b2
+
+provided FS34031_livery.zip as separate download
+
+0.9.7
+added UES - Upturned-Exhaust-System ( conf_eng=2 in opt_config.ini)
+
+modified rotor_blur animation
+
+improved drawing performance on CDU/FMS
+
+SASL 3.23.2  ( faster plugin loading )
+
+separate ACF for AI airplanes
+
+fix for loading FFI with absolute path, required on macOS for XP 12.4.4-b2
+
+0.9.6
+SASL 3.23.1
+
+0.9.5
+corrected override_joystick settings
+
 0.9.4
 fixed typo-bug in configs.lua
 
