@@ -4,8 +4,7 @@ objects/particles/UH60M_particles.pss:58825
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
 plugins/UH60M/64/lin.xpl:23601384
-plugins/UH60M/64/mac.xpl.a:47185920
-plugins/UH60M/64/mac.xpl.b:35551120
+plugins/UH60M/64/mac.xpl:82737040
 plugins/UH60M/64/win.xpl:32165888
 plugins/UH60M/EndUserLicense:992
 plugins/UH60M/changelog.txt:54153
@@ -54,14 +53,14 @@ plugins/UH60M/data/modules/Custom Module/message.secured:5066
 plugins/UH60M/data/modules/Custom Module/mission.secured:38061
 plugins/UH60M/data/modules/Custom Module/nav.secured:23459
 plugins/UH60M/data/modules/Custom Module/ops.secured:34924
-plugins/UH60M/data/modules/Custom Module/patch.secured:6987
+plugins/UH60M/data/modules/Custom Module/patch.secured:7426
 plugins/UH60M/data/modules/Custom Module/perf.secured:2923
 plugins/UH60M/data/modules/Custom Module/rotors.secured:6555
 plugins/UH60M/data/modules/Custom Module/slingops.secured:9020
 plugins/UH60M/data/modules/Custom Module/sys.secured:40888
 plugins/UH60M/data/modules/Custom Module/vibration.secured:2124
 plugins/UH60M/data/modules/Custom Module/winch.secured:5190
-plugins/UH60M/data/modules/main.secured:100354
+plugins/UH60M/data/modules/main.secured:100415
 plugins/UH60M/data/output/readme.txt:57
 plugins/UH60M/liblinux/libc++.so.1.0:787328
 plugins/UH60M/liblinux/libc++.so.1:787328
