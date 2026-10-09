@@ -1,5 +1,5 @@
 .version:6
-CHANGELOG:21306
+CHANGELOG:21349
 objects/particles/UH60M_particles.pss:54930
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
@@ -53,11 +53,11 @@ plugins/UH60M/data/modules/Custom Module/message.secured:5066
 plugins/UH60M/data/modules/Custom Module/mission.secured:38061
 plugins/UH60M/data/modules/Custom Module/nav.secured:23459
 plugins/UH60M/data/modules/Custom Module/ops.secured:34924
-plugins/UH60M/data/modules/Custom Module/patch.secured:7426
+plugins/UH60M/data/modules/Custom Module/patch.secured:7840
 plugins/UH60M/data/modules/Custom Module/perf.secured:2923
 plugins/UH60M/data/modules/Custom Module/rotors.secured:6555
 plugins/UH60M/data/modules/Custom Module/slingops.secured:9020
-plugins/UH60M/data/modules/Custom Module/sys.secured:40888
+plugins/UH60M/data/modules/Custom Module/sys.secured:40892
 plugins/UH60M/data/modules/Custom Module/vibration.secured:2124
 plugins/UH60M/data/modules/Custom Module/winch.secured:5190
 plugins/UH60M/data/modules/main.secured:100415
