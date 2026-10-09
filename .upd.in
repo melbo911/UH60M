@@ -16,6 +16,8 @@ plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
 plugins/UH60M/64/mac.xpl
+plugins/UH60M/64/mac.xpl.a
+plugins/UH60M/64/mac.xpl.b
 plugins/UH60M/64/win.xpl
 plugins/UH60M/EndUserLicense
 plugins/UH60M/changelog.txt
