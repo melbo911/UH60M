@@ -1,3 +1,14 @@
+0.9.12
+added fall-back for mission locations if OSM server is not available
+
+0.9.11
+added HeliTak water tank ( conf_exterior = 4 )
+
+added support for FSX3D Fire Fighting Plugin v1.4
+
+0.9.10
+added realistic water and weight managemnt for FireHawk water tank
+
 0.9.9
 SASL 3.23.3
 
