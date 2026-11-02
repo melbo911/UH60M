@@ -7336,10 +7336,10 @@ P _obja/48/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/48/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/48/_v10_is_internal 0
 P _obja/48/_v10_steers_with_gear 0
-P _obja/49/_obj_flags 73
-P _obja/49/_obj_hide_dataref uh60m/kill/medevac
+P _obja/49/_obj_flags 0
+P _obja/49/_obj_hide_dataref uh60m/kill/exterior4
 P _obja/49/_v10_att_body -1
-P _obja/49/_v10_att_file_stl medevac.obj
+P _obja/49/_v10_att_file_stl exterior4.obj
 P _obja/49/_v10_att_gear -1
 P _obja/49/_v10_att_phi_ref 0.000000000
 P _obja/49/_v10_att_psi_ref 0.000000000
@@ -7364,10 +7364,10 @@ P _obja/5/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/5/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/5/_v10_is_internal 0
 P _obja/5/_v10_steers_with_gear 0
-P _obja/50/_obj_flags 80
-P _obja/50/_obj_hide_dataref uh60m/kill/rbf
+P _obja/50/_obj_flags 73
+P _obja/50/_obj_hide_dataref uh60m/kill/medevac
 P _obja/50/_v10_att_body -1
-P _obja/50/_v10_att_file_stl rbf.obj
+P _obja/50/_v10_att_file_stl medevac.obj
 P _obja/50/_v10_att_gear -1
 P _obja/50/_v10_att_phi_ref 0.000000000
 P _obja/50/_v10_att_psi_ref 0.000000000
@@ -7378,10 +7378,10 @@ P _obja/50/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/50/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/50/_v10_is_internal 0
 P _obja/50/_v10_steers_with_gear 0
-P _obja/51/_obj_flags 16
-P _obja/51/_obj_hide_dataref uh60m/kill/fh
+P _obja/51/_obj_flags 80
+P _obja/51/_obj_hide_dataref uh60m/kill/rbf
 P _obja/51/_v10_att_body -1
-P _obja/51/_v10_att_file_stl gears_fh.obj
+P _obja/51/_v10_att_file_stl rbf.obj
 P _obja/51/_v10_att_gear -1
 P _obja/51/_v10_att_phi_ref 0.000000000
 P _obja/51/_v10_att_psi_ref 0.000000000
@@ -7392,6 +7392,33 @@ P _obja/51/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/51/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/51/_v10_is_internal 0
 P _obja/51/_v10_steers_with_gear 0
+P _obja/52/_obj_flags 16
+P _obja/52/_obj_hide_dataref uh60m/kill/fh
+P _obja/52/_v10_att_body -1
+P _obja/52/_v10_att_file_stl gears_fh.obj
+P _obja/52/_v10_att_gear -1
+P _obja/52/_v10_att_phi_ref 0.000000000
+P _obja/52/_v10_att_psi_ref 0.000000000
+P _obja/52/_v10_att_the_ref 0.000000000
+P _obja/52/_v10_att_wing -1
+P _obja/52/_v10_att_x_acf_prt_ref 0.000000000
+P _obja/52/_v10_att_y_acf_prt_ref 0.000000000
+P _obja/52/_v10_att_z_acf_prt_ref 0.000000000
+P _obja/52/_v10_is_internal 0
+P _obja/52/_v10_steers_with_gear 0
+P _obja/53/_obj_flags 1
+P _obja/53/_v10_att_body -1
+P _obja/53/_v10_att_file_stl controls.obj
+P _obja/53/_v10_att_gear -1
+P _obja/53/_v10_att_phi_ref 0.000000000
+P _obja/53/_v10_att_psi_ref 0.000000000
+P _obja/53/_v10_att_the_ref 0.000000000
+P _obja/53/_v10_att_wing -1
+P _obja/53/_v10_att_x_acf_prt_ref 0.000000000
+P _obja/53/_v10_att_y_acf_prt_ref 0.000000000
+P _obja/53/_v10_att_z_acf_prt_ref 0.000000000
+P _obja/53/_v10_is_internal 0
+P _obja/53/_v10_steers_with_gear 0
 P _obja/6/_obj_flags 69
 P _obja/6/_obj_hide_dataref uh60m/kill/CDU
 P _obja/6/_v10_att_body -1
@@ -7406,7 +7433,7 @@ P _obja/6/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/6/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/6/_v10_is_internal 172274416
 P _obja/6/_v10_steers_with_gear 0
-P _obja/7/_obj_flags 99
+P _obja/7/_obj_flags 101
 P _obja/7/_obj_hide_dataref uh60m/kill/cockpit
 P _obja/7/_v10_att_body -1
 P _obja/7/_v10_att_file_stl compass.obj
@@ -7448,7 +7475,7 @@ P _obja/9/_v10_att_y_acf_prt_ref 0.000000000
 P _obja/9/_v10_att_z_acf_prt_ref 0.000000000
 P _obja/9/_v10_is_internal -21217600
 P _obja/9/_v10_steers_with_gear 0
-P _obja/count 52
+P _obja/count 54
 P _prop/0/_des_AOA_pwr 1.000000000
 P _prop/0/_des_AOA_root 0.000000000
 P _prop/0/_des_AOA_tip 0.000000000
@@ -14446,6 +14473,8 @@ P acf/_auto_rpm_EQ 0
 P acf/_auto_rpm_with_tvec 0
 P acf/_auto_sync_EQ 0
 P acf/_auto_trim_EQ 0
+P acf/_autofeather_disarm_trq 0.144999996
+P acf/_autofeather_feather_trq 0.094999999
 P acf/_autofeather_min_throttle 0.500000000
 P acf/_autopilot_logic 0
 P acf/_average_mac_acf 1.283083320
@@ -14730,6 +14759,7 @@ P acf/_chute_z/1 0.000000000
 P acf/_chute_z/2 0.000000000
 P acf/_chute_z/count 3
 P acf/_click_step_otto_alt 10.000000000
+P acf/_click_step_otto_alt_hold 10.000000000
 P acf/_click_step_otto_vvi 100.000000000
 P acf/_click_step_radio_alt 10.000000000
 P acf/_clutch_cycle_time 30.000000000
@@ -14749,6 +14779,7 @@ P acf/_collective_en 0
 P acf/_con_smooth_ailn 1
 P acf/_con_smooth_elev 0
 P acf/_con_smooth_rudd 1
+P acf/_copilot_audio_EQ 0
 P acf/_correlator_interp/0 0.000000000
 P acf/_correlator_interp/1 0.000000000
 P acf/_correlator_interp/2 0.000000000
@@ -15728,6 +15759,8 @@ P acf/_esys_amperage/rel_startr6 0.000000000
 P acf/_esys_amperage/rel_startr7 0.000000000
 P acf/_esys_amperage/rel_stby_AOA 0.000000000
 P acf/_esys_amperage/rel_vac_pump_stby 0.000000000
+P acf/_esys_amperage/rel_wiper1 0.000000000
+P acf/_esys_amperage/rel_wiper2 0.000000000
 P acf/_esys_amperage/rel_wxr_radar 0.000000000
 P acf/_esys_amperage/rel_xpndr 5.000000000
 P acf/_esys_amperage/rel_yaw_damp 0.000000000
@@ -15868,6 +15901,8 @@ P acf/_esys_bus_bit_add/rel_startr6 0
 P acf/_esys_bus_bit_add/rel_startr7 0
 P acf/_esys_bus_bit_add/rel_stby_AOA 0
 P acf/_esys_bus_bit_add/rel_vac_pump_stby 0
+P acf/_esys_bus_bit_add/rel_wiper1 0
+P acf/_esys_bus_bit_add/rel_wiper2 0
 P acf/_esys_bus_bit_add/rel_wxr_radar 0
 P acf/_esys_bus_bit_add/rel_xpndr 1
 P acf/_esys_bus_bit_add/rel_yaw_damp 0
@@ -15901,7 +15936,7 @@ P acf/_feathered_pitch 0.000000000
 P acf/_ff_rat_idle_JET 0.100000001
 P acf/_ff_rat_idle_PRP 0.219999999
 P acf/_ff_rat_idle_turbo 0.219999999
-P acf/_file_writer_version 124311
+P acf/_file_writer_version 124414
 P acf/_fixed_max/0 1000.000000000
 P acf/_fixed_max/1 1000.000000000
 P acf/_fixed_max/2 1000.000000000
@@ -17010,7 +17045,7 @@ P acf/_vect_min_nace 0.000000000
 P acf/_vect_power_aft 1.000000000
 P acf/_vect_power_for 1.000000000
 P acf/_vect_rate 15.000000000
-P acf/_version 0.9.9 XP12
+P acf/_version 0.9.12 XP12
 P acf/_vnav_descend_auto_arm 0
 P acf/_vor_mode_has_dead_reckon 0
 P acf/_vvi_but_adjusts_pitch 0
