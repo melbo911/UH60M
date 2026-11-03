@@ -2,7 +2,7 @@ I
 800
 OBJ
 
-GLOBAL_specular 0.6
+GLOBAL_specular 1.0
 TEXTURE rotors.png
 TEXTURE_NORMAL rotors_normal.png
 NORMAL_METALNESS

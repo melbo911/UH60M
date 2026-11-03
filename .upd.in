@@ -1,5 +1,7 @@
 .version
 CHANGELOG
+docs/UH60M-FDCP.pdf
+docs/UH60M-FMS.pdf
 docs/UH60M-OpsManual.pdf
 fmod/uh60m_AI.snd
 objects/cockpit.obj
@@ -21,6 +23,8 @@ plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
 plugins/UH60M/64/mac.xpl
+plugins/UH60M/64/mac.xpl.a
+plugins/UH60M/64/mac.xpl.b
 plugins/UH60M/64/win.xpl
 plugins/UH60M/EndUserLicense
 plugins/UH60M/changelog.txt
