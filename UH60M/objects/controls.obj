@@ -2,7 +2,7 @@ I
 800
 OBJ
 
-GLOBAL_specular 0.6
+GLOBAL_specular 1.0
 TEXTURE controls.png
 TEXTURE_NORMAL controls_normal.png
 NORMAL_METALNESS

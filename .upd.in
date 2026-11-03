@@ -1,5 +1,7 @@
 .version
 CHANGELOG
+docs/UH60M-FDCP.pdf
+docs/UH60M-FMS.pdf
 docs/UH60M-OpsManual.pdf
 objects/cockpit.obj
 objects/controls.dds

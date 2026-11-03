@@ -1,20 +1,23 @@
-.version:7
+version:7
 CHANGELOG:21607
-docs/UH60M-OpsManual.pdf:8942007
+docs/UH60M-FDCP.pdf:304683
+docs/UH60M-FMS.pdf:1095912
+docs/UH60M-OpsManual.pdf:8909594
 objects/cockpit.obj:3078339
 objects/controls.dds:2796344
 objects/controls.obj:7519240
 objects/exterior.dds:2796344
-objects/exterior4.obj:966344
+objects/exterior4.obj:937769
 objects/interior.obj:3449691
 objects/particles/UH60M_particles.pss:55082
 objects/rotors.obj:7044955
-objects/rotors.png:3989264
+objects/rotors.png:2193457
 objects/rotors_normal.png:10391
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
 plugins/UH60M/64/lin.xpl:23601384
-plugins/UH60M/64/mac.xpl:82737040
+plugins/UH60M/64/mac.xpl.a:47185920
+plugins/UH60M/64/mac.xpl.b:35551120
 plugins/UH60M/64/win.xpl:32165888
 plugins/UH60M/EndUserLicense:992
 plugins/UH60M/changelog.txt:54153
@@ -70,7 +73,7 @@ plugins/UH60M/data/modules/Custom Module/slingops.secured:9020
 plugins/UH60M/data/modules/Custom Module/sys.secured:40892
 plugins/UH60M/data/modules/Custom Module/vibration.secured:2124
 plugins/UH60M/data/modules/Custom Module/winch.secured:5190
-plugins/UH60M/data/modules/main.secured:101328
+plugins/UH60M/data/modules/main.secured:101451
 plugins/UH60M/data/output/readme.txt:57
 plugins/UH60M/liblinux/libc++.so.1.0:787328
 plugins/UH60M/liblinux/libc++.so.1:787328
