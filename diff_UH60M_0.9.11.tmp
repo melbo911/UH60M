@@ -83,5 +83,5 @@ plugins/UH60M/liblinux/libc++abi.so.1:194968
 plugins/UH60M/liblinux/libc++abi.so:194968
 plugins/UH60M/liblinux/readme.txt:43
 plugins/UH60M/version.txt:182
-uh60m.acf:708428
-uh60m_AI.acf:708419
+uh60m.acf:731055
+uh60m_AI.acf:731043
