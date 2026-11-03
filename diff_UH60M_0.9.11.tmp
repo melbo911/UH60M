@@ -12,8 +12,7 @@ objects/rotors_blur.obj:229544
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
 plugins/UH60M/64/lin.xpl:23601384
-plugins/UH60M/64/mac.xpl.a:47185920
-plugins/UH60M/64/mac.xpl.b:35551120
+plugins/UH60M/64/mac.xpl:82737040
 plugins/UH60M/64/win.xpl:32165888
 plugins/UH60M/EndUserLicense:992
 plugins/UH60M/changelog.txt:54153
