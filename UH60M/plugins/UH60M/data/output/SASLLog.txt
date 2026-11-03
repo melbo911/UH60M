@@ -13,8 +13,8 @@
 [UH60M INFO]: [LUA]: loading	sys
 [UH60M INFO]: [LUA]: loading	limits
 [UH60M INFO]: [LUA]: loading	nav
-[UH60M INFO]: [LUA]: "nav"	read_all_navids()	444019	usec
-[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	817216	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_navids()	332802	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	800673	usec
 [UH60M INFO]: [LUA]: loading	engines
 [UH60M INFO]: [LUA]: loading	controls
 [UH60M INFO]: [LUA]: loading	failures
@@ -43,9 +43,8 @@
 [UH60M DEBUG]: [LUA]: "dtc_receiver"	[DTC] Handler registered
 [UH60M INFO]: [LUA]: loading	MFD
 [UH60M INFO]: [LUA]: loading	FDCP
-[UH60M INFO]: Scripts loading time: 1.9374
+[UH60M INFO]: Scripts loading time: 1.7354
 [UH60M INFO]: Module loaded
-[UH60M INFO]: [LUA]: "module"	%% onSceneryLoaded
 [UH60M INFO]: Initializing modules...
 [UH60M INFO]: [LUA]: "module"	%% onModuleInit
 [UH60M INFO]: [LUA]: "sys"	sys: module init

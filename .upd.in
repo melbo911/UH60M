@@ -1,5 +1,6 @@
 .version
 CHANGELOG
+acf_config.ini
 docs/UH60M-FDCP.pdf
 docs/UH60M-FMS.pdf
 docs/UH60M-OpsManual.pdf
@@ -15,6 +16,7 @@ objects/rotors.obj
 objects/rotors.png
 objects/rotors_blur.obj
 objects/rotors_normal.png
+opt_config.ini
 plugins/UH60M/64/libcrypto-3-x64.dll
 plugins/UH60M/64/libssl-3-x64.dll
 plugins/UH60M/64/lin.xpl
@@ -77,6 +79,7 @@ plugins/UH60M/data/modules/Custom Module/sys.secured
 plugins/UH60M/data/modules/Custom Module/vibration.secured
 plugins/UH60M/data/modules/Custom Module/winch.secured
 plugins/UH60M/data/modules/main.secured
+plugins/UH60M/data/modules/state.txt
 plugins/UH60M/data/output/SASLLog.txt
 plugins/UH60M/data/output/readme.txt
 plugins/UH60M/liblinux/libc++.so
@@ -89,3 +92,4 @@ plugins/UH60M/liblinux/readme.txt
 plugins/UH60M/version.txt
 uh60m.acf
 uh60m_AI.acf
+uh60m_prefs.txt
