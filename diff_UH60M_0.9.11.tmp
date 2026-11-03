@@ -13,6 +13,7 @@ objects/interior.obj:3449691
 objects/particles/UH60M_particles.pss:55082
 objects/rotors.obj:7044955
 objects/rotors.png:2193457
+objects/rotors_blur.obj:229544
 objects/rotors_normal.png:10391
 plugins/UH60M/64/libcrypto-3-x64.dll:6879232
 plugins/UH60M/64/libssl-3-x64.dll:1346560
@@ -74,6 +75,7 @@ plugins/UH60M/data/modules/Custom Module/sys.secured:40892
 plugins/UH60M/data/modules/Custom Module/vibration.secured:2124
 plugins/UH60M/data/modules/Custom Module/winch.secured:5190
 plugins/UH60M/data/modules/main.secured:101451
+plugins/UH60M/data/output/SASLLog.txt:2534
 plugins/UH60M/data/output/readme.txt:57
 plugins/UH60M/liblinux/libc++.so.1.0:787328
 plugins/UH60M/liblinux/libc++.so.1:787328
