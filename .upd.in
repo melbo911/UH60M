@@ -3,8 +3,14 @@ CHANGELOG
 docs/UH60M-FDCP.pdf
 docs/UH60M-FMS.pdf
 docs/UH60M-OpsManual.pdf
+objects/cockpit.dds
+objects/cockpit.obj
+objects/controls.dds
 objects/controls.obj
+objects/controls_normal.png
+objects/dash-frames.obj
 objects/exterior4.obj
+objects/internal_glass.obj
 objects/particles/UH60M_particles.pss
 objects/rotors.obj
 objects/rotors.png
@@ -80,5 +86,7 @@ plugins/UH60M/liblinux/libc++abi.so.1
 plugins/UH60M/liblinux/libc++abi.so.1.0
 plugins/UH60M/liblinux/readme.txt
 plugins/UH60M/version.txt
+scenery/howitzer.obj
+scenery/humvee.obj
 uh60m.acf
 uh60m_AI.acf
