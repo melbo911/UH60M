@@ -13,8 +13,8 @@
 [UH60M INFO]: [LUA]: loading	sys
 [UH60M INFO]: [LUA]: loading	limits
 [UH60M INFO]: [LUA]: loading	nav
-[UH60M INFO]: [LUA]: "nav"	read_all_navids()	332802	usec
-[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	800673	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_navids()	433018	usec
+[UH60M INFO]: [LUA]: "nav"	read_all_fixes():	857523	usec
 [UH60M INFO]: [LUA]: loading	engines
 [UH60M INFO]: [LUA]: loading	controls
 [UH60M INFO]: [LUA]: loading	failures
@@ -43,7 +43,7 @@
 [UH60M DEBUG]: [LUA]: "dtc_receiver"	[DTC] Handler registered
 [UH60M INFO]: [LUA]: loading	MFD
 [UH60M INFO]: [LUA]: loading	FDCP
-[UH60M INFO]: Scripts loading time: 1.7354
+[UH60M INFO]: Scripts loading time: 2.0133
 [UH60M INFO]: Module loaded
 [UH60M INFO]: Initializing modules...
 [UH60M INFO]: [LUA]: "module"	%% onModuleInit
@@ -56,3 +56,7 @@
 [UH60M INFO]: [LUA]: "sys"	set	5	1
 [UH60M INFO]: [LUA]: "sys"	set	11	1
 [UH60M INFO]: [LUA]: patch:	no update found for 0.9.12
+[UH60M INFO]: [LUA]: "module"	%% onPlaneUnloaded
+[UH60M INFO]: Disabling...
+[UH60M INFO]: [LUA]: "module"	%% onModuleShutdown
+[UH60M INFO]: SASL plugin stopped...
